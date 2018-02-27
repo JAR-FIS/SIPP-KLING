@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/tanya"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:text="Anda yakin telah mengisi semua pertanyaan dengan benar?"/>
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_height="1dp"
+        android:textColor="@color/Abu"
+        android:layout_below="@id/tanya"/>
+
+    <Button
+        android:id="@+id/ya"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/line"
+        android:layout_toStartOf="@id/tidak"
+        android:text="YA"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:background="@android:color/transparent"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <Button
+        android:id="@+id/tidak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/line"
+        android:textSize="18sp"
+        android:layout_marginEnd="10dp"
+        android:layout_alignParentEnd="true"
+        android:text="TIDAK"
+        android:background="@android:color/transparent"
+        android:textColor="@color/colorAccent"/>
+
+</RelativeLayout>

@@ -1,0 +1,2311 @@
+<resources>
+    <string name="app_name">SIPP KLING</string>
+    <string name="desc_app">Sistem Informasi Pemetaan\nProfil Kesehatan Lingkungan</string>
+    <string name="desc2_app">Sistem Informasi\nPemetaan Profil\nKesehatan Lingkungan</string>
+    <string name="about">
+        Pemetaan Profil Kesehatan Lingkungan UPT Puskesmas Kecamatan Limo adalah Sistem Informasi berbasis Web dan Android yang menggunakan basis data GIS untuk input data sekaligus memetakan data Profil Kesehatan Lingkungan di seluruh wilayah Kecamatan yang ada di Kota Depok.
+    </string>
+
+    <string name="mulai">
+        Mulai\nPendataan
+    </string>
+
+    <string name="developer">
+        <b>Founded : September 2017</b>\n
+        Develeped by TiregDev
+    </string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string-array name="periode">
+        <item>Januari</item>
+        <item>Juni</item>
+    </string-array>
+
+    <string-array name="thn">
+        <item>2018</item>
+        <item>2019</item>
+        <item>2020</item>
+        <item>2021</item>
+        <item>2022</item>
+    </string-array>
+
+    <string name="isiJadwal">
+        1. 2-8 Januari pendataan untuk Kecamatan Limo\n2. 10-16 Januari pendataan untuk Kecamatan Beji\n3. 17-25 Januari pendataan untuk semua kecamatan
+    </string>
+
+    <string name="isiJadwal2">
+        1. 3-9 Juni pendataan untuk Kecamatan Sawangan\n2. 10-16 Juni pendataan untuk Kecamatan Cilodong\n3. 19-29 Juni pendataan untuk semua kecamatan yang belum melakukan pendataan
+    </string>
+
+    <string name="reward">
+        <b>SELAMAT</b> kepada para Kader Kesling dengan jumlah pendataan terbanyak!
+    </string>
+
+    <string name="almt1">
+        Jalan H. Niin, Limo, Kota Depok, Jawa Barat 16514, Indonesia
+    </string>
+
+    <string name="almt2">
+        Jl. Kp. Baru Raya, Grogol, Limo, Kota Depok, Jawa Barat, Indonesia
+    </string>
+
+    <string name="almt3">
+        Jl. Swadaya, Limo, Kota Depok, Jawa Barat 16514, Indonesia
+    </string>
+
+    <!--MODUL START-->
+    <string name="rs">Rumah\nSehat</string>
+    <string name="sab">SAB</string>
+    <string name="dam">Depot Air Minum</string>
+    <string name="ttu">Tempat-tempat\nUmum</string>
+    <string name="tpm">Tempat\nPengelolaan\nMakanan</string>
+    <string name="pjb">PJB</string>
+    <string name="pkl">Pelayanan\nKesehatan\nLingkungan</string>
+    <!--MODUL FINISH-->
+
+    <string-array name="choice_array">
+        <item>YA</item>
+        <item>TIDAK</item>
+    </string-array>
+
+    <!--DESC. MODUL START-->
+    <string name="ket">Keterangan :</string>
+    <string name="ketRS">1. RS = Rumah Sehat</string>
+    <string name="RS_Jamban"><b>Jamban Sehat</b></string>
+    <string name="RS_JambanKet">Menggunakan jamban?</string>
+    <string name="RS_Jamban1">Septik Tank</string>
+    <string name="RS_Jamban2">Koya / Empang</string>
+    <string name="RS_Jamban3">Kali</string>
+    <string name="RS_Jamban4">Helikopter</string>
+    <string name="RS_SPAL"><b>SPAL</b></string>
+    <string name="RS_SPAL1">Tertutup</string>
+    <string name="RS_SPAL2">Terbuka</string>
+    <string name="nik">NIK (Sesuai KK)</string>
+    <string name="noKIS">No KIS</string>
+    <string name="statusRumah">Status Rumah:</string>
+    <string name="statusRumah1">Kontrak</string>
+    <string name="statusRumah2">Milik Sendiri</string>
+    <string name="ketSAB">2. SAB = Sumber Air Bersih</string>
+    <string name="ketTTU">4. TTU = Tempat_tempat Umum</string>
+    <string name="ketTPM">2. TPM = Tempat Pengelolaan Makan</string>
+    <string name="ketPJB">6. PJB = Pemantauan Jentik Berkala</string>
+    <string name="ketPJB3"><b>Pemantauan Jentik Berkala</b></string>
+    <string name="ketPJB2">Apakah ada jentik?</string>
+    <string name="ketPKL">3. PKL = Pelayanan Kesehatan Lingkungan</string>
+    <!--DESC. MODUL FINISH-->
+
+
+    <string-array name="sab_arrays">
+        <item>Pompa Tangan Dangkal/Dalam/Listrik</item>
+        <item>Sumur Gali</item>
+        <item>Sumur Gali Plus</item>
+        <item>Perpipaan/PDAM</item>
+        <item>Mata Air</item>
+    </string-array>
+
+    <!--RT START-->
+    <string name="rt_prompt">RT</string>
+    <string-array name="rt_arrays">
+        <item>RT 001</item>
+        <item>RT 002</item>
+        <item>RT 003</item>
+        <item>RT 004</item>
+        <item>RT 005</item>
+        <item>RT 006</item>
+        <item>RT 007</item>
+        <item>RT 008</item>
+        <item>RT 009</item>
+        <item>RT 010</item>
+        <item>RT 011</item>
+        <item>RT 012</item>
+        <item>RT 013</item>
+        <item>RT 014</item>
+        <item>RT 015</item>
+        <item>RT 016</item>
+        <item>RT 017</item>
+        <item>RT 018</item>
+        <item>RT 019</item>
+        <item>RT 020</item>
+    </string-array>
+    <!--RT FINISH-->
+
+    <!--RW START-->
+    <string name="rw_prompt">RW</string>
+    <string-array name="rw_arrays">
+        <item>RW 01</item>
+        <item>RW 02</item>
+        <item>RW 03</item>
+        <item>RW 04</item>
+        <item>RW 05</item>
+        <item>RW 06</item>
+        <item>RW 07</item>
+        <item>RW 08</item>
+        <item>RW 09</item>
+        <item>RW 10</item>
+        <item>RW 11</item>
+        <item>RW 12</item>
+        <item>RW 13</item>
+        <item>RW 14</item>
+        <item>RW 15</item>
+        <item>RW 16</item>
+        <item>RW 17</item>
+        <item>RW 18</item>
+        <item>RW 19</item>
+        <item>RW 20</item>
+    </string-array>
+    <!--RW FINISH-->
+
+    <string name="namakk">Nama Kepala Keluarga</string>
+    <string name="alamatkk">Alamat</string>
+    <string name="jumlahkk">Jumlah Anggota Keluarga (sesuai kk)</string>
+    <string name="rt">RT</string>
+    <string name="rw">RW</string>
+    <string name="nmrRmh">No. Rmh</string>
+    <string name="next">Selesai</string>
+    <string name="next2">Lanjut</string>
+    <string name="jenisSAB">Pilih jenis SAB yang dipakai!</string>
+
+    <!--RS START-->
+    <string name="komponenRmh"><b>KOMPONEN RUMAH</b></string>
+    <string name="komponenRmh1"><b>1. Langit_langit</b></string>
+    <string name="komponenRmh1a">a. Tidak ada</string>
+    <string name="komponenRmh1b">b. Ada, kotor, sulit dibersihkan dan rawan kecelakaan</string>
+    <string name="komponenRmh1c">c. Ada, bersih dan tidak rawan kecelakaan</string>
+
+    <string name="komponenRmh2"><b>2. Dinding</b></string>
+    <string name="komponenRmh2a">a. Bukan tembok (terbuat dari anyaman bambu dan ilalang)</string>
+    <string name="komponenRmh2b">b. Semi permanen/ setengah tembok/ pasangan bata dan batu yang tidak diplester/ papan yang tidak kedap air</string>
+    <string name="komponenRmh2c">c. Permanen (tembok/ pasangan batu bata yang diplesteer) papan kedap air</string>
+
+    <string name="komponenRmh3"><b>3. Lantai</b></string>
+    <string name="komponenRmh3a">a. Tanah</string>
+    <string name="komponenRmh3b">b. Papan/ Anyaman bambu dekat dengan tanah/ plesteran yang retak dan berdebu</string>
+    <string name="komponenRmh3c">c. Diplester/ ubin/ keramik/papan (rumah panggung)</string>
+
+    <string name="komponenRmh4"><b>4. Jendela kamar tidur</b></string>
+    <string name="komponenRmh4a">a. Tidak ada</string>
+    <string name="komponenRmh4b">b. Ada</string>
+
+    <string name="komponenRmh5"><b>5. Jendela ruang keluarga</b></string>
+    <string name="komponenRmh5a">a. Tidak ada</string>
+    <string name="komponenRmh5b">b. Ada</string>
+
+    <string name="komponenRmh6"><b>6. Ventilasi</b></string>
+    <string name="komponenRmh6a">a. Tidak ada</string>
+    <string name="komponenRmh6b">b. Ada, Ada, luas ventilasi permanen \u003c10 persen dari luas lantai</string>
+    <string name="komponenRmh6c">c. Ada, luas ventilasi permanen >10 persen dari luas lantai</string>
+
+    <string name="komponenRmh7"><b>7. Lubang asap dapur</b></string>
+    <string name="komponenRmh7a">a. Tidak ada</string>
+    <string name="komponenRmh7b">b. Ada, lubang ventilasi dapur \u003c10 persen dari luas lantai dapur</string>
+    <string name="komponenRmh7c">c. Ada, lubang ventilasi dapur >10 persen dari luas lantai dapur (asap keluar dengan sempurna) atau ada exhaust fan ada peralatan lain yang sejenis</string>
+
+    <string name="komponenRmh8"><b>8. Pencahayaan</b></string>
+    <string name="komponenRmh8a">a. Tidak terang, tidak dapat dipergunakan untuk membaca</string>
+    <string name="komponenRmh8b">b. Kurang terang, sehingga kurang jelas membaca dengan normal</string>
+    <string name="komponenRmh8c">c. Terang dan tidak silau sehingga dapat dipergunakan untuk membaca dengan normal</string>
+
+    <string name="saranasanitasi"><b>SARANA SANITASI</b></string>
+    <string name="saranasanitasi1"><b>1. Sarana air bersih (SGL/ SPT/ PP/ KU/ PAH)</b></string>
+    <string name="saranasanitasi1a">a. Tidak ada</string>
+    <string name="saranasanitasi1b">b. Ada, bukan milik sendiri dan tidak memenuhi syarat kesehatan</string>
+    <string name="saranasanitasi1c">c. Ada, milik sendiri dan tidak memenuhi syarat kesehatan</string>
+    <string name="saranasanitasi1d">d. Ada, bukan milik sendiri dan memenuhi syarat kesehatan</string>
+    <string name="saranasanitasi1e">e. Ada, milik sendiri dan memenuhi syarat kesehatan</string>
+
+    <string name="saranasanitasi2"><b>2. Jamban (Sarana pembuangan kotoran)</b></string>
+    <string name="saranasanitasi2a">a. Tidak ada</string>
+    <string name="saranasanitasi2b">b. Ada, bukan leher angsa, tidak ada tutup, disalurkan kesungai/kolam</string>
+    <string name="saranasanitasi2c">c. Ada, bukan leher angsa ada ditutup (leher angsa), disalurkan kesungai/ kolam</string>
+    <string name="saranasanitasi2d">d. Ada, bukan leher angsa ada tutup  septic tank</string>
+    <string name="saranasanitasi2e">e. Ada, leher angsa, septic tank</string>
+
+    <string name="saranasanitasi3"><b>3. Sarana pembuangan air limbah (SPAL)</b></string>
+    <string name="saranasanitasi3a">a. Tidak ada, sehingga tergenang tidak teratur dihalaman rumah</string>
+    <string name="saranasanitasi3b">b. Ada, diresapkan tetapi mencemari sumber air (jarak dengan sumber air \u003c 10m)</string>
+    <string name="saranasanitasi3c">c. Ada, dialirkan keselokan terbuka</string>
+    <string name="saranasanitasi3d">d. Ada, diresapkan tetapi mencemari sumber air (jarak dengan sumber air > 10m)</string>
+    <string name="saranasanitasi3e">e. Ada, dialirkan keselokan tertutup (saluran kota) untuk diolah lebih lanjut</string>
+
+    <string name="saranasanitasi4"><b>4. Sarana pembuangan sarana (tempat sampah )</b></string>
+    <string name="saranasanitasi4a">a. Tidak ada</string>
+    <string name="saranasanitasi4b">b. Ada, tetapi tidak kdepa air dan tidak ada tutup</string>
+    <string name="saranasanitasi4c">c. Ada, kedap air dan tidak bertutup</string>
+    <string name="saranasanitasi4d">d. Ada, kedep air dan bertutup</string>
+
+    <string name="perilakupenghuni"><b>C. PERILAKU PENGHUNI</b></string>
+    <string name="perilakupenghuni1"><b>1. Membuka jendela kamar tidur</b></string>
+    <string name="perilakupenghuni1a">a. Tidak pernah dibuka</string>
+    <string name="perilakupenghuni1b">b. kadang_kadang</string>
+    <string name="perilakupenghuni1c">c. Setiap hari dibuka</string>
+
+    <string name="perilakupenghuni2"><b>2. Membuka jendela ruang keluarga</b></string>
+    <string name="perilakupenghuni2a">a. Tidak pernah dibuka</string>
+    <string name="perilakupenghuni2b">b. kadang_kadang</string>
+    <string name="perilakupenghuni2c">c. Setiap hari dibuka</string>
+
+    <string name="perilakupenghuni3"><b>3. Membersihkan rumah dan halaman</b></string>
+    <string name="perilakupenghuni3a">a. Tidak pernah</string>
+    <string name="perilakupenghuni3b">b. kadang_kadang</string>
+    <string name="perilakupenghuni3c">c. Setiap hari</string>
+
+    <string name="perilakupenghuni4"><b>4. Membuang tinja bayi dan balita kejamban</b></string>
+    <string name="perilakupenghuni4a">a. Dibuang kesungai/ kebun/ kolam/ sembarangan</string>
+    <string name="perilakupenghuni4b">b. Kadang_kadang kejamban</string>
+    <string name="perilakupenghuni4c">c. Setiap hari dibuang kejamban</string>
+
+    <string name="perilakupenghuni5"><b>5. Membuang sampah pada tempat sampah</b></string>
+    <string name="perilakupenghuni5a">a. Dibuang kesungai/ kebun/ kolam/ sembarangan</string>
+    <string name="perilakupenghuni5b">b. Kadang_kadang dibuang ketempat sampah</string>
+    <string name="perilakupenghuni5c">c. Setiap hari dibuang ketempat sampah</string>
+
+    <string name="sampah"><b>SAMPAH</b></string>
+    <string name="sampah1">Sampah yang digunakan?</string>
+    <string name="sampah2a1">Dipilah / Organik</string>
+    <string name="sampah2a2">Tidak Dipilah / Dibuang</string>
+    <!--RS FINISH-->
+
+    <!--SAB START-->
+    <string name="jenisSAB1"><b>POMPA TANGAN DANGKAL/ DALAM/ LISTRIK</b></string>
+    <string name="ketSAB_ketUmum"><b>KETERANGAN UMUM</b></string>
+    <string name="ketSAB_ketUmum1">Lokasi</string>
+    <string name="ketSAB_ketUmum1a">Puskesmas</string>
+    <string name="ketSAB_ketUmum1b">Desa/Kelurahan</string>
+    <string name="ketSAB_ketUmum2">Kode Sarana</string>
+    <string name="ketSAB_ketUmum3">Pemilik Sarana</string>
+    <string name="ketSAB_ketUmum4">Tanggal kunjungan</string>
+    <string name="ketSAB_ketUmum5">Apakah telah diambil sampel airnya</string>
+    <string name="ketSAB_ketUmum6">Nomor kode sampel air</string>
+    <string name="ketSAB_ketUmum7">Golongan koloform/ 100ml</string>
+    <string name="ketSAB_ketUmum8">8. Apakah airnya jernih?</string>
+    <string name="ketSAB_ketUmum9">9. Apakah airnya berwarna?</string>
+    <string name="ketSAB_ketUmum10">10. Apakah airnya berasa?</string>
+    <string name="ketSAB_ketUmum11">11. Apakah airnya berbau?</string>
+
+    <string name="SAB_DiagKhusus"><b>DIAGNOSA KHUSUS</b></string>
+    <string name="SAB1_DiagKhusus1">1. Apakah ada jamban pada radius 10m disekitar mu sumur pompa tangan/listrik ?</string>
+    <string name="SAB1_DiagKhusus2">2. Apakah ada sumber pencemaran lain pada radius 10m sekitar pompa tangan, misalnya kotoran hewan, sampah, genangan air dll?</string>
+    <string name="SAB1_DiagKhusus3">3. Apakah ada sewaktu_waktu ada genangan air pada jarak 2m sekitar pompa?</string>
+    <string name="SAB1_DiagKhusus4">4. Apakah ada saluran pembuangan air limbah rusak/ tidak ada?</string>
+    <string name="SAB1_DiagKhusus5">5. Apakah lantai semen yang mengitari pompa tangan mempunyai radius kurang dari 1m?</string>
+    <string name="SAB1_DiagKhusus6">6. Apakah ada/ sewaktu_waktu ada genangan air diatas lantai semen disekeliling pompa tangan/ listrik ?</string>
+    <string name="SAB1_DiagKhusus7">7. Apakah ada keretakan pada lantai semen disekelilingi pompa tangan/ listrik?</string>
+    <string name="SAB1_DiagKhusus8">8. Apakah dudukan pompa tangan/ lstrik yang berbatasan dengan laintai kurang rapat/ lepas. yang memungkinkan air merembes masuk kedalam sumur pompa tangan/ listrik ?</string>
+
+    <string name="jenisSAB2"><b>SUMUR GALI</b></string>
+    <string name="SAB2_DiagKhusus1">1. Apakah ada jamban pada radius 10m disekitar mu sumur pompa tangan/listrik ?</string>
+    <string name="SAB2_DiagKhusus2">2. Apakah ada sumber pencemaran lain pada radius 10m sekitar pompa tangan, misalnya kotoran hewan, sampah, genangan air dll?</string>
+    <string name="SAB2_DiagKhusus3">3. Apakah ada sewaktu_waktu ada genangan air pada jarak 2m sekitar pompa?</string>
+    <string name="SAB2_DiagKhusus4">4. Apakah ada saluran pembuangan air limbah rusak/ tidak ada?</string>
+    <string name="SAB2_DiagKhusus5">5. Apakah lantai semen yang mengitari pompa tangan mempunyai radius kurang dari 1m?</string>
+    <string name="SAB2_DiagKhusus6">6. Apakah ada/ sewaktu_waktu ada genangan air diatas lantai semen disekeliling sumur?</string>
+    <string name="SAB2_DiagKhusus7">7. Apakah ada keretakan pada lantai sekitar sumuryang memungkinkan air rembes ke dalam sumur ?</string>
+    <string name="SAB2_DiagKhusus8">8. apakah ember dan tali timba sewaktu_waktu diletakkan sedemikia rupa sehingga memungkinkan pencemaran ?</string>
+    <string name="SAB2_DiagKhusus9">9. apakah bibir sumur (cincin) tidak sempurna sehingga air rembes ke dalam sumur ?</string>
+    <string name="SAB2_DiagKhusus10">10. apakah dinding semen sepanjang ke dalam 3m diatas permukaan tanah tidak diplester cukup rapat/sempurna ?</string>
+
+    <string name="jenisSAB3"><b>SUMUR GALI PLUS</b></string>
+    <string name="SAB3_DiagKhusus1">1. Apakah ada jamban pada radius 10m disekitar mu sumur pompa tangan ?</string>
+    <string name="SAB3_DiagKhusus2">2. Apakah ada sumber pencemaran lain pada radius 10m sekitar pompa tangan, (misalnya kotoran hewan, sampah, genangan air dll)?</string>
+    <string name="SAB3_DiagKhusus3">3. Apakah ada kolam/genangan air dalam jarak 2m dari lantai semen pompa tangan ?</string>
+    <string name="SAB3_DiagKhusus4">4. Apakah ada saluran pembuangan air pompa tangan/ tidak ada(jarak 2m dari lantai) ?</string>
+    <string name="SAB3_DiagKhusus5">5. Apakah lantai semen sekeliling sumur/pompa tangan mempunyai radius kurang dari 1m?</string>
+    <string name="SAB3_DiagKhusus6">6. apakah ada genangan di atas lantai semen di sekeliling pompa tangan ?</string>
+    <string name="SAB3_DiagKhusus7">7. apakah ada keretakan pada lantai sekitar sumur ?</string>
+    <string name="SAB3_DiagKhusus8">8. apakah sewaktu_waktu, dipergunakan sebuah ember juga, yang diletakkan pada tempat yang dapat mencemarinya?</string>
+    <string name="SAB3_DiagKhusus9">9. Apakah dudukan pompa tangan yang berbatasan dengan lantainya kurang rapat/ lepas (yang memungkinkan air merembes masuk kedalam saluran pompa tangan)</string>
+    <string name="SAB3_DiagKhusus10">10. Apakah dinding sumur tidak cukup rapat disemen sepanjang kedalaman 3m dibawah permukaan?</string>
+    <string name="SAB3_DiagKhusus11">11. Apakah penutup sumur tidak bersih/ tidak ada?</string>
+
+    <string name="jenisSAB4">Perpipaan/PDAM</string>
+    <string name="jenisSAB5">Mata Air</string>
+    <string name="YA">YA</string>
+    <string name="TIDAK">TIDAK</string>
+    <!--SAB FINISH-->
+
+    <!--DAM START-->
+    <string name="damUmum1">Nama Depot</string>
+    <string name="damUmum2">Nama Pemilik</string>
+    <string name="damUmum3">Alamat</string>
+
+    <string name="ada">Tidak Menyimpang</string>
+    <string name="tdkAda">Menyimpang</string>
+
+    <string name="damSumberAir"><b>Sumber Air</b></string>
+    <string name="damSumberAir1">1. Bahan baku</string>
+    <string name="damSumberAir2">2. Air minum</string>
+    <string name="damSumberAir3">3. Pengangkutan air baku memiliki izin pengangkutan air</string>
+    <string name="damSumberAir4">4. Kendaraan tangki air terbuat dari bahan yang tidak dapat melepaskan zat_zat beracun kedalam air</string>
+    <string name="damSumberAir5">5. Ada bukti tertulis atau sertifikat air baku berasal dari sumber air tertentu</string>
+    <string name="damSumberAir6">6. Pengangkutan air baku paling lama 12 jam sampai kedepot air minum</string>
+
+    <string name="damPengawasan"><b>Pengawasan Proses Pengolahan</b></string>
+    <string name="damPengawasan1">1. Tandon air bahan baku terlindung dari sinar matahari</string>
+    <string name="damPengawasan2">2. Bahan tandon air terbuat dari bahan yang tidak dapat melepaskan zat_zat beracun kedalam air</string>
+
+    <string name="damTabung"><b>Tabung Filter</b></string>
+    <string name="damTabung1">1. Tabung filter terbuat dari bahan food grade dan mudah pemeliharaannya serta tahan tekanan tinggi</string>
+    <string name="damTabung2">2. Dimungkinkan dilakukan sistem back washing</string>
+
+    <string name="damMikro"><b>Mikro Filter</b></string>
+    <string name="damMikro1">1. Bahan mikro filter terbuat dari bahan food grade</string>
+    <string name="damMikro2">2. Terdapat lebih dari satu mikro filter () dengan ukuran berjenjang</string>
+    <string name="damMikro3">3. Mikro filter masih sesuai masa pakai</string>
+
+    <string name="damPeralatan"><b>Peralatan Pompa dan Pipa Penyaluran Air</b></string>
+    <string name="damPeralatan1">1. Terdapat pompa stainless yang berkekuatan tinggi</string>
+    <string name="damPeralatan2">2. Terdapat petunjuk tekanan air</string>
+    <string name="damPeralatan3">3. Pipa penyalur menggunakan bahan food grade</string>
+
+    <string name="damPeralatanSteril"><b>Peralatan  Sterilisasi/ Desinfeksi</b></string>
+    <string name="damPeralatanSteril1">1. Terdapat peralatan sterilisasi, berupa Ultra Violet atau Ozonisasi dan atau peralatan desinfeksi lainnya, yang berfungsi dan digunakan secara benar</string>
+    <string name="damPeralatanSteril2">2. Peralatan sterilisasi/ desinfeksi masih dalam masa efektif membunuh kuman</string>
+
+    <string name="damPencucian"><b>Pencucian Botol (Galon)</b></string>
+    <string name="damPencucian1">1. Ada fasilitas pencucian botol (galon)</string>
+    <string name="damPencucian2">2. Ada fasilitas pembilasan botol (galon)</string>
+
+    <string name="damPengisian"><b>Pengisian Botol (galon)</b></string>
+    <string name="damPengisian1">1. Ada fasilitas pengisian botol (galon) dalam ruangan tertutup</string>
+    <string name="damPengisian2">2. Tersedia tutup botol baru yang bersih</string>
+    <string name="damPengisian3">3. Tidak ada stock botol (galon) yang telah diisi lebih dari 1x24 jam didepot air minum</string>
+
+    <string name="damOperator"><b>Operator</b></string>
+    <string name="damOperator1">1. Berprilaku hidup bersih dan sehat</string>
+    <string name="damOperator2">2. Operator/ penanggung jawab/ pemilik memiliki surat keterangan telah mengikuti kursus hygiene sanitasi depot air minum</string>
+
+    <string name="damPengawasanTikus"><b>Pengawasan Tikus, lalat dan kecoa</b></string>
+    <string name="damPengawasanTikus1">1. terhindar dari tikus, lalat dan kecoa</string>
+
+    <string name="damLantai"><b>Lantai, Dinding, dan Langit_langit</b></string>
+    <string name="damLantai1">1. Konstruksi lantai, dinding, dan langit_langit kokoh dan kuat</string>
+
+    <string name="damPencahayaan"><b>Pencahayaan</b></string>
+    <string name="damPencahayaan1">1. Pencahayaan cukup baik</string>
+
+    <string name="damLain"><b>Lain_lain Kegiatan</b></string>
+    <string name="damLain1">1. Ada akses terhadap fasilitas santasi</string>
+    <string name="damLain2">2. Secara umum terlihat bersih, rapih dan teratur</string>
+    <string name="damLain3">3. Ada contoh produk air minum sebagai sampel</string>
+    <!--DAM FINISH-->
+
+    <!--TTU START-->
+    <string name="jenisTTU1_ket">Penilaian Hygiene Sanitasi Tempat Ibadah</string>
+    <string name="ttu1_umum1">Nama Tempat Ibadah</string>
+    <string name="ttu1_umum2">Nama Pengurus</string>
+    <string name="ttu1_umum3">Alamat</string>
+    <string name="ttu1_umum4">Jumlah Jamaah/orang</string>
+    <string name="ttu1_umum5">Tanggal Penilaian</string>
+
+    <string name="ttu1_lingkungan"><b>Lingkungan</b></string>
+    <string name="ttu1_lingkungan1"><b>1. Lokasi</b></string>
+    <string name="ttu1_lingkungan1a">a. Tidak terletak di daerah banjir</string>
+    <string name="ttu1_lingkungan1b">b. Sesuai dengan perencanaan tata kota</string>
+
+    <string name="ttu1_lingkungan2"><b>2. Lingkungan termasuk halaman </b></string>
+    <string name="ttu1_lingkungan2a">a. Bersih dan indah</string>
+    <string name="ttu1_lingkungan2b">b. Sistem drainase berfungsi baik</string>
+    <string name="ttu1_lingkungan2c">c. Tidak terdapat genangan air</string>
+
+    <string name="ttu1_bangunan"><b>Bangunan</b></string>
+    <string name="ttu1_bangunan3"><b>3. Lantai</b></string>
+    <string name="ttu1_bangunan3a">a. Mudah dibersihkan</string>
+    <string name="ttu1_bangunan3b">b. Tidak retak, tidak licin, dan permukaan rata</string>
+    <string name="ttu1_bangunan3c">c. Kedap air</string>
+
+    <string name="ttu1_bangunan4"><b>4. Dinding</b></string>
+    <string name="ttu1_bangunan4a">a. Bersih</string>
+    <string name="ttu1_bangunan4b">b. Kedap air</string>
+    <string name="ttu1_bangunan4c">c. Berwarna terang</string>
+
+    <string name="ttu1_bangunan5"><b>5. Atap dan talang</b></string>
+    <string name="ttu1_bangunan5a">a. Tidak bocor</string>
+    <string name="ttu1_bangunan5b">b. Tidak terjadi genangan air</string>
+
+    <string name="ttu1_bangunan6"><b>6. Tangga</b></string>
+    <string name="ttu1_bangunan6a">a. Lebar anak tangga minimal 30 cm</string>
+    <string name="ttu1_bangunan6b">b. Tinggi anak tangga maksimal 20 cm</string>
+    <string name="ttu1_bangunan6c">c. Ada pegangan tangan</string>
+    <string name="ttu1_bangunan6d">d. lebar tangga > sama 150 cm</string>
+
+    <string name="ttu1_bangunan7"><b>7. Langit_langit</b></string>
+    <string name="ttu1_bangunan7a">a. Tinggi dari lantai minimal 2,75 cm</string>
+    <string name="ttu1_bangunan7b">b. Kuat</string>
+    <string name="ttu1_bangunan7c">c. Berwarna terang</string>
+
+    <string name="ttu1_bangunan8"><b>8. Pagar</b></string>
+    <string name="ttu1_bangunan8a">a. Kuat</string>
+    <string name="ttu1_bangunan8b">b. Terlihat batas yang jelas</string>
+
+    <string name="ttu1_bangunan9"><b>9. Pencahayaan</b></string>
+    <string name="ttu1_bangunan9a">a. Cukup terang</string>
+    <string name="ttu1_bangunan9b">b. Tidak menyilaukan</string>
+
+    <string name="ttu1_bangunan10"><b>10. Ventilasi(pilih salah satu a/b)</b></string>
+    <string name="ttu1_bangunan10a">A. Alam = Lubang ventilasi minimal 15 persen dari luas lantai</string>
+    <string name="ttu1_bangunan10b">B. Mekani = Menggunakan AC, Van, Exhauster</string>
+
+    <string name="ttu1_bangunan11"><b>11. Peralatan Ibadah (tikar, karpet, sajadah, kursi, dll)</b></string>
+    <string name="ttu1_bangunan11a">a. Bersih dan tidak lembab</string>
+    <string name="ttu1_bangunan11b">b. Dibersihkan dan dijemur secara periodik</string>
+    <string name="ttu1_bangunan11c">c. Tersedia tempat penyimpanan peralatan ibadah</string>
+
+    <string name="ttu1_fasilitas"><b>Fasilitas Sanitasi</b></string>
+    <string name="ttu1_fasilitas12"><b>12. Air Bersih</b></string>
+    <string name="ttu1_fasilitas12a">a. Tersedia dengan jumlah yang cukup</string>
+    <string name="ttu1_fasilitas12b">b. Memenuhi persyaratan fisik</string>
+
+    <string name="ttu1_fasilitas13"><b>13. Tempat Wudhu</b></string>
+    <string name="ttu1_fasilitas13a">a. Bersih dan terpelihara</string>
+    <string name="ttu1_fasilitas13b">b. Menggunakan air yang mengalir</string>
+    <string name="ttu1_fasilitas13c">c. Terpisah antara pria dan wanita</string>
+    <string name="ttu1_fasilitas13d">d. Tersedia dalam jumlah yang cukup</string>
+
+    <string name="ttu1_fasilitas14"><b>14. Pembuangan air limbah</b></string>
+    <string name="ttu1_fasilitas14a">a. Terpisah dengan saluran pembuangan air hujan</string>
+    <string name="ttu1_fasilitas14b">b. Memenuhi persyaratan</string>
+
+    <string name="ttu1_fasilitas15"><b>15. Tempat sampah</b></string>
+    <string name="ttu1_fasilitas15a">a. Tersedia dengan jumlah yang cukup</string>
+    <string name="ttu1_fasilitas15b">b. Terbuat dari bahan yang kuat, tahan karat, kedap air dan tertutup</string>
+
+    <string name="ttu1_fasilitas16"><b>16. Jamban dan urinoir</b></string>
+    <string name="ttu1_fasilitas16a">a. Bersih dan tidak berbau</string>
+    <string name="ttu1_fasilitas16b">b. Lantai kedap air, miring ke arah saluran pembuangan</string>
+    <string name="ttu1_fasilitas16c">c. Jamban pria dan wanita terpisah</string>
+
+
+    <string name="ttu2_umum1">Nama Rumah Makan/Restoran</string>
+    <string name="ttu2_umum2">Nama Pengusaha</string>
+    <string name="ttu2_umumAlamat">Alamat</string>
+    <string name="ttu2_umum3">Jumlah Karyawan</string>
+    <string name="ttu2_umum4">Jumlah Penjamah</string>
+    <string name="ttu2_umum5">Nomor/Tanggal Izin Usaha</string>
+
+    <string name="ttu2_A"><b>A. Lokasi danamp; Bangunan</b></string>
+    <string name="ttu2_A1"><b>1. Lokasi</b></string>
+    <string name="ttu2_A1a">a. Tidak berada pada arah angina dari sumber pencemaran debu, asap, bau dan cemaran lainnya</string>
+    <string name="ttu2_A1b">b. Tidak berada pada jarak \u003c100 meter dari sumber pencemaran debu, asap, bau dan cemaran lainnya</string>
+
+    <string name="ttu2_A2"><b>2. Bangunan</b></string>
+    <string name="ttu2_A2a">a. Terpisah dengan tempat tinggal termasuk tempat tidur</string>
+    <string name="ttu2_A2b">b. Kokoh/kuat/permananen</string>
+    <string name="ttu2_A2c">c. Rapat serangga</string>
+    <string name="ttu2_A2d">d. Rapat tikus</string>
+
+    <string name="ttu2_A3"><b>3. Pembagian Ruang</b></string>
+    <string name="ttu2_A3a">a. Terdiri dari dapur dan ruang makanan</string>
+    <string name="ttu2_A3b">b. Ada tiolet dan jamban</string>
+    <string name="ttu2_A3c">c. Ada gudang bahan makanan</string>
+    <string name="ttu2_A3d">d. Ada ruang karyawan</string>
+    <string name="ttu2_A3e">e. Ada ruang administrasi</string>
+    <string name="ttu2_A3f">f. Ada gudang peralatan</string>
+
+    <string name="ttu2_A4"><b>4. Lantai</b></string>
+    <string name="ttu2_A4a">a. Bersih</string>
+    <string name="ttu2_A4b">b. Kedap air</string>
+    <string name="ttu2_A4c">c. Tidak licin</string>
+    <string name="ttu2_A4d">d. Rata</string>
+    <string name="ttu2_A4e">e. Kering</string>
+    <string name="ttu2_A4f">f. Konus</string>
+
+    <string name="ttu2_A5"><b>5. Dinding</b></string>
+    <string name="ttu2_A5a">a. Kedap air</string>
+    <string name="ttu2_A5b">b. Rata</string>
+    <string name="ttu2_A5c">c. Bersih</string>
+
+    <string name="ttu2_A6"><b>6. Ventilasi</b></string>
+    <string name="ttu2_A6a">a. Tersedia dan berfungsi dengan baik</string>
+    <string name="ttu2_A6b">b. Menghilangkan bau tidak enak</string>
+    <string name="ttu2_A6c">c. Cukup menjamin rasa nyaman</string>
+
+    <string name="ttu2_A7"><b>7. Pencahayaan/Penerangan</b></string>
+    <string name="ttu2_A7a">a. Tersebar merata disetiap ruangan</string>
+    <string name="ttu2_A7b">b. Intensitas cahaya 10 fc</string>
+    <string name="ttu2_A7c">c. Tidak menyilaukan</string>
+
+    <string name="ttu2_A8"><b>8. Atap</b></string>
+    <string name="ttu2_A8a">a. Tidak menjadi sarang tikus dan serangga</string>
+    <string name="ttu2_A8b">b. Tidak bocor</string>
+    <string name="ttu2_A8c">c. Cukup landai</string>
+
+    <string name="ttu2_A9"><b>9. Langit_langit</b></string>
+    <string name="ttu2_A9a">a. Tinggi minimal 2,4 meter</string>
+    <string name="ttu2_A9b">b. Rata dan bersih</string>
+    <string name="ttu2_A9c">c. Tidak terdapat lubang_lubang</string>
+
+    <string name="ttu2_A10"><b>10. Pintu</b></string>
+    <string name="ttu2_A10a">a. Rapat serangga dan tikus</string>
+    <string name="ttu2_A10b">b. Menutup dengan baik dan membuka arah luar</string>
+    <string name="ttu2_A10c">c. Terbuat dari bahan yang kuat dan mudah dibersihkan</string>
+
+    <string name="ttu2_B"><b>B. Fasilitas Sanatasi</b></string>
+    <string name="ttu2_B11"><b>11. Air bersih</b></string>
+    <string name="ttu2_B11a">a. Jumlah mencukupi</string>
+    <string name="ttu2_B11b">b. Tidak berbau, tidak berasa dan tidak berwarna</string>
+    <string name="ttu2_B11c">c. Angka kuman tidak melebihi nilai ambang batas</string>
+    <string name="ttu2_B11d">d. Kadar bahan kimia tidak melebihi nilai ambang batas</string>
+
+    <string name="ttu2_B12"><b>12. Pembuangan air limbah</b></string>
+    <string name="ttu2_B12a">a. Air limbah mengalir dengan lancar</string>
+    <string name="ttu2_B12b">b. Terdapat grease trap</string>
+    <string name="ttu2_B12c">c. Saluran kedap air</string>
+    <string name="ttu2_B12d">d. Saluran tertutup</string>
+
+    <string name="ttu2_B13"><b>13. Toilet</b></string>
+    <string name="ttu2_B13a">a. Bersih</string>
+    <string name="ttu2_B13b">b. Letaknya tidak berhubungan langsung dengan dapur atau ruang makan</string>
+    <string name="ttu2_B13c">c. Tersedia air bersih yang cukup</string>
+    <string name="ttu2_B13d">d. Tersedia sabun dan alat pengering</string>
+    <string name="ttu2_B13e">e. Toilet pria dan wanita terpisah</string>
+
+    <string name="ttu2_B14"><b>14. Tempat sampah</b></string>
+    <string name="ttu2_B14a">a. Sampah diangkut tiap 24 jam</string>
+    <string name="ttu2_B14b">b. Di setiap rumah penghasil sampah tersedia tempat sampah</string>
+    <string name="ttu2_B14c">c. Dibuat dari bahan kedap air dan mempunyai tutup</string>
+    <string name="ttu2_B14d">d. Kapasitas tempat sampah terangkat oleh seorang petugas sampah</string>
+
+    <string name="ttu2_B15"><b>15. Tempat cuci tangan</b></string>
+    <string name="ttu2_B15a">a. Tersedia air cuci tangan yang mencukupi</string>
+    <string name="ttu2_B15b">b. Tersedia sabun/detergent dan alat pengering/lap</string>
+    <string name="ttu2_B15c">c. Jumlahnya cukup untuk pengunjung dan karyawan</string>
+
+    <string name="ttu2_B16"><b>16. Tempat mencuci peralatan</b></string>
+    <string name="ttu2_B16a">a. Tersedia air dingin yang cukup memadai</string>
+    <string name="ttu2_B16b">b. Tersedia air panas yang cukup memadai</string>
+    <string name="ttu2_B16c">c. Terbuat dari bahan yang kuat, aman dan halus</string>
+    <string name="ttu2_B16d">d. Terdiri dari tiga bilik/bak pencuci</string>
+
+    <string name="ttu2_B17"><b>17. Tempat pencuci bahan makanan</b></string>
+    <string name="ttu2_B17a">a. Tersedia air pencuci yang cukup </string>
+    <string name="ttu2_B17b">b. Terbuat dari bahan yang kuat, aman dan halus</string>
+    <string name="ttu2_B17c">c. Air pencuci yang dipakai mengandung larutan cuci hama</string>
+
+    <string name="ttu2_B18"><b>18. Locker Karyawan</b></string>
+    <string name="ttu2_B18a">a. Tersedia locker karyawan dari bahan yang kuat, mudah dibersihkan dan mempunyai tutup rapat</string>
+    <string name="ttu2_B18b">b. Jumlahnya cukup</string>
+    <string name="ttu2_B18c">c. Letaknya Locker dalam ruang tersendiri</string>
+    <string name="ttu2_B18d">d. Locker untuk karyawan pria terpisah dengan wanita</string>
+
+    <string name="ttu2_B19"><b>19. Peralatan pencegahan masuk serangga dan tikus</b></string>
+    <string name="ttu2_B19a">a. Setiap lubang ventilasi dipasang kawat kassa serangga</string>
+    <string name="ttu2_B19b">b. Setiap lubang ventilasi dipasang terali tius</string>
+    <string name="ttu2_B19c">c. Persilangan pipa dan dinding tertutup rapat</string>
+    <string name="ttu2_B19d">d. Tempat tandon air mempunyai tutup dan bebas jentik nyamuk</string>
+
+    <string name="ttu2_C"><b>C. Dapur, ruang makan danamp; gudang bahan makanan</b></string>
+    <string name="ttu2_C20"><b>20. Dapur</b></string>
+    <string name="ttu2_C20a">a. Bersih</string>
+    <string name="ttu2_C20b">b. Ada fasilitas penyimpanan makanan (kulkas, freezer)</string>
+    <string name="ttu2_C20c">c. Terseida fasilitas penyimpanan makanan panas(thermos panas, kompor panas, heater)</string>
+    <string name="ttu2_C20d">d. Ukuran dapur cukup memadai</string>
+    <string name="ttu2_C20e">e. Ada cangkup dan cerobong asap</string>
+    <string name="ttu2_C20f">f. Terpasang tulisan pesan_pesan hygiane bagi penjamah/karyawan</string>
+
+    <string name="ttu2_C21"><b>21. Ruang makan</b></string>
+    <string name="ttu2_C21a">a. Perlengkapan ruang makan selalu bersih</string>
+    <string name="ttu2_C21b">b. Ukuran ruang makan minimal 0.85 m2 per kursi tamu</string>
+    <string name="ttu2_C21c">c. Pintu masuk buka tutup otomatis</string>
+    <string name="ttu2_C21d">d. Tersedia fasilitas cuci tangan yang memenuhi estetika</string>
+    <string name="ttu2_C21e">e. Tempat peragaan makanan jadi tertutup</string>
+
+    <string name="ttu2_C22"><b>22. Gudang bahan makanan</b></string>
+    <string name="ttu2_C22a">a. Tidak terdapatn bahan lain selain bahan makanan</string>
+    <string name="ttu2_C22b">b. Tersedia rak_rak penempatan bahan makanan sesuai dengan ketentuan</string>
+    <string name="ttu2_C22c">c. Kapasitas gudang cukup memadai</string>
+    <string name="ttu2_C22d">d. Rapat serangga dan tikus</string>
+
+    <string name="ttu2_D"><b>D. Bahan Makanan dan Makanan Jadi</b></string>
+    <string name="ttu2_D23"><b>23. Bahan makanan</b></string>
+    <string name="ttu2_D23a">a. Kondisi fisik bahan makanan dalam keadaan baik</string>
+    <string name="ttu2_D23b">b. Angka kuman dan bahan kimia bahan makanan memenuhi persyaratan yang ditentukan</string>
+    <string name="ttu2_D23c">c. Bahan makanan berasal dari sumber resmi</string>
+    <string name="ttu2_D23d">d. Bahan makanan kemasan terdaftar pada Depkes RI</string>
+
+    <string name="ttu2_D24"><b>24. Makanan Jadi</b></string>
+    <string name="ttu2_D24a">a. Kondisi fisik makanan jadi dalam keadaan baik</string>
+    <string name="ttu2_D24b">b. Angka kuman dan bahan kimia makanan jadi memenuhi persyaratan yang ditentukan</string>
+    <string name="ttu2_D24c">c. Makanan jadi kemasan tidak ada tanda_tanda kerusakan danterdaftar pada Depkes RI</string>
+
+    <string name="ttu2_E"><b>E. Pengolahan Makanan</b></string>
+    <string name="ttu2_E25"><b>25. Proses Pengolahan</b></string>
+    <string name="ttu2_E25a">a. Tenaga pengolah memakai pakaian kerja dengan benar dan cara kerja yang bersih</string>
+    <string name="ttu2_E25b">b. Pengambilan makanan jadi menggunakan alat khusus</string>
+    <string name="ttu2_E25c">c. Menggunakan peralatan dengan benar</string>
+
+    <string name="ttu2_F"><b>F. Tempat Penyimpanan bahan makanan dan makanan jadi</b></string>
+    <string name="ttu2_F26"><b>26. Penyimpanan bahan makanan</b></string>
+    <string name="ttu2_F26a">a. Suhu dan kelembapan penyimpanan sesuai dengan persyaratan jenis makanan</string>
+    <string name="ttu2_F26b">b. Ketebalan penyimpanan sesuai denagn persyaratan jenis makanan</string>
+    <string name="ttu2_F26c">c. Penempatanya terpisah dengan makanan jadi</string>
+    <string name="ttu2_F26d">d. Tempatnya bersih dan terpelihara</string>
+    <string name="ttu2_F26e">e. Disimpan dalam aturan sejenis dan disusun dalam rak_rak</string>
+
+    <string name="ttu2_F27"><b>27. Penyimpanan makanan jadi</b></string>
+    <string name="ttu2_F27a">a. Suhu dan waktu penyimpanan sesuai dengan persyaratan jenis makanan jadi</string>
+    <string name="ttu2_F27b">b. Cara penyimpanan tertutup</string>
+
+    <string name="ttu2_G"><b>G. Penyajian makanan</b></string>
+    <string name="ttu2_G28"><b>28. Cara Penyajian</b></string>
+    <string name="ttu2_G28a">a. Suhu penyajian makanan hangat tidak kurang dari 60 derajat celcius</string>
+    <string name="ttu2_G28b">b. Pewadahan dan penjamah makanan jadi menggunakan alat yang bersih	</string>
+    <string name="ttu2_G28c">c. Cara membawa dan menyajikan makanan dengan tertutup</string>
+    <string name="ttu2_G28d">d. Penyajian makanan hatus pada tempat yang bersih</string>
+
+    <string name="ttu2_H"><b>H. Peralatan</b></string>
+    <string name="ttu2_H29"><b>29. Ketentuan Peralatan</b></string>
+    <string name="ttu2_H29a">a. Cara pencucian,pengeringan dan penyimpanan peralatan memenuhi persyaratan agar selalu dalam keadaan bersih sebelum digunakan</string>
+    <string name="ttu2_H29b">b. Peralatan dalam keadaan baik dan utuh</string>
+    <string name="ttu2_H29c">c. Peralatan makan dan minum tidak boleh mengandung angka kuman yang melebihi nilai ambang batas yang ditentukan</string>
+    <string name="ttu2_H29d">d. Permukaan alat yang konytak langsung dengan makanan tidak ada sudut mati dan halus</string>
+    <string name="ttu2_H29e">e. Peralatan yang kontak langsung dengan makanan tidak mengandung zat beracun</string>
+
+    <string name="ttu2_I"><b>I. Tenaga Kerja</b></string>
+    <string name="ttu2_I30"><b>30. Pengetahuan/sertifikat hygiane sanitasi makanan</b></string>
+    <string name="ttu2_I30a">a. Pemilik, pengusaha pernah mengikuti kursus/temu kerya</string>
+    <string name="ttu2_I30b">b. Supervisor pernah mengikuti kursus</string>
+    <string name="ttu2_I30c">c. Semua penjamah makanan pernah mengikuti kursus</string>
+    <string name="ttu2_I30d">d. salah seorang penjamah pernah mengikuti kursus</string>
+
+    <string name="ttu2_I31"><b>31. Pakaian Kerja</b></string>
+    <string name="ttu2_I31a">a. Bersih</string>
+    <string name="ttu2_I31b">b. Tersedia pakaian kerja seragam 2 stel atau lebih</string>
+    <string name="ttu2_I31c">c. Penggunaan khusus waktu kerja saja</string>
+    <string name="ttu2_I31d">d. Lengkap dan rapi</string>
+    <string name="ttu2_I31e">e. Tidak tersedia pakaian kerja seragam</string>
+
+    <string name="ttu2_I32"><b>32.Pemeriksaan Kesehatan</b></string>
+    <string name="ttu2_I32a">a.Karyawan/penjamah makanan berprilaku bersih dan berpakaian rapi</string>
+    <string name="ttu2_I32b">b.Pernah divaksinasi chotypha/thypoid</string>
+    <string name="ttu2_I32c">c.Check up penyakit khusus</string>
+    <string name="ttu2_I32d">d.Bila sakit tidak bekerja dan berobat ke dokter</string>
+    <string name="ttu2_I32e">e.Memiliki buku kesehatan karyawan</string>
+
+    <string name="ttu2_I33"><b>33.Personal hygiane</b></string>
+    <string name="ttu2_I33a">a.Setiap karyawan/penjamah makanan berprilaku bersih dan berpakaian rapi</string>
+    <string name="ttu2_I33b">b.Setiap mau kerja cuci tangan</string>
+    <string name="ttu2_I33c">c.Menutup mulut dengan sapu tangan atau bila mengambil makanan</string>
+    <string name="ttu2_I33d">d.Menggunakan alat yang sesuai dan bersih bila mengambil makanan	</string>
+
+    <string name="jenisTTU">Jenis Tempat_Tempat Umum</string>
+    <string name="jenisTTU1">Tempat Ibadah</string>
+    <string name="jenisTTU2">Rumah Sakit</string>
+    <string name="jenisTTU3">Industri Rumahan</string>
+    <string name="jenisTTU4">Pasar</string>
+    <string name="jenisTTU5">Sekolah</string>
+    <string name="jenisTTU6">Pesantren</string>
+    <string name="jenisTTU7">Rumah Makan dan Restaurant</string>
+    <string name="jenisTTU8">Kolam Renang</string>
+    <string name="jenisTTU9">Pemerikasaan Jasa Boga</string>
+    <string name="jenisTTU10">FasKes</string>
+    <string name="puskes">Puskesmas</string>
+    <string name="rmhskt">Rumah Sakit</string>
+    <string name="klinik">Klinik</string>
+    <string name="hotel">Hotel</string>
+    <string name="hm">Hotel Melati</string>
+    <string name="logout">Sudah selesai mengisi form?</string>
+    <string name="logout2"><u>LOGOUT</u></string>
+    <!--TTU FINISH-->
+
+    <!--DESC-->
+    <string name="descDAM">Berikut adalah data form untuk pendataan <b>Depot Air Minum</b></string>
+    <string name="descTTU_j1">Berikut adalah data form untuk penilaian hygiene sanitasi <b>Tempat Ibadah</b></string>
+    <string name="descTTU_tpm">Berikut adalah data form untuk pemeriksaan kelayakan hygiene sanitasi <b>Rumah Makan dan Restoran</b></string>
+    <string name="descPKL">Berikut adalah data form untuk <b>pelayanan kesehatan lingkungan</b></string>
+    <string name="descPsr">Berikut adalah data form untuk <b>pemeriksaan inspeksi pasar</b></string>
+    <string name="descJasaBoga">Berikut adalah data form untuk <b>laporan pemeriksaan/pengawasan jasa boga</b></string>
+    <string name="descSekolah">Berikut adalah data form untuk <b>penilaian kesehatan lingkungan sekolah</b></string>
+    <string name="descPesantren">Berikut adalah data form untuk <b>penilaian kesehatan lingkungan pesantren</b></string>
+    <string name="descRumahSakit">Berikut adalah data form untuk <b>penilaian kesehatan lingkungan rumah sakit</b></string>
+    <string name="descKlinik">Berikut adalah data form untuk <b>penilaian kesehatan klinik</b></string>
+    <string name="descHotel">Berikut adalah form data untuk <b>penilaian kesehatan lingkungan hotel</b></string>
+    <string name="descHotelMelati">Berikut adalah data form untuk <b>penilaian kesehatan lingkungan hotel melati</b></string>
+    <string name="descPuskesmas">Berikut adalah data form untuk <b>penilaian kesehatan lingkungan puskesmas</b></string>
+    <string name="descKolam">Berikut adalah data form untuk <b>penilaian kesehatan lingkungan kolam renang</b></string>
+    <string name="descTempatIbadah">Berikut adalah form untuk penilaian hygiene sanitasi <b>Tempat Ibadah</b></string>
+    <string name="descFaskes">Fasilitas Kesehatan terbagi menjadi 3 kategori yaitu <b>Klinik, Puskesmas, dan Rumah Sakit</b></string>
+
+    <!--FORM START-->
+    <string name="formRS">Berikut adalah form untuk pendataan <b>Rumah Sehat</b>, silahkan Anda
+    isi semua field ini sesuai prosedur yang telah diurutkan</string>
+    <string name="formDAM">Berikut adalah form untuk pendataan <b>Depot Air Minum</b>, silahkan Anda
+    isi semua field ini sesuai prosedur yang telah diurutkan</string>
+    <string name="formSAB_j1">Berikut adalah form untuk Surveilans <b>Kualitas Air Bersih</b> formulir inspeksi sanitasi, silahkan Anda
+    isi semua field ini sesuai prosedur yang telah diurutkan</string>
+    <string name="formTTU_j1">Berikut adalah form untuk penilaian hygiene sanitasi <b>Tempat Ibadah</b>, silahkan Anda
+    isi semua field ini sesuai prosedur yang telah diurutkan</string>
+    <string name="formTTU_tpm">Berikut adalah form untuk pemeriksaan kelayakan hygiene sanitasi <b>Rumah Makan dan Restoran</b>,
+        silahkan Anda isi semua field ini sesuai prosedur yang telah diurutkan</string>
+    <string name="formPKL">Berikut adalah form untuk <b>pelayanan kesehatan lingkungan</b>,
+        silahkan Anda isi semua field ini sesuai prosedur yang telah diurutkan</string>
+    <string name="formPsr">Berikut adalah form untuk <b>pemeriksaan inspeksi pasar</b>,
+        silahkan Anda isi semua field ini sesuai prosedur yang telah diurutkan</string>
+    <string name="formJasaBoga">Berikut adalah form untuk <b>laporan pemeriksaan/pengawasan jasa boga</b>,
+        silahkan Anda isi semua field ini sesuai prosedur yang telah diurutkan</string>
+    <string name="formSekolah">Berikut adalah form untuk <b>penilaian kesehatan lingkungan sekolah</b>,
+        silahkan Anda isi semua field ini sesuai prosedur yang telah diurutkan</string>
+    <string name="formPesantren">Berikut adalah form untuk <b>penilaian kesehatan lingkungan pesantren</b>,
+        silahkan Anda isi semua field ini sesuai prosedur yang telah diurutkan</string>
+    <string name="formRumahSakit">Berikut adalah form untuk <b>penilaian kesehatan lingkungan rumah sakit</b>,
+        silahkan Anda isi semua field ini sesuai prosedur yang telah diurutkan</string>
+    <string name="formHotel">Berikut adalah form untuk <b>penilaian kesehatan lingkungan hotel</b>,
+        silahkan Anda isi semua field ini sesuai prosedur yang telah diurutkan</string>
+    <string name="formHotelMelati">Berikut adalah form untuk <b>penilaian kesehatan lingkungan hotel melati</b>,
+        silahkan Anda isi semua field ini sesuai prosedur yang telah diurutkan</string>
+    <string name="formPuskesmas">Berikut adalah form untuk <b>penilaian kesehatan lingkungan puskesmas</b>,
+        silahkan Anda isi semua field ini sesuai prosedur yang telah diurutkan</string>
+    <string name="formKolam">Berikut adalah form untuk <b>penilaian kesehatan lingkungan kolam renang</b>,
+        silahkan Anda isi semua field ini sesuai prosedur yang telah diurutkan</string>
+    <!--FORM FINISH-->
+
+    <!--PASAR START-->
+    <string name="psr_1">Nama Pasar</string>
+    <string name="psr_2">Alamat Pasar</string>
+    <string name="psr_3">Nama Pengelola Pasar</string>
+    <string name="psr_4">Jumlah Kios/Los</string>
+    <string name="psr_5">Jumlah Pedagang</string>
+    <string name="psr_6">Jumlah Asosiasi/Kelompok Pedagang</string>
+    <string name="psr_A">A. LOKASI</string>
+    <string name="psr_A1">1. Sesuai rencana umum tata ruang</string>
+    <string name="psr_A2">2. Tidak terletak pada daerah rawan bencana</string>
+    <string name="psr_A3">3. Tidak terletak pada daerah rawan kecalakaan</string>
+    <string name="psr_A4">4. Tidak terletak pada daerah bekas pembuangan akhir</string>
+    <string name="psr_A5">5. Mempunyai batas wilayah jelas</string>
+    <string name="psr_B">B. BANGUNAN PASAR </string>
+    <string name="psr_B1">1. Umum</string>
+    <string name="psr_B1a">a. Bangunan dan rancang bangun sesuai dengan peraturan yang berlaku</string>
+    <string name="psr_B2">2. Penataan ruang dagang</string>
+    <string name="psr_B2a">a. Pembangian area sesuai dengan peruntukannya (zoning)</string>
+    <string name="psr_B2b">b. Zoning dengan identitas lengkap</string>
+    <string name="psr_B2c">c. Lebar lorong antar los minimal 1,5 meter</string>
+    <string name="psr_B2d">d. Jarak tempat penampungan dan pemotongan unggas dengan bangunan pasar minimal 10 meter atau dibatasi tembok</string>
+    <string name="psr_B2e">e. Pestisida dan bahan berbahaya beracun terpisah dengan zona makanan dan bahan pengan</string>
+    <string name="psr_B3">3. Ruang kantor pengelola</string>
+    <string name="psr_B3a">a. Ventilasi minimal 20 persen dari luas lantai</string>
+    <string name="psr_B3b">b. Pencahayaan minimal 100 lux</string>
+    <string name="psr_B3c">c. Tersedia toilet dan tempat cuci tangan</string>
+    <string name="psr_B4">4. Tempat penjualan bahan pangan dan  makanan</string>
+    <string name="psr_B4_1">4.1. Tempat penjualan bahan pangan basah</string>
+    <string name="psr_B4_1_1">1. Meja tempat penjualan (nilai 10)</string>
+    <string name="psr_B4_1_1a">a. Tahan karat</string>
+    <string name="psr_B4_1_1b">b. Rata</string>
+    <string name="psr_B4_1_1c">c. Kemiringan</string>
+    <string name="psr_B4_1_1d">d. Tinggi 60 cm</string>
+    <string name="psr_B4_1_2">2. Karkas daging digantung</string>
+    <string name="psr_B4_1_3">3. Alas pemotong (talenan), tidak terbuat dari kayu, tidak  beracun, kedap air dan mudah dibersihkan</string>
+    <string name="psr_B4_1_4">4. Tempat penyimpanan bahan pangan dengan rantai dingin (cold chain) bersuhu (4_10oC)</string>
+    <string name="psr_B4_1_5">5. Tersedia tempat pencucian bahan pangan dan peralatan</string>
+    <string name="psr_B4_1_6">6. Tempat cuci tangan dilengkapi: </string>
+    <string name="psr_B4_1_6a">a. Sabun</string>
+    <string name="psr_B4_1_6b">b. Air mengalir</string>
+    <string name="psr_B4_1_7">7. Saluran pembuangan limbah:</string>
+    <string name="psr_B4_1_7a">a. Tertutup</string>
+    <string name="psr_B4_1_7b">b. Kemiringan</string>
+    <string name="psr_B4_1_8">8. Tempat sampah :</string>
+    <string name="psr_B4_1_8a">a. Terpilah (sampah basah dan kering)</string>
+    <string name="psr_B4_1_8b">b. Kedap air</string>
+    <string name="psr_B4_1_8c">c. Tertutup</string>
+    <string name="psr_B4_1_9">9. Bebas binatang penular penyakit, vektor) dan tempat perindukannya</string>
+    <string name="psr_B4_2">4.2. Tempat penjualan bahan pangan kering</string>
+    <string name="psr_B4_2_1">1. Meja tempat penjualan dengan: permukaan rata, mudah dibersihkan, dengan tinggi minimal 60 cm :</string>
+    <string name="psr_B4_2_1a">a. Permukaan rata</string>
+    <string name="psr_B4_2_1b">b. Mudah dibersihkan</string>
+    <string name="psr_B4_2_1c">c. Tinggi minimal 60 cm</string>
+    <string name="psr_B4_2_2">2. Meja terbuat dari bahan tahan karat dan bukan dari kayu</string>
+    <string name="psr_B4_2_3">3. Tempat sampah:</string>
+    <string name="psr_B4_2_3a">a. Terpisah basah dan kering</string>
+    <string name="psr_B4_2_3b">b. Kedap air</string>
+    <string name="psr_B4_2_3c">c. Bertutup</string>
+    <string name="psr_B4_2_4">4. Tempat cuci tangan dilengkapi:</string>
+    <string name="psr_B4_2_4a">a. Dengan sabun</string>
+    <string name="psr_B4_2_4b">b. Air mengalir</string>
+    <string name="psr_B4_2_5">5. Bebas dari vektor penular penyakit dan tempat perindukannya</string>
+    <string name="psr_B4_3">4.3. Tempat penjualan makanan matang/siap saji</string>
+    <string name="psr_B4_3_1">1. Tempat penyajian makanan:</string>
+    <string name="psr_B4_3_1a">a. Tertutup</string>
+    <string name="psr_B4_3_1b">b. Bahan tahan karat</string>
+    <string name="psr_B4_3_1c">c. Permukaan rata</string>
+    <string name="psr_B4_3_1d">d. Mudah dibersihkan</string>
+    <string name="psr_B4_3_1e">e. Tinggi minimal 60 cm</string>
+    <string name="psr_B4_3_2">2. Tempat cuci tangan dilengkapi:</string>
+    <string name="psr_B4_3_2a">a. Dengan sabun</string>
+    <string name="psr_B4_3_2b">b. Air mengalir</string>
+    <string name="psr_B4_3_3">3. Tempat cuci peralatan:</string>
+    <string name="psr_B4_3_3a">a. Kuat</string>
+    <string name="psr_B4_3_3b">b. Aman</string>
+    <string name="psr_B4_3_3c">c. Tidak berkarat</string>
+    <string name="psr_B4_3_3d">d. Mudah dibersihkan</string>
+    <string name="psr_B4_3_4">4. Pisau yang digunakan untuk memotong bahan mentah dan  bahan matang harus berbeda dan tidak berkarat</string>
+    <string name="psr_B4_3_5">5. Saluran pembuangan limbah: </string>
+    <string name="psr_B4_3_5a">a. Tertutup</string>
+    <string name="psr_B4_3_5b">b. Kemiringan</string>
+    <string name="psr_B4_3_6">6. Tempat sampah:</string>
+    <string name="psr_B4_3_6a">a. Terpisah basah dan kering</string>
+    <string name="psr_B4_3_6b">b. Kedap air</string>
+    <string name="psr_B4_3_6c">c. Bertutup</string>
+    <string name="psr_B4_3_7">7. Bebas dari vektor penular penyakit dan tempat perindukannya</string>
+    <string name="psr_B4_4">4.4. Area Parkir</string>
+    <string name="psr_B4_4_1">1. Ada pemisah yang jelas dengan batas wilayah pasar</string>
+    <string name="psr_B4_4_2">2. Parkir mobil, motor, sepeda, andong/delman, becak terpisah</string>
+    <string name="psr_B4_4_3">3. Tersedia area parker khusus kendaraan pengangkut hewan hidup</string>
+    <string name="psr_B4_4_4">4. Tersedia area khusus bongkar muat barang</string>
+    <string name="psr_B4_4_5">5. Tidak ada genangan air</string>
+    <string name="psr_B4_4_6">6. Tersedia tempat sampah setiap radius 10 meter</string>
+    <string name="psr_B4_4_7">7. Ada jalur dan tanda masuk dan keluar kendaraan yang jelas</string>
+    <string name="psr_B4_4_8">8. Ada tanaman penghijuan</string>
+    <string name="psr_B4_4_9">9. Adanya area resapan air</string>
+    <string name="psr_B4_5">4.5. Konstruksi: </string>
+    <string name="psr_B4_5_1">4.5.1. Atap</string>
+    <string name="psr_B4_5_1_1">1. Atap:</string>
+    <string name="psr_B4_5_1_1a">a. Kuat</string>
+    <string name="psr_B4_5_1_1b">b. Tidak bocor</string>
+    <string name="psr_B4_5_1_1c">c. Tidak menjadi tempat perindukan vektor</string>
+    <string name="psr_B4_5_1_2">2.Kemiringan atap cukup dan tidak memungkinkan genangan air</string>
+    <string name="psr_B4_5_1_3">3.Atap dengan ketinggian lebih 10 meter dilengkapi penangkal petir</string>
+    <string name="psr_B4_5_2">4.5.2. Dinding</string>
+    <string name="psr_B4_5_2_1">1. Keadaan dinding:</string>
+    <string name="psr_B4_5_2_1a">a. Bersih</string>
+    <string name="psr_B4_5_2_1b">b. Tidak lemban</string>
+    <string name="psr_B4_5_2_1c">c. Berwarna terang</string>
+    <string name="psr_B4_5_2_2">2. Permukaan dinding yang selsalu terkena percikan air terbuat dari:</string>
+    <string name="psr_B4_5_2_2a">a. Bahan yang kuat</string>
+    <string name="psr_B4_5_2_2b">b. Kedap air</string>
+    <string name="psr_B4_5_2_3">3. Pertemuan lantai dengan dinding harus lengkung (conus)</string>
+    <string name="psr_B4_5_3">4.5.3. Lantai</string>
+    <string name="psr_B4_5_3_1">1. Keadaan lantai:</string>
+    <string name="psr_B4_5_3_1a">a. Kedap air</string>
+    <string name="psr_B4_5_3_1b">b. Rata</string>
+    <string name="psr_B4_5_3_1c">c. Tidak licin</string>
+    <string name="psr_B4_5_3_1d">d. Tidak retak</string>
+    <string name="psr_B4_5_3_1e">e. Mudah dibersihkan</string>
+    <string name="psr_B4_5_3_2">2. Lantai kamar mandi, tempat cuci dan sejenisnya memounyai kemiringan ke saluran pembuangan</string>
+    <string name="psr_B4_5_4">4.5.4. Tangga</string>
+    <string name="psr_B4_5_4_1">1. Tinggi, lebar, kemiringan sesuai dengan ketentuan yang berlaku</string>
+    <string name="psr_B4_5_4_2">2. Terdapat pegangan tangan</string>
+    <string name="psr_B4_5_4_3">3. Kuat dan tidak licin</string>
+    <string name="psr_B4_5_4_4">4. Pencahayaan minimal 100 lux</string>
+    <string name="psr_B4_5_5">4.5.5. Ventilasi</string>
+    <string name="psr_B4_5_5_1">1. Minimal 20 persen dari luas lantai</string>
+    <string name="psr_B4_5_6">4.5.6. Pencahayaan</string>
+    <string name="psr_B4_5_6_1">1. Intensitas pencahayaan cukup untuk melakukan pekerjaan pengelolaan dan pembersihan bahan makanan minimal 100 lux</string>
+    <string name="psr_B4_5_7">4.5.7. Pintu</string>
+    <string name="psr_B4_5_7_1">1. Khusus kios/los penjual daging, ikan dan sejenisnya menggunakan pintu yang dapat membuka dan menutup sendiri atau tirai plastic untuk menghalangi binatang atau serangga penular penyakit</string>
+    <string name="psr_C">C. SANITASI</string>
+    <string name="psr_C1">1. Air bersih</string>
+    <string name="psr_C1_1">1. Air selalu tersedia dalam jumlah cukup (minimal 40 liter per pedagang)</string>
+    <string name="psr_C1_2">2. Kualitas air bersih memenuhi syarat kesehatan</string>
+    <string name="psr_C1_3">3. Jarak sumber air bersih dengan septic tank minimal 10 meter</string>
+    <string name="psr_C1_4">4. Pengujian air bersih dilakukan 6 bulan sekali</string>
+    <string name="psr_C2">2. Kamar mandi dan toilet</string>
+    <string name="psr_C2_1">1. Toilet: Laki_laki dan perempuan terpisah dengan jumlah cukup (nilai 10)</string>
+    <string name="psr_C2_1a">a. Terpisah</string>
+    <string name="psr_C2_1b">b. Jumlah cukup</string>
+    <string name="psr_C2_2">2. Tersedia bak dan air bersih dengan jumlah cukup dan bebas jentik</string>
+    <string name="psr_C2_3">3. Toilet dengan leher angsa</string>
+    <string name="psr_C2_4">4. Tersedia tempat cuci tangan dan sabun</string>
+    <string name="psr_C2_5">5. Tersedia tempat sampah yang tertutup</string>
+    <string name="psr_C2_6">6. Tersedia septic tank dengan lubang peresapan yang memenuhi syarat kesehatan</string>
+    <string name="psr_C2_7">7. Letak toilet minimal 10 meter dari tempat penjualan makanan dan bahan pangan</string>
+    <string name="psr_C2_8">8. Ventilasi minimal 20 persen dari luas lantai</string>
+    <string name="psr_C2_9">9. Pencahayaan minimal 100 lux</string>
+    <string name="psr_C2_10">10. Lantai kedap air, tidak licin, mudah dibersihkan, dengan kemiringan cukup</string>
+    <string name="psr_C3">3. Pengelolaan sampah</string>
+    <string name="psr_C3_1">1. Setiap kios/lorong/los tersedia tempat sampah basah dan kering</string>
+    <string name="psr_C3_2">2. Tempat sampah terbuat dari :</string>
+    <string name="psr_C3_2a">a. Bahan kedap air</string>
+    <string name="psr_C3_2b">b. Tidak mudah berkarat</string>
+    <string name="psr_C3_2c">c. Kuat</string>
+    <string name="psr_C3_2d">d. Tertutup</string>
+    <string name="psr_C3_2e">e. Mudah dibersihkan</string>
+    <string name="psr_C3_3">3. Tersedia alat pengangkut sampah :</string>
+    <string name="psr_C3_3a">a. Kuat</string>
+    <string name="psr_C3_3b">b. Mudah dibersihkan</string>
+    <string name="psr_C3_4">4. Tersedia tempat pembuangan sampah sementara TPS :</string>
+    <string name="psr_C3_4a">a. Kuat</string>
+    <string name="psr_C3_4b">b. Kedap air</string>
+    <string name="psr_C3_4c">c. Mudah dibersihkan</string>
+    <string name="psr_C3_4d">d. Mudah dijangkau</string>
+    <string name="psr_C3_5">5. TPS tidak menjadi tempat perindukan binatang penular penyakit</string>
+    <string name="psr_C3_6">6. TPS tidak dijalur utama pasar dan tidak berjarak minimal 10 meter dari bangunan pasar</string>
+    <string name="psr_C3_7">7. Sampah diangkut minimal 1x24 jam</string>
+    <string name="psr_C4">4. Drainage</string>
+    <string name="psr_C4_1">1. Tertutup dengan kisi_kisi, terbuat dari logam dan mudah dibersihkan</string>
+    <string name="psr_C4_2">2. LImbah cair mengalir lancer</string>
+    <string name="psr_C4_3">3. Limbah cair harus memenuhi baku mutu</string>
+    <string name="psr_C4_4">4. Tidak ada bangunan di atas saluran</string>
+    <string name="psr_C4_5">5. Pengujian kualitas limbah cair berkala setiap 6 bulan sekali</string>
+    <string name="psr_C5">5. Tempat cuci tangan</string>
+    <string name="psr_C5_1">1. Lokasi mudah dijangkau</string>
+    <string name="psr_C5_2">2. Dilengkapi sabun</string>
+    <string name="psr_C5_3">3. Tersedia air mengalir</string>
+    <string name="psr_C6">6.Binatang penular penyakit / vektor</string>
+    <string name="psr_C6_1">1. Los makanan siap saji dan bahan pangan harus bebas dari lalat, kecoa dan tikus</string>
+    <string name="psr_C6_2">2. Angka kepadatan tikus harus nol</string>
+    <string name="psr_C6_3">3. Angka kepadatan kecoa maksimal 2 ekor per plate di titik pengukuran</string>
+    <string name="psr_C6_4">4. Angka kepadatan lalat maksimal 30 per gril net di tempat sampah dan drainage</string>
+    <string name="psr_C6_5">5. Container indeks (CI) jentik nyamuk aedes tidak melebihi 5 persen</string>
+    <string name="psr_C7">7. Kualitas makanan dan bahan pangan</string>
+    <string name="psr_C7_1">1. Tidak basi</string>
+    <string name="psr_C7_2">2. Tidak mengandung bahan berbahaya</string>
+    <string name="psr_C7_3">3. Tidak mengandung residu pestisida di atas ambang batas</string>
+    <string name="psr_C7_4">4. Kualitas makanan siap saji sesuai dengan peraturan</string>
+    <string name="psr_C7_5">5. Makanan dalam kemasan tertutup disimpan dalam suhu 4_10oC</string>
+    <string name="psr_C7_6">6. Ikan, daging dan olahannya disimpan dalam suhu 0 s/d 4oC</string>
+    <string name="psr_C7_7">7. Sayur dan buah disimpan dalam suhu 10oC, telor, susu dan olahannya disimpan dalam suhu 5_7oC</string>
+    <string name="psr_C7_8">8. Penyimpanan bahan makanan dengan jarak 15 cm dari lantai, 5 cm dari dinding dan 60 cm dari langit_langit</string>
+    <string name="psr_C7_9">9. Kebersihan peralatan makanan maksimal 100 kuman per cm2 permukaan dan E_coli nol</string>
+    <string name="psr_C8">8. Desinfeksi pasar</string>
+    <string name="psr_C8_1">1. Dilakukan secara menyeluruh 1 hari dalam sebulan</string>
+    <string name="psr_C8_2">2. Bahan desinfeksi tidak mencemari lingkungan</string>
+    <string name="psr_D">D. PERILAKU HIDUP BERSIH DAN SEHAT </string>
+    <string name="psr_D1">1. Pedagang dan pekerja</string>
+    <string name="psr_D1_1">1. Pedagang daging/unggas, ikan menggunakan alat pelindung diri</string>
+    <string name="psr_D1_2">2. Berperilaku hidup bersih dan sehat (PHBS)</string>
+    <string name="psr_D1_3">3. Dilakukan pemeriksaan kesehatan bagi pedagang secara berkala minimal 6 bulan sekali</string>
+    <string name="psr_D1_4">4. Pedagang makanan siap saji tidak sedang menderita penyakit menular langsung seperti: diare, hepatitis, TBC, kudis, dll</string>
+    <string name="psr_D2">2. Pengunjung</string>
+    <string name="psr_D2_1">1. Berprilaku hidup bersih dan sehat (PHBS)</string>
+    <string name="psr_D2_2">2. Cuci tangan dengan sabun setelah memegang unggas/hewan hidup, daging atau ikan</string>
+    <string name="psr_D3">3. Pengelola</string>
+    <string name="psr_D3_1">1. Memahami dan mempunyai keterampilan tentang hygiene sanitasi dan keamanan pangan (pernah mengikuti kursus/pelatihan di bidang sanitasi dan hygiene makanan dan pangan)</string>
+    <string name="psr_E">E. KEAMAMAN</string>
+    <string name="psr_E1">1. Pemadam Kebakaran</string>
+    <string name="psr_E1_1">1. Tersedia peralatan pemadam kebakaran dengan jumlah cukup dan berfungsi:</string>
+    <string name="psr_E1_1a">a. Ada</string>
+    <string name="psr_E1_1b">b. Jumlah cukup</string>
+    <string name="psr_E1_1c">c. 80 persen berfungsi</string>
+    <string name="psr_E1_2">2. Tersedia hidran air</string>
+    <string name="psr_E1_3">3. Letak peralatan pemadam kebakaran mudah dijangkau dan ada petunjuk arah penyelamatan</string>
+    <string name="psr_E1_4">4. Adanya SOP penggunaan alat pemadam kebakaran</string>
+    <string name="psr_E2">2. Keamanan</string>
+    <string name="psr_E2_1">1. Ada pos keamanan</string>
+    <string name="psr_E2_2">2. Ada personil / petugas keamanan</string>
+    <string name="psr_F">F. FASILITAS LAIN</string>
+    <string name="psr_F1">1. Tempat / sarana ibadah</string>
+    <string name="psr_F1_1">1. Tersedia tempat ibadah yang bersih, dan tempat wudhu</string>
+    <string name="psr_F1_2">2. Tersedia air dengan jumlah yang cukup</string>
+    <string name="psr_F1_3">3. Ventilasi dan pencahayaan sesuai dengan persyaratan</string>
+    <string name="psr_F2">2. Tempat penjualan unggas hidup</string>
+    <string name="psr_F2_1">1. Tersedia tempat khusus yang terpisah dari pasar utama</string>
+    <string name="psr_F2_2">2. Mempunyai akses masuk dan keluar kendaraan pengangkut unggas tersendiri</string>
+    <string name="psr_F2_3">3. Kandang tempat penampungan unggas kuat dan mudah dibersihkan</string>
+    <string name="psr_F2_4">4. Tersedia fasilitas pemotongan unggas umum yang memenuhi syarat</string>
+    <string name="psr_F2_5">5. Tersedia sarana cuci tangan dengan sabun dan air bersih</string>
+    <string name="psr_F2_6">6. Tersedia saluran pembuangan limbah</string>
+    <string name="psr_F2_7">7. Tersedia penampungan sampahterpisah dari sampah pasar</string>
+    <string name="psr_F2_8">8. Tersedia sarana desinfeksi khusus di pintu masuk</string>
+    <string name="psr_F3">3. Tersedia pos pelayan kesehatan dan pertolongan pertama pada kecelakaan (P3K)</string>
+    <string name="psr_F3_1">1. Tersedia ruang/pos pelayanan kesehatan dan pertolongan pertama pada kecelakaan (P3K)</string>
+    <!--PASAR FINISH-->
+
+    <!--JASA BOGA START-->
+    <string name="jb_1">Nama Jasa Boga</string>
+    <string name="jb_2">Alamat</string>
+    <string name="jb_3">Nomor Telepon</string>
+    <string name="jb_4">Nama Pengusaha</string>
+    <string name="jb_A">A. MAKANAN</string>
+    <string name="jb_A1">1. Sumber dan keutuhan makanan</string>
+    <string name="jb_A1a">Sumber makanan merupakan tempat yang telah diawasi atau terdaftar. Keutuhanannya baik, layak, tidak rusak, busuk atau jelas merupakan makanan manusia</string>
+    <string name="jb_A2">2. Wadah atau kemasan asli, berlabel</string>
+    <string name="jb_A2a">Wadah orisinil, kemasan asli, mempunyai label dan telah terdaftar</string>
+    <string name="jb_B">B. PERLINDUNGAN MAKANAN</string>
+    <string name="jb_B1">1. Suhu, penyimpanan, peracikan persiapan dan penyajian serta pengangkuatan makanan</string>
+    <string name="jb_B1a">Suhu penyimpanan sesuai dengan persyaratan untu setiap tahap dan jenis makanan, spt daging minus 50C, ikan 0oC, sayuran 10oC, buah dan minuman 10 hingga 15oC</string>
+    <string name="jb_B2">2. Pengaturan suhu ruangan produksi</string>
+    <string name="jb_B2a">Tersedia AC, kipas angina tau exhauster serta jendela yang dapat berfungsi dengan baik</string>
+    <string name="jb_B3">3. Tersedia thermometer yang berfungsi dengan baik</string>
+    <string name="jb_B3a">Tersedia thermometer yang dapat memantau suhu ruang atau alat penyimpanan</string>
+    <string name="jb_B4">4. Suhu pelunakan  makanan beku (thawing)</string>
+    <string name="jb_B4a">Pencairan makanan beku secara perlahan pada suhu 10oC sampai kekenyalan makanan jadi/matang menjadi normal kembali (thawing)</string>
+    <string name="jb_B5">5. Perlindungan makanan matang</string>
+    <string name="jb_B5a">Makanan ditutup agar terhindar dari debu, kotoran serangga atau hewan lain. Makanan sisa tidak disimpan tetapi dipisah dan tidak untuk disajikan kembali</string>
+    <string name="jb_B6">6. Perlakuan terhadap makanan selama tahap penyimpanan, persiapan, penyajian dan pengankutan</string>
+    <string name="jb_B6a">Makanan harus diperlakukan secara hati-hati pada saat mengolah, membawa, menyimpan, menyajikan dan mengangkut makanan, seperti memindah, membagi, mewadahi makanan dan lain-lain</string>
+    <string name="jb_B7">7. Kontak lansung anggota tubuh dengan makanan</string>
+    <string name="jb_B7a">Menangani makanan jadi/matang dengan menggunakan alat pengaman seperti sarung tangan khsusus / plastic yang bersih atau lainnya. Makanan mentah yang akan dimasak/dipanaskan secara terbatas dapat dipegang dengan tangan</string>
+    <string name="jb_B8">8. Penyimpanan alat untuk pengambil makana (Sendok, penjepit dsb)</string>
+    <string name="jb_B8a">Sendok es cream, sendok, pisau pemotong disimpan dengan baik dan harus terlindung kebersihannya</string>
+    <string name="jb_C">C. KARYAWAN</string>
+    <string name="jb_C1">1. Kesehatan karyawan</string>
+    <string name="jb_C1a">Karyawan tidak boleh menderita penyakit menular seperti penyakit kulit, bisul, koreng, infeksi saluran pernafasan atas atau luka terbuka harus segera ditutup dengan plester tahan air</string>
+    <string name="jb_C2">2. Kebersihan dan perilaku</string>
+    <string name="jb_C2a">Cuci tangan pakai sabun sesering mungkin, perilaku yang sehat seperti tidak memegang rambut, mengorek hidung, telinga, gigi / mulut atau bagian tubuh lainnya. Kuku dipotong pendek, bersih, dan apabila bersin atau batuk harus ditutup dengan tissue</string>
+    <string name="jb_C3">3. Pakaian bersih, kuku dan rambut dipotong pendek dan bersih</string>
+    <string name="jb_C3a">Pakaian sebaiknya seragam, bersih, rapi dan rambut dipotong pendek atau ditutup topi</string>
+    <string name="jb_C4">4. Peralatan yang permukaannya kontak dengan makanan</string>
+    <string name="jb_C4a">Kebersihan peralatan harus dijaga, bentuk alat aman, pemeliharaan dan penyimpanannya bebas dari noda, karat, sisa makanan, utuh tidak rusak / penyok dan aman digunakan, tidak berbahaya atau menyebabkan kecelakaan selama digunakan.</string>
+    <string name="jb_C5">5. Peralatan yang permukaannya tidak kontak dengan makanan</string>
+    <string name="jb_C5a">Kebersihan, bentuk, pemeliharaan dan penyimpanan, tidak rusak / penyok dan aman digunakan tidak menimbulkan bahaya / kecelakaan</string>
+    <string name="jb_C6">6. Fasilitas pencucian piring dan peralatan</string>
+    <string name="jb_C6a">Dibuat dengan konstruksi yang baik, kuat, aman dan bersih serta dipelihara dan digunakan secara baik</string>
+    <string name="jb_C7">7. Tersedia alat pengukur desinfektan untuk pencucian</string>
+    <string name="jb_C7a">Tidak menggunakan alat sekali pakai untuk digunakan kembali walaupun telah dicuci kembali</string>
+    <string name="jb_C8">8. Peralatan yang digunakan sekali pakai</string>
+    <string name="jb_C8a">Penyediaan, penyimpanan terlindung dari cemaran / debu dan berada dalam keadaan dikemas serta pembagiannya langsung untuk pemakai</string>
+    <string name="jb_C9">9. Cara pemakaian alat yang hanya digunakan sekali pakai</string>
+    <string name="jb_C9a">Tidak menggunakan alat sekali pakai untuk digunakan kembali walaupun telah dicuci kembali</string>
+    <string name="jb_C10">10. Tahapan awal pencucian</string>
+    <string name="jb_C10a">Tersedia bak pencuci awal tersendiri, sebelum dicuci dilakukan proses pemisahan sampah kemudian dilakukan perendaman / pengguyuran serta penyabunan dengan detergent / bahan pembersih lain</string>
+    <string name="jb_C11">11. Alat untuk pembilasan pencucian</string>
+    <string name="jb_C11a">Kondisi air yang digunakan harus bersih secara fisik, dialirkan melalui pipa/kran dan suhu dalam keadaan normal</string>
+    <string name="jb_C12">12. Desinfektan / tindakan sanitasi pencucian</string>
+    <string name="jb_C12a">Tersedia bak / tempat desinfeksi tersendiri dan dijaga kebersihannya. Desinfeksi air panas dengan suhu minimal 80 hingga 100oC, atau chlor aktif dengan kadar 50 hingga 100 ppm</string>
+    <string name="jb_C13">13. Penirisan dan pengeringan</string>
+    <string name="jb_C13a">Tempat penirisan dan lap pengering dijaga kebersihannya, bahan lap tidak menimbulkan noda / sisa benang, tempat penirisan bebas debu / endapan</string>
+    <string name="jb_C14">14. Peralatan makan/masak yang kontak dengan makanan</string>
+    <string name="jb_C14a">Alat harus utuh, bentuk aman dan kebersihan alat harus bebas dari sisa makanan, lemak dan bahan pencuci</string>
+    <string name="jb_C15">15. Peralatan makan/masak yang tidak kontak dengan makanan</string>
+    <string name="jb_C15a">Alat bersih dan bebas dari sisa-sisa bahan pencucian</string>
+    <string name="jb_C16">16. Penyimpanan dan perlakuan alat dan masak</string>
+    <string name="jb_C16a">Cara penyimpanan terlindung dari pencemaran, ruang penyimpanan tidak mudah berdebu, rak atau tempat penyimpanan bersih dan teratur Ruangan bebas dari lalat, kecoa, tikus dan hewan lainnya</string>
+    <string name="jb_D">D. AIR BERSIH</string>
+    <string name="jb_D1">1. Sumber air dingin dengan air panas</string>
+    <string name="jb_D1a">Sumber air panas dialirkan melalui saluran / kran, demikian pula air dingin</string>
+    <string name="jb_E">E. AIR LIMBAH</string>
+    <string name="jb_E1">1. Pembuangan air kotor/limbah</string>
+    <string name="jb_E1a">Saluran air limbah kedap air dan tertutup, aliran lancar, tidak menimbulkan rembesan di permukaan tanah / terjadi genangan. Air limbah dibuang ke sarana pembuangan tersendiri atau ke riol / got kota</string>
+    <string name="jb_F">F. PERPIPAAN</string>
+    <string name="jb_F1">1. Pemasangan dan konstruksi perpipaan</string>
+    <string name="jb_F1a">Sambungan pipa yang baik tidak bocor, tidak berhubungan dengan saluran pembuangan air limbah atau sumber pengotoran lainnya</string>
+    <string name="jb_F2">2. Tidak terjadi hubungan antara pipa air bersih dan air kotor</string>
+    <string name="jb_F2a">Pipa air bersih tidak terjadi kebocoran, tidak berhubungan dengan saluran pembuangan air limbah, air bersih yang mengalir tidak terkontaminasi air kotor</string>
+    <string name="jb_G">G. FASILITAS CUCI TANGAN DAN TOILET</string>
+    <string name="jb_G1">1. Konstruksi, jumlah tempat cuci tangan dan pemeliharaannya</string>
+    <string name="jb_G1a">Tempat cuci tangan dengan air mengalir berfungsi dengan baik , dilengkapi sabun dan pengering tangan dan disediakan tempat sampah yang bertutup dan dipelihara kebersihannya</string>
+    <string name="jb_G2">2. Konstruksi, letak toilet dan pemeliharaannya</string>
+    <string name="jb_G2a">Toilet dilengkapi dengan pintu yang dapat menutup sempurna, dinding kedap air, dipelihara kebersihannya, serta tidak pernah ada kotoran di lubang WC. Dilengkapi tempat cuci tangan dengan air mengalir, sabun dan bak sampah bertutup</string>
+    <string name="jb_H">H. PEMBUANGAN SAMPAH</string>
+    <string name="jb_H1">1. Jumlah konstruksi dan frekuensi pembuangan sampah</string>
+    <string name="jb_H1a">Bak sampah tersedia cukup memadai dan diberi tutup, dipelihara kebersihannya, tidak dapat dijamah lalat, tikus atau hewan lainnya. Dibersihkan sesering mungkin dan setiap hari sampah dibuang</string>
+    <string name="jb_H2">2. Halaman luar, sekitar bangunan dan kebersihan</string>
+    <string name="jb_H2a">Halaman bersih, tidak ada tumpukan sampah, puing atau barang-barang tidak terpakai lainnya dan tidak ada genangan air</string>
+    <string name="jb_I">I. PENGAWASAN SERANGGA TIKUS DAN HEWAN LAINNYA</string>
+    <string name="jb_I1">1. Terhindar dari serangga, tikus dan hewan lainnya</string>
+    <string name="jb_I1a">Semua konstruksi bangunan dirancang anti lalat, kecoa dan tikus maupun hewan lain seperti burung atau hewan pengerat misalnya menggunakan bahan bangunan yang tidak berlubang, apabila ada celah harus sempit atau tidak membuat dinding rangkap atau ventilasi yang terbuka tanpa kawat kasa maupun membuat lubang pembuangan air limbah</string>
+    <string name="jb_J">J. LANTAI, DINDING DAN LANGIT-LANGIT</string>
+    <string name="jb_J1">1. Konstruksi, pemeliharaan fisik dan  kebersihan lantai</string>
+    <string name="jb_J1a">Lantai dibuat dengan konsruksi yang kuat, aman dan kedap air. Pemeliharaan fisik diselenggara kan secara teratur dan terus menerus, seperti segera memper baiki yang rusak, pecah dan sebagainya. Kebersihannya dijaga setiap saat dan selalu kering, tidak lembab dan tidak licin</string>
+    <string name="jb_J2">2. Konstruksi, pemeliharaan fisik dan kebersihan dinding dan langit-langit</string>
+    <string name="jb_J2a">Dinding dan langit-langit dibuat dengan konstruksi aman, kuat, tidak lembab dan tidak menyimpan debu. Bagian dinding yang kena percikan air dilapisi bahan kedap air/porselen setinggi 2 meter dari lantai. Pemeliharaan fisik diselenggara kan dengan baik dan terus menerus, seperti perbaikan kerusakan, pecah, lepas dan sebagainya. Kebersihan dijaga setiap saat dan selalu dalam keadaan kering/tidak lembab. Peghawaan alam melalui jendela terbuka atau lubang angin serta cukup memberikan sirkulasi udara dengan baik</string>
+    <string name="jb_K">K. PENCAHAYAAN</string>
+    <string name="jb_K1">1. Pencahayan cukup baik</string>
+    <string name="jb_K1a">Cahaya alam melalui jendela atau genteng kaca yang dapat menerangi ruangan kerja. Cahaya buatan cukup terang tetapi tidak menimbulkan panas yang mengganggu. Pencahayaan buatan dengan lampu dipasang parallel (bukan tunggal) dengan kuat cahaya sedikitnya 40 hingga 60 watt</string>
+    <string name="jb_L">L. PENGHAWAAN</string>
+    <string name="jb_L1">1. Penghawaan  cukup baik</string>
+    <string name="jb_L1a">Suhu ruangan cukup nyaman dan tidak mengganggu dalam bekerja, atau terlalu panas sehingga tubuh selalu berkeringat sehingga memungkinkan dapat mencemari makanan. Dapat menetralisir bau yang mengganggu pernafasan. Penghawaan buatan dengan memasang alat blower, AC atau exhauster fan atau kipas angin yang berfungsi dengan baik</string>
+    <string name="jb_M">M. KAMAR PAKAIAN</string>
+    <string name="jb_M1">1. Penyediaan dan pemeliharaan kamar ganti pakaian</string>
+    <string name="jb_M1a">Ruang ganti pakaian tersedia dilengkapi kotak penyimpanan pakaian (locker). Kebersihan dan kerapihan dipelihara rutin, demikian pula pencahayaan, penghawaan dan suhu ruangan</string>
+    <string name="jb_N">N. LAIN-LAIN KEGIATAN</string>
+    <string name="jb_N1">1. Penanganan bahan berbahaya</string>
+    <string name="jb_N1a">Racun, pestisida dan bahan kimia lain yang berbahaya disimpan di tempat khusus, terlindung dengan aman dan penyimpanannya memakai tanda khusus. Ruang penyimpanan merupakan ruang khusus untuk penyimpanan bahan pemberantasan hama dan tidak untuk menyimpan bahan lain</string>
+    <string name="jb_N2">2. Pemeliharaan bangunan</string>
+    <string name="jb_N2a">Bangunan secara keseluruhan terpelihara, bebas dari puing-puing atau bahan yang tidak dipakai. Semua bahan yang tidak dipakai disimpan di gudang Tersedia petugas khusus bagian tehnik pemeliharaan / perbaikan dan pembersihan dan bukan merupakan penjamah makanan</string>
+    <string name="jb_N3">3. Bangunan terpisah sempurna dari tempat tidur dan tempat cuci pakaian</string>
+    <string name="jb_N3a">Dapur tidak dijadikan tempat untuk tidur, tempat cuci pakaian, jemur pakaian, gantung pakaian</string>
+    <string name="jb_N4">4. Secara umum dalam keadaan bersih, rapih dan teratur</string>
+    <string name="jb_N4a">Barang-barang yang tidak digunakan baik makanan atau bahan lain disimpan di tempat penyimpanannya masing-masing. Khusus bahan makanan disimpan dalam tempat yang bersih, teratur dan ditempatkan tidak langsung menyentuh lantai atau meja kerja</string>
+    <!--JASA BOGA FINISH-->
+
+    <!--SEKOLAH START-->
+    <string name="skl_1">Nama Sekolah</string>
+    <string name="skl_2">Nama Kepala Sekolah</string>
+    <string name="skl_3">Alamat</string>
+    <string name="skl_4">Jumlah Murid Rata-rata/tahun</string>
+    <string name="skl_5">Berdiri Tahun</string>
+    <string name="skl_6">Luas Bangunan</string>
+    <string name="skl_7">Luas Tanah</string>
+
+    <string name="skl_A">A. UMUM</string>
+    <string name="skl_A1">1. Lokasi</string>
+    <string name="skl_A1a">a. Terhindar dari pencemaran</string>
+    <string name="skl_A1b">b. Tidak terletak di daerah banjir</string>
+    <string name="skl_A2">2. Lingkungan termasuk Halaman</string>
+    <string name="skl_A2a">a. Bersih,Indah</string>
+    <string name="skl_A2b">b. Tidak memungkinkan sebagai tempat bersarang/ berkembang biak serangga dan tikus</string>
+    <string name="skl_A2c">c. Berpagar kawat</string>
+    <string name="skl_A2d">d. Terdapat tempat parkir</string>
+    <string name="skl_A3">3. Pemanfaatan Halaman</string>
+    <string name="skl_A3a">a. Dimanfaatkan</string>
+    <string name="skl_A3b">b. Kurang dimanfaatkan</string>
+    <string name="skl_A4">4. Bangunan </string>
+    <string name="skl_A4a">a. Kokoh/ kuat</string>
+    <string name="skl_A4b">b. Tidak memungkinkan sebagai tempat berkembang biaknya serangga dan tikus</string>
+    <string name="skl_B">B. KONSTRUKSI</string>
+    <string name="skl_B5">5. Lantai</string>
+    <string name="skl_B5a">a. Bersih</string>
+    <string name="skl_B5b">b. Bahan kuat, kedap air, permukaan rata</string>
+    <string name="skl_B5c">c. Tidak licin</string>
+    <string name="skl_B5d">d. Tidak menjadi genangan air</string>
+    <string name="skl_B6">6. Dinding</string>
+    <string name="skl_B6a">a. Bersih</string>
+    <string name="skl_B6b">b. Kedap air</string>
+    <string name="skl_B6c">c. Mudah dibersihkan</string>
+    <string name="skl_B6d">d. Berwarna terang</string>
+    <string name="skl_B7">7. Atap</string>
+    <string name="skl_B7a">a. Tidak bocor</string>
+    <string name="skl_B7b">b. Tidak terjadi genangan air</string>
+    <string name="skl_B8">8. Langit-langit</string>
+    <string name="skl_B8a">a. Tinggi dari lantai minimal 2,5m</string>
+    <string name="skl_B8b">b. Bersih </string>
+    <string name="skl_B9">9. Pintu</string>
+    <string name="skl_B9a">a. Dapat dibuka, ditutup/ dikunci dengan baik</string>
+    <string name="skl_B9b">b. Dapat mencegah masuknya binatang penggangu</string>
+    <string name="skl_B10">10. Kondisi Ruang</string>
+    <string name="skl_B10a">a. Tidak Pengap</string>
+    <string name="skl_B10b">b. Tidak berbau</string>
+    <string name="skl_B10c">c. Tidak bising</string>
+    <string name="skl_B11">11. Ventilasi</string>
+    <string name="skl_B11a">a. 5 persen dari luas lantai</string>
+    <string name="skl_B11b">b. Menggunakan Ven</string>
+    <string name="skl_B11c">c. Menggunakan AC</string>
+    <string name="skl_B12">12. Pencahayaan</string>
+    <string name="skl_B12a">a. Dapat digunakan untuk membaca pada sudut yang paling gelap</string>
+    <string name="skl_C">C. FASILITAS SANITASI</string>
+    <string name="skl_C13">13. Tempat Wudhu</string>
+    <string name="skl_C13a">a. Dengan sistem air yang mengalir</string>
+    <string name="skl_C13b">b. Tidak dengan sistem air yang mengalir</string>
+    <string name="skl_C14">14. Kualitas Air</string>
+    <string name="skl_C14a">a. Memenuhi syarat fisik</string>
+    <string name="skl_C14b">b. Memenuhi syarat kimia</string>
+    <string name="skl_C14c">c. Memenuhi syarat biologi</string>
+    <string name="skl_C15">15. Kuantitas Air</string>
+    <string name="skl_C15a">a. Mencukupi dengan menggunakan perpipaan</string>
+    <string name="skl_C15b">b. Mencukupi dengan menggunakan sarana selain perpipaan</string>
+    <string name="skl_C15c">c. Tidak mencukupi</string>
+    <string name="skl_C16">16. Pengelolaan Sampah</string>
+    <string name="skl_C16a">a. Tempat sampah kuat</string>
+    <string name="skl_C16b">b. Kedap air</string>
+    <string name="skl_C16c">c. Tertutup</string>
+    <string name="skl_C16d">d. Mudah diangkut</string>
+    <string name="skl_C16e">e. Frekuensi pengangkutan min 1kali/hr</string>
+    <string name="skl_C16f">f. Tidak menjadi tempat perindukan serangga</string>
+    <string name="skl_C17">17. Pembuangan Air Limbah</string>
+    <string name="skl_C17a">a. Memiliki sarana pengelolaan air limbah</string>
+    <string name="skl_C17b">b. Air limbah mengalir dengan lancar</string>
+    <string name="skl_C17c">c. Saluran air limbah dengan sistem tertutup</string>
+    <string name="skl_C17d">d. Saluran air limbah kedap air</string>
+    <string name="skl_C18">18. Kamar mandi dan WC</string>
+    <string name="skl_C18a">a. Jarak antara sumber air dengan penampungan 10M</string>
+    <string name="skl_C18b">b. Bersih dan tidak berbau</string>
+    <string name="skl_C18c">c. Letak tidak berhubungan langsung dengan Ruang Kelas</string>
+    <string name="skl_C18d">d. Perbandingan antara jumlah murid dan Guru dengan kamar mandi / WC 1:40</string>
+    <string name="skl_C19">19. Pengelolaan Sampah</string>
+    <string name="skl_C19a">a. Tempat sampah kuat</string>
+    <string name="skl_C19b">b. Kedap air</string>
+    <string name="skl_C19c">c. Tertutup</string>
+    <string name="skl_C19d">d. Mudah diangkut</string>
+    <string name="skl_C19e">e. Frekuensi pengangkutan minimal setiap hari</string>
+    <!--SEKOLAH FINISH-->
+
+
+    <!--PESANTREN START-->
+    <string name="PS_1">Nama Pondok Pesantren</string>
+    <string name="PS_2">Alamat</string>
+    <string name="PS_3">Nama Pengelola</string>
+    <string name="PS_4">Jumlah santri</string>
+
+    <string name="PS_A">A. UMUM</string>
+    <string name="PS_A1">1. Keadaan lingkungan sanitasi</string>
+    <string name="PS_A1a">a. selalu dalam keadaan bersih dan tersedia sarana sanitasi yang memadai</string>
+    <string name="PS_A2">2. Keadaan lingkungan terhadap vektor</string>
+    <string name="PS_A2a">a. Tidak memungkinkan sebagai tempat bersarang dan berkembang biaknya serangga binatang pengerat dan binatang pengganggu lainnya</string>
+    <string name="PS_A3">3. Keadaan Bangunan</string>
+    <string name="PS_A3a">a. Kuat utuh terpelihara mudah dibersihkan dan dapat mencegah penularan penyakit dan kecelakaan</string>
+
+    <string name="PS_B">B. KONSTRUKSI</string>
+    <string name="PS_B4">4. Lantai</string>
+    <string name="PS_B4a">a. Terbuat dari bahan yang kuat, kedap air, permukaan rata, tidak licin dan mudah dibersihkan.</string>
+    <string name="PS_B4b">b. Lantai yang selalu kontak dengan air mempunyai kemiringan yang cukup  (2 hingga 3 persen)  kearah saluran pembuangan air limbah.</string>
+    <string name="PS_B5">5. Dinding</string>
+    <string name="PS_B5a">a. Permukaan harus rata berwarna terang dan mudah dibersihkan.</string>
+    <string name="PS_B5b">b. Permukaan dinding yang selalu terkena percikan air terbuat dari bahan yang kuat dan kedap air.</string>
+    <string name="PS_B6">6. Lubang Penghawaan</string>
+    <string name="PS_B6a">a. Pergantian udara didalam kamar/ruang dengan baik, luas lubang penghawaan antara 5 hingga 15  persen dari luas lantai dan kentinggian minimal 2,10 m dari lantai.</string>
+    <string name="PS_B6b">b. Bila tidak ada lubang hawa dilengkapi dengan penghawaan mekanis.</string>
+    <string name="PS_B7">7. Atap</string>
+    <string name="PS_B7a">a. Kuat, tidak bocor dan tidak menjadi perindukan serangga dan tikus. </string>
+    <string name="PS_B8">8. Langit-langit</string>
+    <string name="PS_B8a">a. Kuat, berwarna terang dan mudah dibersihkan </string>
+    <string name="PS_B8b">b. Tinggi dari lantai minimal 2,5m</string>
+    <string name="PS_B9">9. Pintu</string>
+    <string name="PS_B9a">a. Kuat , dapat mencegah masuknya serangga tikus dan binatang penganggu lainnya.</string>
+    <string name="PS_B9b">b. Ruang dapur harus menggunakan pintu yangdapat membuka yang menutup sendiri atau harus dilengkapi dengan peganggan yang mudah dibersihkan.</string>
+    <string name="PS_B10">10. Jaringan Instalasi</string>
+    <string name="PS_B10a">a. Pemasangan jaringan instalasi air minum, air limbah , gas listrik , sistem sarana komunikasi dll harus rapih aman dan terlindungi</string>
+
+    <string name="PS_C">C. RUANG TIDUR</string>
+    <string name="PS_C11">11. Kebersihan ruang</string>
+    <string name="PS_C11a">a. Bersih dan mudah dibersihkan , tersedia tempat sampah sesuai dengan jenis sampahnya,serta tersedia fasilitas sanitasi sesuai kebutuhan</string>
+    <string name="PS_C12">12. Ruang Tidur</string>
+    <string name="PS_C12a">a. Perbandingan jumlah tempat tidur dengan luas lantai min 3 m persegi pertempat tidur ( 1,5m x 2m )</string>
+    <string name="PS_C13">13. Pencahayaan</string>
+    <string name="PS_C13a">a. Didalam lingkungan ponpres baik didalam maupun diluar ruangan harus mendapatkan pencahayaan memadai.</string>
+    <string name="PS_C14">14. Udara</string>
+    <string name="PS_C14a">a. Mutu udara harus memenuhi kesyaratan : tidak berbau, tidak berdebu</string>
+
+    <string name="PS_D">D. PERSYARATAN KESEHATAN FASILITAS SANITASI</string>
+    <string name="PS_D15">15. Penyediaan Air Minum</string>
+    <string name="PS_D15a">a. Kualitas : tersedia air bersih yang memenuhi syarat kesehatan </string>
+    <string name="PS_D15b">b. Kuantitas : tersedia air bersih min 60l/tt/hari</string>
+    <string name="PS_D15c">c. Kontinuitas : air minum dan air bersih tersedia pada setiap tempat kegiatan yang membutuhkan secara berkesinambungan</string>
+    <string name="PS_D16">16. Toilet dan Kamar Mandi</string>
+    <string name="PS_D16a">a. Toilet selalu keadaan bersih.</string>
+    <string name="PS_D16b">b. Lantai terbuat dari bahan yang kuat, kedap air, tidak licin, berwarna terang dan mudah dibersihkan.</string>
+    <string name="PS_D16c">c. Ada pembuangan air limbah dari toilet dan kamar mandi dilengkapi dengan penahan bau ( water seal ).</string>
+    <string name="PS_D16d">d. Letak toilet dan kamar mandi tidak berhubungan langsung  dengan tempat pengelolaan makanan ( dapur,ruang makan)</string>
+    <string name="PS_D16e">e. Lubang penghawaan harus berhubungan langsung dengan udara luar.</string>
+    <string name="PS_D16f">f. Toilet dan kamar mandi karyawan harus terpisah dengan toilet santri.</string>
+    <string name="PS_D16g">g. Tidak terdapat tempat penampungan atau genangan air yang dapat menjadi tempat perindukan serangga dan binatang pengerat.</string>
+    <string name="PS_D16h">h. Perbandingan jumlah jamban  santri dan kamar mandi adalah 15 santri 1 jamban 1 kamar mandi ( setiap penambahan 25 tempat tidur harus ditambah 1 jamban dan 1 kamar mandi.</string>
+    <string name="PS_D17">17. Pengelolaan Sampah</string>
+    <string name="PS_D17a">a. Tersedia tempat sampah yang dilengkapi dengan penutup.</string>
+    <string name="PS_D17b">b. Tempat sampah terbuat dari bahan kuat,tahan karat, permukaan bagian dalam rata/licin.</string>
+    <string name="PS_D17c">c. Tempat sampah di kosongkan 1x 24 jam atau apabila 2/3 bagian telah terisi penuh.</string>
+    <string name="PS_D17d">d. Tempat sampah harus di sediakan minimal 1 buah untuk setiap radios 10 m dan setiap jarak 20m pada ruang tunggu dan ruang terbuka.</string>
+    <string name="PS_D17e">e. Tersedia tempat pembuangan sampah sementara yang mudah dikosongkan,tidak terbuat dari beton permanen tempat lokasi yang mudah dijangkau kendaraan pengangkut sampah dan harus dikosongkan skurang kurangnya 3x 24 jam.</string>
+    <string name="PS_D17f">f. Air limbah yang dibuang kelingkungan harus memenuhi baku mutu air limbah sesuai peraturan perundang undangan yang berlaku</string>
+    <string name="PS_D18">18 Pengelolaan Air Limbah</string>
+    <string name="PS_D18a">a. Ponpres harus memiliki sistim pengelolaan air limbah sendiri yang memenuhi syaratan teknis apabila belum ada atau tidak terjangkau oleh sistim pengelolaah air limbah.</string>
+
+    <string name="PS_E">E. PERSYARATAN PENGELOLAAN MAKANAN/MINUMAN</string>
+    <string name="PS_E19">19. Dapur, Ruang Makan dan Gudang</string>
+    <string name="PS_E19a">a. Luas dapur min 40 persen dari ruang makan.</string>
+    <string name="PS_E19b">b. Penghawaan dilengkapi dengan pengeluaran udara panas mau pun bau bauan (exhauser) yang dipasang  2 m dari lantai.</string>
+    <string name="PS_E19c">c. Tungku dapur dilengkapi dengan sungkup asap ( hood ).</string>
+    <string name="PS_E19d">d. Pertukaran udara diusahakan dengan fentillasi yang dapat menjamin kenyamanan menghilangkan debu dan asap.</string>
+    <string name="PS_E20">20. Bahan Makanan/Minuman</string>
+    <string name="PS_E20a">a. Bahan makanan yang diolah dalam keadaan baik tidak rusak dan berubah bentuk warna dan rasa.\n
+        b. Bahan terolah harus dikemas dan bahan tambahan memenuhi persyaratan kesehatan.</string>
+    <string name="PS_E20b">b. Bahan terolah harus dikemas dan bahan tambahan memenuhi persyaratan kesehatan.</string>
+    <string name="PS_E21">21. Peralatan Memasak dan Peralatan Makan/Minum</string>
+    <string name="PS_E21a">a. Permukaan harus mudah dibersihkan.</string>
+    <string name="PS_E21b">b. Tidak terbuat dari bahan yang mengandung timah hitam, lembaga, seng, kadmium, arsenikum, dan antimon.</string>
+    <string name="PS_E21c">c. Kebersihan alat persenti meter persegi permukaan dan tidak ditemukan kuman E.coli.</string>
+    <string name="PS_E21d">d. Tempat penyimpanan alat-alat terlindung dan tidak lembab.</string>
+    <string name="PS_E22">22. Makanan Jadi</string>
+    <string name="PS_E22a">a. Makanan jadi tidak rusak busuk atau basi.</string>
+    <string name="PS_E22b">b. Memenuhi persyaratan bakterilogis berdasarkan ketentuan yang belak.</string>
+    <string name="PS_E22c">c. Tidak ditemukan kuman E coli</string>
+    <string name="PS_E22d">d. Kandungan logam berat dan residu pestisida tidak melibihi baku mutu yang berlaku.</string>
+    <string name="PS_E22e">e. Terlindung dari debu , bahan kimia berbahaya , serangga dan hewan.</string>
+    <string name="PS_E22f">f. Penyimpanan makanan yang tidak busuk pada suhu 4 °C , sedangkan pada makanan yang cepat busuk  dalam suhu 5 - (-1)°C</string>
+    <!--PESANTREN FINISH-->
+
+    <!--PUSKESMAS START-->
+    <string name="PM_1">Nama Puskesmas</string>
+    <string name="PM_2">Alamat</string>
+    <string name="PM_3">Kota</string>
+    <string name="PM_4">Nama Pimpinan</string>
+
+    <string name="PM_A">A. BAGUNAN LUAR	</string>
+    <string name="PM_A1">1. Pagar</string>
+    <string name="PM_A1a">a. Adanya pagar lingkungan yang membatasi masyarakat dengan bangunan puskesmas.</string>
+    <string name="PM_A1b">b. Pagar kuat dan bersih.</string>
+    <string name="PM_A1c">c. Tidak ada bagian pagar yang rusak.</string>
+    <string name="PM_A1d">d. Adanya pintu masuk/keluar</string>
+    <string name="PM_A2">2. Halaman (taman, jalan dan tempat parkir)</string>
+    <string name="PM_A2a">a. Adanya taman</string>
+    <string name="PM_A2b">b. Adanya tempat parkir</string>
+    <string name="PM_A2c">c. Halaman, taman, tempat parkir tampak bersih</string>
+    <string name="PM_A2d">d. Taman dipelihara dan tampak rapi</string>
+    <string name="PM_A2e">e. Tersedia tempat sampah</string>
+    <string name="PM_A3">3. Teras</string>
+    <string name="PM_A3a">a. Teras lantai tidak retak</string>
+    <string name="PM_A3b">b. Bersih</string>
+    <string name="PM_A3c">c. Kedap air</string>
+    <string name="PM_A3d">d. Mudah dibersihkan</string>
+    <string name="PM_A4">4. Dinding luar bangunan</string>
+    <string name="PM_A4a">a. Tidak retak</string>
+    <string name="PM_A4b">b. Permukaan rata</string>
+    <string name="PM_A4c">c. Berwarna terang (putih/PMem)</string>
+    <string name="PM_A4d">d. Bersih dari noda/coretan</string>
+    <string name="PM_A5">5. Atap dan Langit-langit</string>
+    <string name="PM_A5a">a. Atap tidak bocor</string>
+    <string name="PM_A5b">b. Tinggi langit-langit minimal 2,5m dari lantai</string>
+    <string name="PM_A5c">c. Mudah dibersihkan</string>
+    <string name="PM_A5d">d. Tidak retak</string>
+    <string name="PM_A5e">e. Cat tidak mengelupas</string>
+    <string name="PM_A6">6. Saluran Buangan Air Hujan</string>
+    <string name="PM_A6a">a. Kondisi sarana baik</string>
+    <string name="PM_A6b">b. Tidak tergenang air</string>
+    <string name="PM_A6c">c. Disalurkan melalui saluran tertutup</string>
+
+
+    <string name="PM_B">B. SARANA FASILITAS SANTASI</string>
+    <string name="PM_B7">7. Penyediaan Air</string>
+    <string name="PM_B7a">a. Tersedia air bersih dalam jumlah yang cukup</string>
+    <string name="PM_B7b">b. Memenuhi syarat kualitas air bersih</string>
+    <string name="PM_B7c">c. Distribusi air menggunakan perpipaan</string>
+    <string name="PM_B7d">d. Tersedia bak cuci tangan pada unit pelayanan pemeriksaan KIA-KB, ruang gigi, laboratorium</string>
+    <string name="PM_B8">8. Jamban / Kamar mandia.</string>
+    <string name="PM_B8a">a. Tersedianya kamar mandi dan WC untuk karyawan (1:10)</string>
+    <string name="PM_B8b">b. Kamar mandi dan kakus karyawan pria dan wanita terpisah</string>
+    <string name="PM_B8c">c. Tersedia kamar mandi dan kakus pengunjung</string>
+    <string name="PM_B8d">d. Bersih, tidak bau</string>
+    <string name="PM_B8e">e. Saluran pembuangan air limbah di buang ke septic tank</string>
+    <string name="PM_B8f">f. Rasio kamar mandi dan kakus dengan tempat tidur (1:5) - (khusus puskesmas perawatan) </string>
+    <string name="PM_B9">9. SPAL</string>
+    <string name="PM_B9a">a. Adanya saluran SPAL</string>
+    <string name="PM_B9b">b. Berfungsi</string>
+    <string name="PM_B9c">c. Air kotor dari kamar mandi dan ruangan-ruangan pelayanan dialirkan ke SPAL</string>
+    <string name="PM_B9d">d. Saluran air limbah tertutup</string>
+    <string name="PM_B9e">e. Kedap air</string>
+    <string name="PM_B10">10. Sampah</string>
+    <string name="PM_B10a">a. Adanya tempat sampah di ruang pelayanan</string>
+    <string name="PM_B10b">b. Tempat sampah kedap air</string>
+    <string name="PM_B10c">c. Adanya pemisahan sampah infeksius dan non infeksius</string>
+    <string name="PM_B10d">d. Pengosongan sampah setiap hari (1x24 jam)</string>
+    <string name="PM_B10e">e. Penanganan sampah infeksius menggunakan panas tinggi / MOU dg pihak ke tiga</string>
+    <string name="PM_B11">11. Wastafel</string>
+    <string name="PM_B11a">a. Tersedia wastafel</string>
+    <string name="PM_B11b">b. Berfungsi dengan baik</string>
+    <string name="PM_B11c">c. Tersedia pada pelayanan KIA-KB, Lab, Poli gigi, ruang perawatan</string>
+    <string name="PM_B11d">d. Tersedia zat anti septik</string>
+    <string name="PM_B11e">e. Ada lap pengering</string>
+    <!--PUSKESMAS FINISH-->
+
+    <!-- HOTEL START-->
+    <string name="HTL_1">Nama Hotel</string>
+    <string name="HTL_2">Alamat Hotel</string>
+    <string name="HTL_3">No.Telelpon </string>
+    <string name="HTL_4">Nama Pimpinan</string>
+    <string name="HTL_5">Jumlah Karyawan</string>
+    <string name="HTL_6">Nomor izin usaha</string>
+
+    <string name="HTL_i">PERSYARATAN KESEHATAN LINGKUNGAN DAN BANGUNAN</string>
+    <string name="HTL_i_A">MUM</string>
+    <string name="HTL_i_A1">Lokasi</string>
+    <string name="HTL_i_A1_a">Terhindar dari Pencemaran Kimia</string>
+    <string name="HTL_i_A1_b">Terhindar dari Pencemaran Fisika</string>
+    <string name="HTL_i_A1_c">Terhindar dari Pencemaran Bakteri</string>
+    <string name="HTL_i_A1_d">Tidak terletak didaerah banjir</string>
+
+    <string name="HTL_i_A2">Lingkungan</string>
+    <string name="HTL_i_A2_a">Bersih</string>
+    <string name="HTL_i_A2_b">Tidak memungkinkan sebagai tempat bersarang/ berkembang biak serangga dan tikus</string>
+    <string name="HTL_i_A2_c">dapat menegah masuknya dan berkembang biak binatang pengganggu lain</string>
+    <string name="HTL_i_A2_d">Berpagar Kuat</string>
+
+    <string name="HTL_i_A3">Bangunan</string>
+    <string name="HTL_i_A3_a">Kokoh / Kuat</string>
+    <string name="HTL_i_A3_b">Tidak memungkinkan sebagai tempat bersarang/ berkembang biak serangga dan tikus</string>
+
+    <string name="HTL_i_B">PENGGUNAAN RUANG</string>
+    <string name="HTL_i_B4">Pembagian Ruang</string>
+    <string name="HTL_i_B4_a">Dipergunakan sesuai fungsinya</string>
+
+    <string name="HTL_i_C">KONTRUKSI</string>
+    <string name="HTL_i_C5">Lantai</string>
+    <string name="HTL_i_C5_a">Bersih</string>
+    <string name="HTL_i_C5_b">Bahan kuat, Kedap air, permukaan rata</string>
+    <string name="HTL_i_C5_c">Tidak Licin</string>
+    <string name="HTL_i_C5_d">yang selalu kontak dengan air tidak memungkinkan terjadinya genangan air (miring kearah saluran pembuangan)</string>
+
+    <string name="HTL_i_C6">Dinding</string>
+    <string name="HTL_i_C6_a">Bersih</string>
+    <string name="HTL_i_C6_b">Permukaan yang selalu kontak dengan  air , kedap air</string>
+    <string name="HTL_i_C6_c">Permukaan bagian dalam mudah dibersihkan</string>
+    <string name="HTL_i_C6_d">Berwarna terang</string>
+
+    <string name="HTL_i_C7">Atap</string>
+    <string name="HTL_i_C7_a">Tidak Bocor / Kuat</string>
+    <string name="HTL_i_C7_b">Tidak memungkinkan terjadinya genangan air</string>
+
+    <string name="HTL_i_C8">Langit  hingga  langit</string>
+    <string name="HTL_i_C8_a">Tinggi dari lantai minimal 2,5 m</string>
+    <string name="HTL_i_C8_b">Bersih</string>
+
+    <string name="HTL_i_C9">Pintu</string>
+    <string name="HTL_i_C9_a">Dapat  dibuka, ditutup / dikunci dengan baik</string>
+    <string name="HTL_i_C9_b">Dapat mencegah masuknya binatang penganggu</string>
+
+    <string name="HTL_i_C10">Pencahayaan</string>
+    <string name="HTL_i_C10_a">Ruang untuk kegiatan dengan risiko kecelakaan tinggi lebih dari 300 lux</string>
+    <string name="HTL_i_C10_b">Ruang Tamu lebih dari 60 lux</string>
+    <string name="HTL_i_C10_c">Ruang Tidur 5 lux</string>
+    <string name="HTL_i_C10_d">Lampu baca  100 lux</string>
+    <string name="HTL_i_C10_e">Ruang relaxs lebih dari 30 lux</string>
+
+    <string name="HTL_ii">PERSYARATAN KESEHATAN KAMAR RUANG</string>
+    <string name="HTL_ii_A">UMUM</string>
+    <string name="HTL_ii_A11">Kondisi ruang</string>
+    <string name="HTL_ii_A11_a">Tidak pengap</string>
+    <string name="HTL_ii_A11_b">Bebas kuman alpha streptococcus haemoliticus dan kuman phatogen</string>
+    <string name="HTL_ii_A11_c">Tidak berbau (H2S dan Amoniak)</string>
+    <string name="HTL_ii_A11_d">Kadar gas beracun tidak melampaui ambang batas</string>
+    <string name="HTL_ii_A11_e">Tingkat kebisingan tidak melebihi persyaratan (kamar tidur kurang dari 40dBA,Kantor kurang dari 75dBA, dapur kurang dari 80dBA, ruang pertunjukan kurang dari 90dBA</string>
+
+    <string name="HTL_ii_B">KHUSUS</string>
+    <string name="HTL_ii_B12">Kamar tidur</string>
+    <string name="HTL_ii_B12_a">Bersih</string>
+    <string name="HTL_ii_B12_b">Luas Minimal (Bintang 1 = 20 m2, Bintang 2 = 22 m2, Bintang 3 = 22 m2, Bintang 4 = 24 m2, Bintang 4 = 26 m2)</string>
+    <string name="HTL_ii_B12_c">Peralatan ditata rapih</string>
+    <string name="HTL_ii_B12_d">Suhu 18 hingga 280C</string>
+    <string name="HTL_ii_B12_e">Kelembaban 40 hingga 70 persen</string>
+    <string name="HTL_ii_B12_f">Dinding pintu, jendela, dll yg tembus pandang /cahaya dilengkapi tirai</string>
+
+    <string name="HTL_ii_B13">Ruang Istirahat Karyawan</string>
+    <string name="HTL_ii_B13_a">Bersih</string>
+    <string name="HTL_ii_B13_b">Tersedia jamban, kamar mandi dan peturasan yang terpisah  untuk karyawan pria dan karyawan wanita</string>
+    <string name="HTL_ii_B13_c">Ruang istirahat karyawanpria terpisah dari ruang karyawan wanita</string>
+    <string name="HTL_ii_B13_d">Tersedia lemari / locker</string>
+
+    <string name="HTL_ii_B14">amar mandi, Jamban dan peturasan</string>
+    <string name="HTL_ii_B14_a">Bersih</string>
+    <string name="HTL_ii_B14_b">Aliran air limbah lancar</string>
+    <string name="HTL_ii_B14_c">Sarana pembuangan air limbah kedap air dan tertutup</string>
+    <string name="HTL_ii_B14_d">Perbandingan jumlah karyawan dengan minimal kamar mandi, jamban dan peturasan</string>
+    <string name="HTL_ii_B14_e">Untuk Karyawan Pria : (1 s/d 25 karyawan tersedia 2 kamar mandi, 1 peturasan | 26 s/d 50 karyawan tersedia 3 kamar mandi, 2 jamban, 3 peturasan	| s/d 100 karyawan tersedia 5 kamar mandi, 3 jamban, 5 peturasan)</string>
+    <string name="HTL_ii_B14_f">Untuk Karyawan Wanita :	(1 s/d  20 karyawan tersedia 2 kamar, 1 jamban | 21 s/d 40 karyawan tersedia 2 kamar mandi, 2 jamban | 41 s/d 70 karyawan tersedia 3 kamar mandi, 3 jamban)</string>
+
+    <string name="HTL_ii_B15">Kamar lena</string>
+    <string name="HTL_ii_B15_a">Bersih</string>
+    <string name="HTL_ii_B15_b">Udara ruang segar</string>
+    <string name="HTL_ii_B15_c">Tersedia lemari tertutup</string>
+
+    <string name="HTL_ii_B16">Ruang cuci</string>
+    <string name="HTL_ii_B16_a">Bersih</string>
+    <string name="HTL_ii_B16_b">Tidak memungkinkan tercampurnya lena bersih dan lena kotor</string>
+    <string name="HTL_ii_B16_c">Lantai tidak Kotor</string>
+
+    <string name="HTL_ii_B17">Gudang</string>
+    <string name="HTL_ii_B17_a">Bersih</string>
+    <string name="HTL_ii_B17_b">Gudang bahan makanan, bahan berbahaya, alat kantor, alat rumah tangga,dll terpisah satu sama lain</string>
+    <string name="HTL_ii_B17_c">Barang yg disimpan tertata rapih</string>
+    <string name="HTL_ii_B17_d">Dilengkapi rak</string>
+    <string name="HTL_ii_B17_e">Tinggi dari lantai  hingga 20 cm</string>
+
+    <string name="HTL_iii">PERSYARATAN KESEHATAN FASILITAS SANITASI</string>
+    <string name="HTL_iii_18">Kualitas air</string>
+    <string name="HTL_iii_18_a">Memenuhi syarat fisik</string>
+    <string name="HTL_iii_18_b">Memenuhi syarat kimia</string>
+    <string name="HTL_iii_18_c">Memenuhi syarat biologi</string>
+    <string name="HTL_iii_18_d">Memenuhi syarat radio aktifitas</string>
+
+    <string name="HTL_iii_19">Kuantitas air</string>
+    <string name="HTL_iii_19_a">Untuk hotel bintang 4 dan 5 ketersediaan air minimal 750L/hari/tt, Untuk hotel bintang 3 tersedia air minimal 500L/hari/tt, Untuk hotel bintang 2 tersedia air minimal 300L/hari/tt, Untuk hotel bintang 1 tersedia aiir minimal 150L/hari/tt</string>
+    <string name="HTL_iii_19_b">Air tersedia ada setiap hari secara berkesinambungan</string>
+    <string name="HTL_iii_19_c">Distribusi air menggunakan sistem perpipaan</string>
+    <string name="HTL_iii_19_d">Terhindar dari cemaran silang</string>
+
+    <string name="HTL_iii_20">Pembuangan air limbah</string>
+    <string name="HTL_iii_20_a">Memiliki sarana pengelolaan air limbah</string>
+    <string name="HTL_iii_20_b">Air limbah mengalir dengan lancar</string>
+    <string name="HTL_iii_20_c">Saluran air limbah dengan sistim tertutup</string>
+    <string name="HTL_iii_20_d">Saluran air limbah kedap air</string>
+
+    <string name="HTL_iii_21">Toilet untuk umum</string>
+    <string name="HTL_iii_21_a">Bersih dan tidak berbuih</string>
+    <string name="HTL_iii_21_b">Letaknya tidak berhubungan lansung dengan dapur, kamar tidur dan ruang tamu</string>
+    <string name="HTL_iii_21_c">Lantai kedap air, tidak licin, lantai miring ke arah saluran pembuangan</string>
+    <string name="HTL_iii_21_d">Toilet untuk pria terpisah dengan toilet wanita</string>
+
+    <string name="HTL_iii_22">Kamar mandi dan jamban untuk penghuni/tamu yg menginap penghuni/tamu yg menginap</string>
+    <string name="HTL_iii_22_a">Bersih dan tidak bau</string>
+    <string name="HTL_iii_22_b">Letak tidak berhubungan langsung dengan dapur, kamar tidur, ruang tamu</string>
+    <string name="HTL_iii_22_c">Perbandingan jumlah kamar mandi dengan jamban dengan tempat tidur (didalam kamar tidur dilengkapi dengan kamar mandi dan jamban | lantai kedap air , mudah dibersihkan, kemiringan 2 hingga 3 persen kearah sluran pembuangan)</string>
+
+    <string name="HTL_iii_23">Pengelolaan sampah</string>
+    <string name="HTL_iii_23_A">Tempat sampah</string>
+    <string name="HTL_iii_23_A_1">Terbuat dari bahan yg kuat , ringan, bahan karat, dan kedap air</string>
+    <string name="HTL_iii_23_A_2">Permukaan bagian dalam halus dan rata</string>
+    <string name="HTL_iii_23_A_3">Mempunyai tutup yang mudah dibuka / ditutup tanpa mengotori tangan ditutup tanpa mengotori tangan</string>
+    <string name="HTL_iii_23_A_4">Jumlah dan volume tempat bsampah sesuai dengan produksi sampah perhari dengan produksi sampah perhari</string>
+    <string name="HTL_iii_23_A_5">Mudah diisi dan dikosongkan</string>
+    <string name="HTL_iii_23_A_6">Sampah dari tiap ruangan diangkut/ dikosongkan tiap hari</string>
+
+    <string name="HTL_iii_23_B">Tempat pengumpulan sampah sementara</string>
+    <string name="HTL_iii_23_B_1">Tidak permanen</string>
+    <string name="HTL_iii_23_B_2">Tidak menjadi tempat perindukan serangga dan binatang dan binatang</string>
+    <string name="HTL_iii_23_B_3">Mudah dijangkau oleh kendaraan pengangkut sampah</string>
+    <string name="HTL_iii_23_B_4">Frekuensi pengosongan/pengangkutan sampah min.3x4 jam</string>
+
+    <string name="HTL_iii_24">Peralatan pencegahan masuknya serangga dan tikus</string>
+    <string name="HTL_iii_24_a">Dilengkapi dengan alat yg dapat mencegah masuknya serangga dan tikus</string>
+    <string name="HTL_iii_24_b">Sarana penyimpanan harus tertutup dan bebas jentik nyamuk</string>
+
+    <string name="HTL_iv">KARYAWAN</string>
+    <string name="HTL_iv_25">Pakaian Kerja</string>
+    <string name="HTL_iv_25_a">Karyawan dilengkapi dengan pakaian kerja</string>
+    <string name="HTL_iv_25_b">Dipakai pada saat kerja</string>
+    <string name="HTL_iv_25_c">Bersih</string>
+    <string name="HTL_iv_25_d">Utuh / tidak sobek</string>
+
+    <string name="HTL_iv_26">Surat Keterangan Sehat dari dokter yg masih berlaku</string>
+    <string name="HTL_iv_26_a">80 hingga 100 persen jumlah karyawan memiliki</string>
+    <string name="HTL_iv_26_b">60 hingga 79 persen jumlah karyawan memiliki</string>
+    <string name="HTL_iv_26_c">40 hingga 59 persen jumlah karyawan memiliki</string>
+    <string name="HTL_iv_26_d">20 hingga 39 persen jumlah karyawan memiliki</string>
+    <string name="HTL_iv_26_e">1 hingga 19 persen jumlah karyawan memiliki</string>
+    <string name="HTL_iv_26_f">0  persen jumlah karyawan memiliki</string>
+
+    <string name="HTL_iv_27">Sertifikat kursus penyehatan makanan bagi petugas pengelolaan makanan</string>
+    <string name="HTL_iv_27_a">80 hingga 100 persen jumlah karyawan memiliki</string>
+    <string name="HTL_iv_27_b">60 hingga 79 persen jumlah karyawan memiliki</string>
+    <string name="HTL_iv_27_c">40 hingga 59 persen jumlah karyawan memiliki</string>
+    <string name="HTL_iv_27_d">20 hingga 39 persen jumlah karyawan memiliki</string>
+    <string name="HTL_iv_27_e">1 hingga  19 persen jumlah karyawan memiliki</string>
+    <string name="HTL_iv_27_f">0 persen jumlah karyawan memiliki</string>
+
+    <string name="HTL_iv_28">Pemeriksaan rectalswab bagi penjamah makanan</string>
+    <string name="HTL_iv_28_a">80 hingga 100 persen jumlah karyawan memiliki</string>
+    <string name="HTL_iv_28_b">60 hingga 79 persen jumlah karyawan memiliki</string>
+    <string name="HTL_iv_28_c">40 hingga 59 persen jumlah karyawan memiliki</string>
+    <string name="HTL_iv_28_d">20 hingga 39 persen jumlah karyawan memiliki</string>
+    <string name="HTL_iv_28_e">1 hingga  19 persen jumlah karyawan memiliki</string>
+    <string name="HTL_iv_28_f">0 persen jumlah karyawan memiliki</string>
+
+    <string name="HTL_v">PELAYANAN MAKANAN DAN MINUMAN</string>
+    <string name="HTL_v_29">Dapur</string>
+    <string name="HTL_v_29_1">diruang dapur minimal tersedia (Tempat pencucian peralatan, Tempat penyimpanan bahan makanan, Tempat pengolahan, Tempat persiapan, dan Tempat administrasi)</string>
+    <string name="HTL_v_29_2">Luas dapur sekuarang hingga kurangnya 40 persen dari ruang makan atau 27 persen luas bangunan</string>
+    <string name="HTL_v_29_3">Dilengkapi alat pengeluaran udara panas/banbanan</string>
+    <string name="HTL_v_29_4">Dilengkapi sungkup asap</string>
+    <string name="HTL_v_29_5">Tersedia fasilitas penyimpanan panas dan dingin</string>
+    <string name="HTL_v_29_6">Perlengkapan ruang makan selalu bersih</string>
+    <string name="HTL_v_29_7">Ukuran ruang cukup memadai (min.0,85 persen m2/kursi)</string>
+    <string name="HTL_v_29_8">Tempat peragaan makan jadi dapat menjamin tidak tercemarnya makanan</string>
+    <string name="HTL_v_29_9">Tersedia fasilitas cuci tangan</string>
+
+    <string name="HTL_v_30">Ruang makan</string>
+    <string name="HTL_v_30_1">Perlengkapan ruang makan selalu bersih</string>
+    <string name="HTL_v_30_2">Ukuran ruang cukup memadai (min.0,85 persen m2/kursi)</string>
+    <string name="HTL_v_30_3">Tempat Peragaan Makanan jadi dapat menjamin tidak tercemarnya makanan</string>
+    <string name="HTL_v_30_4">Tersedia fasilitas cuci tangan</string>
+
+    <string name="HTL_v_31">Bahan makanan dan makanan jadi</string>
+    <string name="HTL_v_31_1">Kondidi bahan makanan baik</string>
+    <string name="HTL_v_31_2">Kondisi makanan jadi baik</string>
+    <string name="HTL_v_31_3">Suhu penyimpanan dan penyajian makanan memenuhi syarat</string>
+    <string name="HTL_v_31_4">Cara penyimpanan dan penyajian makanan memenuhi syarat</string>
+
+    <string name="HTL_v_32">Peralatan dan perlengkapan</string>
+    <string name="HTL_v_32_1">sebelum dipergunakan dalam keadaan bersih</string>
+    <string name="HTL_v_32_2">Tahan karat dan tidak mengandung logam beracun</string>
+    <string name="HTL_v_32_3">Utuh tidak retak/gompal dan tidak memungkinkan sebagai tempat bersarang / berkembang biak kuman</string>
+    <!-- HOTEL FINISH-->
+
+    <!-- RUMAH SAKIT START-->
+    <string name="RS_1">NAMA RUMAH SAKIT</string>
+    <string name="RS_2">ALAMAT</string>
+    <string name="RS_3">KELAS RUMAH SAKIT</string>
+    <string name="RS_3a">A/B/C/D (RS Pemerintah, BUMN/BUMD)</string>
+    <string name="RS_3b">Utama/Madya/Pratama (RS Swasta)</string>
+    <string name="RS_3c">I/II/III/IV RS TNI</string>
+    <string name="RS_4">JUMLAH TEMPAT TIDUR (Buah)</string>
+
+    <string name="RS_A">KONSTRUKSI UMUM</string>
+    <string name="RS_A1">Lantai</string>
+    <string name="RS_A1_a">Kuat/utuh</string>
+    <string name="RS_A1_b">Bersih</string>
+    <string name="RS_A1_c">Pertemuan lantai dan dinding berbentuk konus</string>
+    <string name="RS_A1_d">Kedap air</string>
+    <string name="RS_A1_e">Rata</string>
+    <string name="RS_A1_f">Tidak licin</string>
+    <string name="RS_A1_g">Mudah dibersihkan</string>
+
+    <string name="RS_A2">Dinding</string>
+    <string name="RS_A2_a">Rata</string>
+    <string name="RS_A2_b">Bersih</string>
+    <string name="RS_A2_c">Berwarna terang</string>
+    <string name="RS_A2_d">Mudah dibersihkan</string>
+
+    <string name="RS_A3">Ventilasi</string>
+    <string name="RS_A3_1">Ventilasi  gabungan</string>
+    <string name="RS_A3_1_a">Ventilasi alam, lubang ventilasi minimum 15 persen x luas lantai</string>
+    <string name="RS_A3_1_b">Ventilasi mekanis (Fan,AC,Exhauter)</string>
+
+    <string name="RS_A3_2">Ventilasi alam</string>
+    <string name="RS_A3_2_a">Lubang ventilasi min.15 persen x luas lantai</string>
+
+    <string name="RS_A3_3">Ventilasi mekanis</string>
+    <string name="RS_A3_3_a">Fan, AC, Exhauter</string>
+
+    <string name="RS_A4">Atap</string>
+    <string name="RS_A4_a">Bebas serangga dan tikus</string>
+    <string name="RS_A4_b">Tidak bocor</string>
+    <string name="RS_A4_c">Berwarna terang</string>
+    <string name="RS_A4_d">Mudah dibersihkan</string>
+
+    <string name="RS_A5">Langit  hingga  langit</string>
+    <string name="RS_A5_a">Tinggi langit hingga langit min.2,7 m dari lantai</string>
+    <string name="RS_A5_b">Kuat</string>
+    <string name="RS_A5_c">Berwarna terang</string>
+    <string name="RS_A5_d">Mudah dibersihkan</string>
+
+    <string name="RS_A6">Konstruksi Balkon Beranda, dan talang</string>
+    <string name="RS_A6_a">Tidak ada genangan air</string>
+    <string name="RS_A6_b">Tidak ada jentik</string>
+    <string name="RS_A6_c">Mudah dibersihkan</string>
+
+    <string name="RS_A7">Pintu</string>
+    <string name="RS_A7_a">Dapat mencegah masuknya serangga dan tikus</string>
+    <string name="RS_A7_b">Kuat</string>
+
+    <string name="RS_A8">Pagar</string>
+    <string name="RS_A8_a">Aman</string>
+    <string name="RS_A8_b">Kuat</string>
+
+    <string name="RS_A9">Halaman taman dan tempat parkir</string>
+    <string name="RS_A9_a">Bersih</string>
+    <string name="RS_A9_b">Mampu menampung mobil karyawan dan pengunjung</string>
+    <string name="RS_A9_c">Tidak berdebu/becek</string>
+    <string name="RS_A9_d">Tersedia tempat sampah yang cukup</string>
+
+    <string name="RS_A10">Jaringan instalasi</string>
+    <string name="RS_A10_a">Aman (bebas cross connection)</string>
+    <string name="RS_A10_b">Terlindung</string>
+
+    <string name="RS_A11">Saluran air limbah</string>
+    <string name="RS_A11_a">Tertutup</string>
+    <string name="RS_A11_b">Aliran air lancar</string>
+
+    <string name="RS_B">RUANG BANGUNAN</string>
+    <string name="RS_B1">Ruang perawatan</string>
+    <string name="RS_B1_a">Ratio luas lantai dgn tempat tidur : (Dewasa : 4,5 m2/tt dan Anak/bayi : 2 m2/tt)</string>
+    <string name="RS_B1_b">Ratio tempat tidur dgn kamar mandi 1 hingga 10 tt/km</string>
+    <string name="RS_B1_c">Angka kuman maks.200 hingga 500 CFU/m3 udara</string>
+    <string name="RS_B1_d">Bebas serangga/tikus</string>
+    <string name="RS_B1_e">Kadar debu maks.150 ug/m3 udara</string>
+    <string name="RS_B1_f">Tidak berbau (terutama H2S dan NH3)</string>
+    <string name="RS_B1_g">Pencahayaan 100 hingga 200 lux</string>
+    <string name="RS_B1_h">Suhu 220C  hingga  240C (dgn AC), apabilamenggunakan AC sentral cooling towernya tdk menjadi perindukan bakteri Ligionella atau suhu kamar (tanpa AC)</string>
+    <string name="RS_B1_i">Kelembaban 45 hingga 60 persen (dgn AC) atau suhu kamar</string>
+    <string name="RS_B1_j">Kebisingan kurang dari 45 dBA</string>
+
+    <string name="RS_B2">Lingkungan RS</string>
+    <string name="RS_B2_a">Kawasan bebas rokok</string>
+    <string name="RS_B2_b">Penerangan dgn intensitas cukup</string>
+    <string name="RS_B2_c">Saluran air limbah tertutup</string>
+    <string name="RS_B2_d">Saluran drainase lancar</string>
+
+    <string name="RS_B3">Ruang operasi</string>
+    <string name="RS_B3_a">Bebas kuman pathogen</string>
+    <string name="RS_B3_b">Angka kuman 10 CFU/m3 udara</string>
+    <string name="RS_B3_c">Dinding terbuat dari porselin/vinyl</string>
+    <string name="RS_B3_d">Pintu harus dalam keadaan tertutup</string>
+    <string name="RS_B3_e">Langit hingga langit tdk bercelah</string>
+    <string name="RS_B3_f">Ventilasi dg AC tersendiri dilengkapi filter bakteri</string>
+    <string name="RS_B3_g">Suhu 19oC  hingga  25oC</string>
+    <string name="RS_B3_h">Kelembaban 45  hingga  60  persen</string>
+    <string name="RS_B3_i">Pencahayaan ruang 300 hingga 500 lux</string>
+    <string name="RS_B3_j">Pencahayaan meja operasi 10.000  hingga  20.000 lux</string>
+    <string name="RS_B3_k">Tinggi langit hingga langit 2,7 hingga 3,3 m dari lantai</string>
+
+    <string name="RS_B4">Ruang laboratorium</string>
+    <string name="RS_B4_a">Dinding terbuat dari porselin/keramik setinggi 1,5m dari lantai</string>
+    <string name="RS_B4_b">Lantai dan meja kerja tahan terhadap bahan kimia getaran</string>
+    <string name="RS_B4_c">Dilengkapi dengan dapur kamar mandi dan toilet</string>
+    <string name="RS_B4_d">Tinggi langit hingga langit 2,7 hingga 3,3 m dari lantai</string>
+    <string name="RS_B4_e">Kebisingan kurang dari 68 dBA</string>
+
+    <string name="RS_B5">Ruang sterilisasi</string>
+    <string name="RS_B5_a">Pintu masuk terpisah dg pintu keluar</string>
+    <string name="RS_B5_b">Tersedia ruangan khusus</string>
+    <string name="RS_B5_c">Dinding terbuat dari porselin/keramik setinggi 1,5m dari lantai</string>
+
+    <string name="RS_B6">Ruang radiologi</string>
+    <string name="RS_B6_a">Dinding dan daun pintu dilapisi timah hitam</string>
+    <string name="RS_B6_b">Kaca jendela menggunakan kaca timah hitam</string>
+    <string name="RS_B6_c">Tinggi langit hingga langit 2,7 hingga 3,3 m dari lantai</string>
+    <string name="RS_B6_d">Hubungan dengan ruang gelap harus dg loket</string>
+
+    <string name="RS_B7">Ruang pendingin</string>
+    <string name="RS_B7_a">Suhu  hingga 10oC s/d +5oC</string>
+    <string name="RS_B7_b">Bebas tikus dan kecoa</string>
+    <string name="RS_B7_c">Dilengkapi rak untuk menyimpan makanan dgn tinggi 20 hingga 25 cm dr lantai</string>
+
+    <string name="RS_B8">Ruang mayat</string>
+    <string name="RS_B8_a">Dinding dilapisi porselin/keramik</string>
+    <string name="RS_B8_b">Terletak dekat dg bagian  pathologi/lab</string>
+    <string name="RS_B8_c">Jauh dari poliklinik/ruang pemeriksaan</string>
+    <string name="RS_B8_d">Mudah dicapai dari ruang perawatan, UGD dan ruang operasi</string>
+    <string name="RS_B8_e">Dilengkapi dg saluran pembuangan air limbah</string>
+    <string name="RS_B8_f">Dilengkapi dg ruang ganti pakaian petugas dan toilet</string>
+    <string name="RS_B8_g">Dilengkapi dg perlengkapan dan bahan pemilisan jenazah termasuk meja memandikan mayat</string>
+
+    <string name="RS_B9">Toilet dan kamar  mandi</string>
+    <string name="RS_B9_a">Ratio toilet/kamar mandi dg tempat tidur 1:15</string>
+    <string name="RS_B9_b">Toliet tersedia pada setiap unit/ruang khusus  untuk unit rawat inap dan karyawan harus tersedia kamar mandi</string>
+    <string name="RS_B9_c">Letak tdk berhubungan langsung dg dapur kamar operasi dan ruang khusus lainnya</string>
+    <string name="RS_B9_d">Saluran pembuangan air limbah dilengkapi dgn penahan bau (water seal)</string>
+    <string name="RS_B9_e">Lubang penghawaan hrs berhubungan langsung dgn udara luar</string>
+    <string name="RS_B9_f">Kamar mandi dan toilet untuk pria, wanita dan karyawan terpisah</string>
+
+    <string name="RS_C">PENYEHATAN MAK.DAN MINUMAN</string>
+    <string name="RS_C1">Bahan makanan dan makanan jadi</string>
+    <string name="RS_C1_a">Kondisi bahan makanan dan mak.jadi secara fisik memenuhi syarat</string>
+    <string name="RS_C1_b">Kondisi bahan makanan dan mak.jadi secara bakteriologis memenuhi syarat</string>
+
+    <string name="RS_C2">Tempat penyimpanan bahan makanan dan makanan jadi</string>
+    <string name="RS_C2_a">Makanan yg mudah membusuk disimpan pada  suhu > 56,5oC atau kurang dari 4oC</string>
+    <string name="RS_C2_b">Makanan yang akan disajikan >6 jam disimpan pd suhu  hingga 5oC s/d  hingga 1oC</string>
+    <string name="RS_C2_c">Bersih</string>
+    <string name="RS_C2_d">Terlindung dari debu</string>
+    <string name="RS_C2_e">Bebas gangguan serangga dan tikus</string>
+    <string name="RS_C2_f">Bahan makanan dan makanan jadi terpisah</string>
+
+    <string name="RS_C3">Penyajian makanan</string>
+    <string name="RS_C3_a">Menggunakan kereta dorong tertutup</string>
+    <string name="RS_C3_b">Tidak menyajikan makanan jadi yang sudah menginap</string>
+    <string name="RS_C3_c">Lalu lintas makanan jadi menggunakan jalur khusus</string>
+
+    <string name="RS_C4">Tempat pengolahan makanan (dapur)</string>
+    <string name="RS_C4_a">Lantai dapur sebelum dan sesudah kegiatan dibersihkan dg antiseptic</string>
+    <string name="RS_C4_b">Dilengkapi dgn sungkup dan cerobong asap</string>
+    <string name="RS_C4_c">Pencahayaan >200 lux</string>
+
+    <string name="RS_C5">Penjamah makanan</string>
+    <string name="RS_C5_a">Memiliki surat keterangan sehat yang berlaku</string>
+    <string name="RS_C5_b">Tidak berkuku panjang, koreng dan sejenisnya</string>
+    <string name="RS_C5_c">Menggunakan pakaian pelindung pengolahan makanan</string>
+    <string name="RS_C5_d">Selalu mggnkn peralatan dlm menjamah makanan jadi</string>
+    <string name="RS_C5_e">Berprilaku sehat selama berkerja</string>
+
+    <string name="RS_C6">Peralatan</string>
+    <string name="RS_C6_a">Sebelum digunakan dalam kondisi bersih</string>
+    <string name="RS_C6_b">Tahan karat dan tidak mengandung bahan beracun</string>
+    <string name="RS_C6_c">Utuh, tidak retak</string>
+    <string name="RS_C6_d">Dicuci dgn desinfektan atau dikeringkan dgn sinar matahari/pemanas  buatan dan tdk dibersihkan gdn kain
+</string>
+
+    <string name="RS_D">PENYEHATAN AIR</string>
+    <string name="RS_D1">Kuantitas</string>
+    <string name="RS_D1_a">Tersedia air bersih >500 lt/tt/hr dan tersedia air minum sesuai dg kebutuhan</string>
+    <string name="RS_D1_b">Air minum/bersih tersedia pd setiap tempat kegiatan</string>
+
+    <string name="RS_D2">Kualitas</string>
+    <string name="RS_D2_a">Bakteriologis</string>
+    <string name="RS_D2_b">Kimia</string>
+    <string name="RS_D2_c">Fisika</string>
+
+    <string name="RS_D3">Sarana</string>
+    <string name="RS_D3_a">Sumber air diolah</string>
+    <string name="RS_D3_b">Distribusi tidak bocor</string>
+    <string name="RS_D3_c">Penampungan tertutup</string>
+
+    <string name="RS_E">PENANGAN SAMPAH dan LIMBAH</string>
+    <string name="RS_E1">Pengelolaan limbah padat</string>
+    <string name="RS_E1_a">Pemusnahan limbah padat infeksius, citotoksis dan farmasi dgn incenerator (suhu > 1000 0C) Atau khusus untuk sampah infeksius dpt disteril dgn auto clave atau radiasi microwave sebelum  dibuang ke landfill</string>
+    <string name="RS_E1_b">Bagi yg tidak punya insenerator ada MoU antara RS  dan pihak yg melakukan pemusnahan limbah medis</string>
+    <string name="RS_E1_c">Tempat limbah padat kuat, tahan karat, kedap air, dg penutup, dan kantong plastik dg warna dan lambang sesuai pedoman. Min.1 buah tiap kamar atau  setiap radius 10 m dan radius 20 m pada ruang tunggu/terbuka</string>
+    <string name="RS_E1_d">Tempat pengumpulan dan penampungan limbah  padat sementara segera didesinfeksi stlh dikosongkan</string>
+    <string name="RS_E1_e">Diangkut ke TPS > 2 kali/hari dan ke TPA > 1 kl/hari</string>
+    <string name="RS_E1_f">Limbah domestik dibuang ke TPA yg ditetapkan Pemda</string>
+    <string name="RS_E1_g">Sampah radiokatif ditangani sesuai peraturan yang berlaku</string>
+
+    <string name="RS_E2">Penangan limbah cair</string>
+    <string name="RS_E2_a">Dilakukan pengolahan melalui IPAL</string>
+    <string name="RS_E2_b">Disalurkan melalui saluran tertutup, kedap air dan lancar</string>
+
+    <string name="RS_E3">Kualitas effluent yg dibuang ke dalam lingkungan</string>
+    <string name="RS_E3_a">Memenuhi persyaratan Kep.Men LH No.58 Tahun 1995</string>
+
+    <string name="RS_F">PENYEHATAN TEMPAT PENCUCIAN LINEN</string>
+    <string name="RS_F1">Terdapat kran air bersih dgn kapasitas, kualitas,  kuantitas dan tekanan yg memadai dan di sediakan kran air panas untuk desinfeksi awal</string>
+    <string name="RS_F2">Dilakukan pemilahan antara linen infeksius dan non infeksius</string>
+    <string name="RS_F3">Tersedia ruang pemisah antara barang bersih dan kotor</string>
+    <string name="RS_F4">Lokasi mudah dijangkau oleh kegiatan yg memerlukan dan jauh dari pasien serta tdk berada dijalan</string>
+    <string name="RS_F5">Lantai terbuat dari beton/plester yg kuat,rata,tidak licin dg kemiringan >2 hingga 3 persen</string>
+    <string name="RS_F6">Pencahayaan > 200 lux</string>
+    <string name="RS_F7">Terdapat sarana pengering untuk alat hingga alat sehabis di cuci</string>
+
+    <string name="RS_G">PENGENDALIAN SERANGGA dan TIKUS</string>
+    <string name="RS_G1">Fisik : (Konstruksi bangunan tempat penampungan air, penampungan sampah tdk memungkinkan sbg tempat berkembangbiak serangga dan tikus)</string>
+    <string name="RS_G2">Kimia : (Insektisida yang dipakai memiliki toksisitas rendah thd manusia dan tdk bersifat persisten)</string>
+
+    <string name="RS_H">DEKONTAMINASI MELALUI DESINFEKSI DAN STERILISASI</string>
+    <string name="RS_H1">Menggunakan peralatan sterilisasi uap (autoclave) /gas dg suhu sekitar +/ hingga 134oC atau, peralatan radiasi lombang mikro (mikrowave) atau dg cara lain yg mms</string>
+    <string name="RS_H2">Alat dan perlengkapan medis yg sudah disteril atau disimpan pd tempat khusus yg steril pula</string>
+    <string name="RS_H3">Alat dan perlengkapan medis yg sudah disteril atau didisinfeksi terlebih dahulu dibersihkan dari darah, jaringan tubuh dan sisa bahan lain</string>
+    <string name="RS_H4">Peralatan sterilisasi dikalibrasi min. sekali/tahun</string>
+    <string name="RS_H5">Ruang operasi yg telah dipakai harus dilakukan desinfeksi sebelum operasi berikutnya.</string>
+
+    <string name="RS_I">PENGAMANAN RADIASI</string>
+    <string name="RS_I1">Ada izin mengoperasikan peralatan yg memancarkan radiasi</string>
+    <string name="RS_I2">Dosis radiasi pengion terhadap pekerja dan masyarakat  tidak boleh melebihi NBD</string>
+    <string name="RS_I3">Ada sistem manajemen kesehatan dan keselamatan kerja pada pekerja dan masyarakat terhadap radiasi pengion,organisasi,peralatan proteksi,pemantauan dosis perorangan</string>
+    <string name="RS_I4">Instalasi dan gudang peralatan radiasi ditempatkan pada lokasi yg jauh dari tempat yang rawan kebakaran tempat berkumpul orang</string>
+    <string name="RS_I5">Tebal bahan perlindungan pada masing hingga 2 ruangan berdasarkan jenis dan energi radiasi serta sifat bahan pelindung sesuai peraturan yang berlaku</string>
+
+    <string name="RS_J">PENYULUHAN KESE HATAN LINGKUNGAN</string>
+    <string name="RS_J1">Dilakukan penyuluhan kesehatan secara langsung mau pun tidak langsung kepada:</string>
+    <string name="RS_J1_a">Karyawan medis/non mds</string>
+    <string name="RS_J1_b">Pasien</string>
+    <string name="RS_J1_c">Pedagang makanan dlm lingkungan RS</string>
+    <string name="RS_J1_d">Pengunjung</string>
+
+    <string name="RS_K">UNIT/SANITASI RS</string>
+    <string name="RS_K1">Dipimpin oleh tenaga teknis yg sudah mengikuti pelatihan sanitasi RS</string>
+    <string name="RS_K2">Dipimpin oleh tenaga teknis yg belum mengikuti pelatihan sanitasi RS</string>
+    <string name="RS_K3">Dipimpin oleh tenaga non teknis yg sudah mengikuti pelatihan sanitasi RS</string>
+
+    <!-- RUMAH SAKIT FINISH-->
+
+    <!--HOTEL MELATI START-->
+    <string name="HM_1">Nama Hotel </string>
+    <string name="HM_2">Alamat Hotel</string>
+    <string name="HM_3">No.Telelpon</string>
+    <string name="HM_4">Nama Pimpinan / Penanggung Jawab</string>
+    <string name="HM_5">Jumlah Karyawan</string>
+    <string name="HM_6">Nomor izin usaha</string>
+
+    <string name="HM_I">PERSYARATAN KESEHATAN LINGKUNGAN DAN BANGUNAN</string>
+    <string name="HM_A">UMUM</string>
+    <string name="HM_A_1">Lokasi</string>
+    <string name="HM_A_1a">Terhindar dari Pencemaran Kimia</string>
+    <string name="HM_A_1b">Terhindar dari Pencemaran Fisika</string>
+    <string name="HM_A_1c">Terhindar dari Pencemaran Bakteri</string>
+    <string name="HM_A_1d">Tidak terletak didaerah banjir</string>
+
+    <string name="HM_A_2">Lingkungan</string>
+    <string name="HM_A_2a">Bersih</string>
+    <string name="HM_A_2b">Tidak memungkinkan sebagai tempat bersarang/ berkembang biak serangga dan tikus</string>
+    <string name="HM_A_2c">dapat menegah masuknya dan berkembang biak binatang pengganggu lain</string>
+    <string name="HM_A_2d">Berpagar Kuat</string>
+
+    <string name="HM_A_3">Bangunan</string>
+    <string name="HM_A_3a">Kokoh / Kuat</string>
+    <string name="HM_A_3b">Tidak memungkinkan sebagai tempat bersarang/ berkembang biak serangga dan tikus</string>
+
+    <string name="HM_B">PENGGUNAAN RUANG</string>
+    <string name="HM_B_4">Pembagian Ruang</string>
+    <string name="HM_B_4a">Dipergunakan sesuai fungsinya</string>
+
+    <string name="HM_C">KONTRUKSI</string>
+    <string name="HM_C_5">Lantai</string>
+    <string name="HM_C_5a">Bersih</string>
+    <string name="HM_C_5b">Bahan kuat, Kedap air, permukaan rata</string>
+    <string name="HM_C_5c">Tidak Licin</string>
+    <string name="HM_C_5d">yang selalu kontak dengan air tidak memungkinkan terjadinya genangan air (miring kearah saluran pembuangan)</string>
+
+    <string name="HM_C_6">Dinding</string>
+    <string name="HM_C_6a">Bersih</string>
+    <string name="HM_C_6b">Permukaan yang selalu kontak dengan  air , kedap air</string>
+    <string name="HM_C_6c">Permukaan bagian dalam mudah dibersihkan</string>
+    <string name="HM_C_6d">Berwarna terang</string>
+
+    <string name="HM_C_7">Atap</string>
+    <string name="HM_C_7a">Tidak Bocor / Kuat</string>
+    <string name="HM_C_7b">Tidak memungkinkan terjadinya genangan air</string>
+
+    <string name="HM_C_8">Langit - langit</string>
+    <string name="HM_C_8a">Tinggi dari lantai minimal 2,5 m</string>
+    <string name="HM_C_8b">Bersih</string>
+
+    <string name="HM_C_9">Pintu</string>
+    <string name="HM_C_9a">Dapat  dibuka, ditutup / dikunci dengan baik</string>
+    <string name="HM_C_9b">Dapat mencegah masuknya binatang penganggu</string>
+
+    <string name="HM_C_10">Pencahayaan</string>
+    <string name="HM_C_10a">Ruang untuk kegiatan dengan risiko kecelakaan tinggi > 300 lux</string>
+    <string name="HM_C_10b">Ruang Tamu > 60 lux</string>
+    <string name="HM_C_10c">Ruang Tidur 5 lux</string>
+    <string name="HM_C_10d">Lampu baca  100 lux</string>
+    <string name="HM_C_10e">Ruang relaxs > 30 lux</string>
+
+    <string name="HM_II">PERSYARATAN KESEHATAN KAMAR RUANG</string>
+    <string name="HM_II_A">UMUM</string>
+    <string name="HM_II_A_11">Kondisi ruang</string>
+    <string name="HM_II_A_11a">Tidak pengap</string>
+    <string name="HM_II_A_11b">Bebas kuman alpha streptococcus haemoliticus dan kuman phatogen</string>
+    <string name="HM_II_A_11c">Tidak berbau (H2S dan Amoniak)</string>
+    <string name="HM_II_A_11d">Kadar gas beracun tidak melampaui ambang batas</string>
+    <string name="HM_II_A_11e">Tingkat kebisingan tidak melebihi persyaratan (kamar tidur kuran dari 40dBA,Kantor kurang dari 75dBA, dapur kurang dari 80dBA, ruang pertunjukan kurang dari 90dBA</string>
+
+    <string name="HM_II_B">KHUSUS</string>
+    <string name="HM_II_A_12">Kamar tidur</string>
+    <string name="HM_II_A_12a">Bersih</string>
+    <string name="HM_II_A_12b">Luas Minimal (Single bed 4,5 m2 dan Twin bed 8 m2)</string>
+    <string name="HM_II_A_12c">Dinding, pintu, jendela, dll yang tembus pandang/cahaya dilengkapi tirai</string>
+
+    <string name="HM_II_A_13">Ruang Istirahat Karyawan</string>
+    <string name="HM_II_A_13a">Bersih</string>
+    <string name="HM_II_A_13b">Tersedia jamban,kamar mandi dan peturasan yang terpisah untuk karyawan pria dan karyawan wanita</string>
+    <string name="HM_II_A_13c">Ruang istirahat karyawan pria terpisah dari ruang karyawan wanita</string>
+    <string name="HM_II_A_13d">Tersedia lemari locker</string>
+
+    <string name="HM_II_A_14">Kamar mandi, Jamban dan peturasan</string>
+    <string name="HM_II_A_14a">Bersih</string>
+    <string name="HM_II_A_14b">Aliran air limbah lancar</string>
+    <string name="HM_II_A_14c">Sarana pembuangan air limbah kedap air dan tertutup</string>
+    <string name="HM_II_A_14d">Perbandingan jumlah karyawan dengan minimal kamar mandi, jamban dan peturasan</string>
+    <string name="HM_II_A_14e">Untuk Karyawan Pria : (1 s/d 23 karyawan tersedia 2 kamar mandi, 1 peturasan | 26 s/d 50 karyawan tersedia 3 kamar mandi, 2 jamban, 3 peturasan | 51 s/d 100 karyawan tersedia 5 kamar mandi, 3 jamban, 5 peturasan)	</string>
+    <string name="HM_II_A_14f">Untuk Karyawan Wanita :	(1 s/d  20 karyawan tersedia 2 kamar, 1 jamban | 21 s/d 40 karyawan tersedia 2 kamar mandi, 2 jamban | 41 s/d 70 karyawan tersedia 3 kamar mandi, 3 jamban)</string>
+
+    <string name="HM_II_A_15">Kamar lena</string>
+    <string name="HM_II_A_15a">Bersih</string>
+    <string name="HM_II_A_15b">Udara ruang segar</string>
+    <string name="HM_II_A_15c">Tersedia lemari tertutup</string>
+
+    <string name="HM_II_A_16">Kamar cuci</string>
+    <string name="HM_II_A_16a">Bersih</string>
+    <string name="HM_II_A_16b">Tidak memungkinkan tercampurnya lena bersih dan lena kotor</string>
+    <string name="HM_II_A_16c">Lantai tidak kotor</string>
+
+    <string name="HM_II_A_17">Gudang</string>
+    <string name="HM_II_A_17a">Bersih</string>
+    <string name="HM_II_A_17b">Gudang bahan makanan, bahan berbahaya, alat kantor, alat rumah tangga,dll terpisah satu sama lain</string>
+    <string name="HM_II_A_17c">Barang yg disimpan tertata rapih</string>
+    <string name="HM_II_A_17d">Dilengkapi rak</string>
+    <string name="HM_II_A_17e">Tinggi rak dari lantai 20 cm</string>
+
+    <string name="HM_III">PERSYARATAN KESHATAN FASILITAS SANITASI</string>
+    <string name="HM_III_18">Kualitas air</string>
+    <string name="HM_III_18a">Memenuhi syarat fisik</string>
+    <string name="HM_III_18b">Memenuhi syarat kimia</string>
+    <string name="HM_III_18c">Memenuhi syarat biologi</string>
+    <string name="HM_III_18d">Memenuhi syarat radio aktifitas</string>
+
+    <string name="HM_III_19">Kuantitas air</string>
+    <string name="HM_III_19a">Tersedia air minimal 120l/hari/LL</string>
+    <string name="HM_III_19b">Air tersedia pada setiap tempat kegiatan secara berkesinambungan</string>
+
+    <string name="HM_III_20">Pembuangan air limbah</string>
+    <string name="HM_III_20a">Memiliki sarana pengelolaan air limbah</string>
+    <string name="HM_III_20b">Air limbah mengalir dengan lancar</string>
+    <string name="HM_III_20c">Saluran air limbah dengan sistim tertutup</string>
+    <string name="HM_III_20d">Saluran air limbah kedap air</string>
+
+    <string name="HM_III_21">Toilet untuk umum</string>
+    <string name="HM_III_21a">Bersih dan tidak berbuih</string>
+    <string name="HM_III_21b">Letaknya tidak berhubungan lansung dengan dapur, kamar tidur dan ruang tamu</string>
+    <string name="HM_III_21c">Lantai kedap air, tidak licin, lantai miring ke arah saluran pembuangan</string>
+    <string name="HM_III_21d">Toilet untuk pria terpisah dengan toilet wanita</string>
+
+    <string name="HM_III_22">Kamar mandi dan jamban untuk penghuni/tamu yg menginap</string>
+    <string name="HM_III_22a">Bersih dan tidak bau</string>
+    <string name="HM_III_22b">Letak tidak berhubungan langsung dengan dapur, kamar tidur, ruang tamu</string>
+    <string name="HM_III_22c">Perbandingan jumlah kamar mandi dengan jamban dengan tempat tidur</string>
+    <string name="HM_III_22d">Perbandingan jumlah kamar mandi dengan tempat tidur, minimal 1 kamar untuk setiap 1 s/d 10 kamar tidur. Perbandingan jamban dengan tempat tidur minimal : (1 s/d 6 T.T = 1 jamban | 7 s/d 14 T.T = 2 jamban | 15 s/d 24 T.T = 3 jamban | 25 s/d 36 T.T = 4 jamban | 37 s/d 48 T.T = 5 jamban | 49 s/d 60 T.T = 6 jamban)	</string>
+    <string name="HM_III_22e">lantai kedap air , mudah dibersihkan, kemiringan 2 hingga 3 persen kearah sluran pembuangan</string>
+
+    <string name="HM_III_23">Pengelolaan sampah</string>
+    <string name="HM_III_23A">Tempat sampah</string>
+    <string name="HM_III_23A_1">Terbuat dari bahan yg kuat , ringan, bahan karat, dan kedap air</string>
+    <string name="HM_III_23A_2">Permukaan bagian dalam halus dan rata</string>
+    <string name="HM_III_23A_3">Mempunyai tutup yang mudah dibuka / ditutup tanpa mengotori tangan</string>
+    <string name="HM_III_23A_4">Jumlah dan volume tempat bsampah sesuai dengan produksi sampah perhari</string>
+    <string name="HM_III_23A_5">Mudah diisi dan dikosongkan</string>
+    <string name="HM_III_23A_6">Sampah dari tiap ruangan diangkut/ dikosongkan tiap hari</string>
+
+    <string name="HM_III_23B">Tempat pengumpulan sampah sementara</string>
+    <string name="HM_III_23B_1">Tidak permanen</string>
+    <string name="HM_III_23B_2">Tidak menjadi tempat perindukan serangga dan binatang</string>
+    <string name="HM_III_23B_3">Mudah dijangkau oleh kendaraan pengangkut sampah</string>
+    <string name="HM_III_23B_4">Frekuensi pengosongan/pengangkutan sampah min.3x4 jam</string>
+
+    <string name="HM_III_23C">Peralatan pencegahan masuknya serangga dan tikus</string>
+    <string name="HM_III_23C_1">Dilengkapi dengan alat yg dapat mencegah masuknya serangga dan tikus</string>
+    <string name="HM_III_23C_2">Sarana penyimpanan harus tertutup dan bebas jentik nyamuk</string>
+
+    <string name="HM_III_24">Pakaian Kerja</string>
+    <string name="HM_III_24a">Karyawan dilengkapi dengan pakaian kerja</string>
+    <string name="HM_III_24b">Dipakai pada saat kerja</string>
+    <string name="HM_III_24c">Bersih</string>
+    <string name="HM_III_24d">Utuh / tidak sobek</string>
+
+    <string name="HM_III_25">Surat Keterangan Sehat dari dokter yg masih berlaku</string>
+    <string name="HM_III_25a">80 hingga 100 persen jumlah karyawan memiliki</string>
+    <string name="HM_III_25b">60 hingga 79 persen jumlah karyawan memiliki</string>
+    <string name="HM_III_25c">40 hingga 59 persen jumlah karyawan memiliki</string>
+    <string name="HM_III_25d">20 hingga 39 persen jumlah karyawan memiliki</string>
+    <string name="HM_III_25e">1 hingga 19 persen jumlah karyawan memiliki</string>
+    <string name="HM_III_25f">0  persen jumlah karyawan memiliki</string>
+
+    <!--HOTEL MELATI FINISH-->
+
+    <!--START KOLAM-->
+    <string name="KR_1">Nama Kolam Renang</string>
+    <string name="KR_2">Alamat</string>
+    <string name="KR_3">Nomor Telepon</string>
+    <string name="KR_4">Nama Pengelola</string>
+    <string name="KR_5">Jumlah Karyawan</string>
+    <string name="KR_6">No. Izin Usaha</string>
+
+    <string name="KR_I">I. PERSYARATAN KESEHATAN LINGKUNGAN DAN BANGUNAN</string>
+    <string name="KR_A">A. UMUM</string>
+    <string name="KR_A1">1. Lokasi</string>
+    <string name="KR_A1a">a. Terhindar dari pencemaran kimia</string>
+    <string name="KR_A1b">b. Terhindar dari pencemaran fisika</string>
+    <string name="KR_A1c">c. Terhindar dari pencemaran bakteri</string>
+    <string name="KR_A1d">d. Tidak terletak di daerah banjir</string>
+
+    <string name="KR_A2">2. Lingkungan</string>
+    <string name="KR_A2a">a. Bersih</string>
+    <string name="KR_A2b">b. Tidak memungkinkan sebagai tempat bersarang/ berkembang biak serangga dan tikus</string>
+    <string name="KR_A2c">c. Dapat mencegah masuk dan berkembang biak binatanfg pengganggu lain</string>
+    <string name="KR_A2d">d. Berpagar kuat</string>
+
+    <string name="KR_A3">3. Bangunan</string>
+    <string name="KR_A3a">a. Kokoh/ kuat</string>
+    <string name="KR_A3b">b. Tidak memungkinkan sebagai tempat berkembang biaknya serangga dan tikus</string>
+
+    <string name="KR_Bi">B. PENGGUNAAN RUANG</string>
+    <string name="KR_B4">4. Pembagian Ruang</string>
+    <string name="KR_B4a">a. Dipergunakan sesuai fungsinya</string>
+
+    <string name="KR_C">C. KONSTRUKSI</string>
+    <string name="KR_C5">5. Lantai</string>
+    <string name="KR_C5a">a. Bersih</string>
+    <string name="KR_C5b">b. Bahan kuat, kedap air, permukaan rata</string>
+    <string name="KR_C5c">c. Tidak licin</string>
+    <string name="KR_C5d">d. Yang selalu kontak dengan air tidak memungkinkan terjadinya genangan air (miring kearah saluran pembuangan)</string>
+
+    <string name="KR_C6">6. Dinding</string>
+    <string name="KR_C6a">a. Bersih</string>
+    <string name="KR_C6b">b. Permukaan yang selalu kontak dengan air, kedap air</string>
+    <string name="KR_C6c">c. Permukaan bagian dalam mudah dibersihkan</string>
+    <string name="KR_C6d">d. Berwarna terang</string>
+
+    <string name="KR_C7">7. Atap</string>
+    <string name="KR_C7a">a. Tidak bocor/kuat</string>
+    <string name="KR_C7b">b. Tidak memungkinkan terjadinya genangan air</string>
+
+    <string name="KR_C8">8. Langit-langit</string>
+    <string name="KR_C8a">a. Tinggi dari lantai minimal 2,5m</string>
+    <string name="KR_C8b">b. Bersih</string>
+
+    <string name="KR_C9">9. Pintu</string>
+    <string name="KR_C9a">a. Dapat dibuka, ditutup/ dikunci dengan baik</string>
+    <string name="KR_C9b">b. Dapat mencegah masuknya binatang penggangu</string>
+
+    <string name="KR_C10">10. Pencahayaan</string>
+    <string name="KR_C10a">a. Cukup terang pada setiap ruang</string>
+    <string name="KR_C10b">b. Tidak menimbulkan silau</string>
+
+    <string name="KR_II">II. PERSYARATAN KESEHATAN KAMAR/ RUANG</string>
+    <string name="KR_A11">A. UMUM</string>
+    <string name="KR_A11a">11. Kondisi ruang</string>
+    <string name="KR_A11b">a. Tidak pengab</string>
+    <string name="KR_A11c">b. Bebas kuman Alpha streptococcus haemolitieus dan kuman pathoheb</string>
+    <string name="KR_A11d">c. Tidak berbau (H2S dan Amoniak)</string>
+    <string name="KR_A11e">d. Kadar gas beracun tidak melebihi ambang batas</string>
+
+    <string name="KR_Bii">B. KHUSUS</string>
+    <string name="KR_B12">12. Ruang istirahat karyawan</string>
+    <string name="KR_B12a">a. Bersih</string>
+    <string name="KR_B12b">b. Tersedia jamban, kamar mandi dan peturasan yang terpisah untuk karyawan pria dan karyawan wanita</string>
+    <string name="KR_B12c">c. Ruang istirahat karyawan pria terpisah dengan ruang istirahat karyawan wanita</string>
+    <string name="KR_B12d">d. Tersedia lemari/ locker</string>
+
+    <string name="KR_B13">13. Kamar mandi, jamban dan peturasan</string>
+    <string name="KR_B13a">a. Bersih</string>
+    <string name="KR_B13b">b. Aliran air limbah lancar</string>
+    <string name="KR_B13c">c. Sarana pembuangan air limbah kedap air dan tertutup</string>
+    <string name="KR_B13d">d. Perbandingan jumlah karyawan dengan min. kamar mandi, jamban dan peturasan</string>
+    <string name="KR_B13_ketA">Untuk karyawan pria:</string>
+    <string name="KR_B13_ketA1">a. 1 hingga 23 karyawan: 2 kamar mandi, 1 jamban dan 1 peturasan</string>
+    <string name="KR_B13_ketA2">b. 26 hingga 50 karyawan: 3 kamar mandi, 2 jamban, 3 peturasan</string>
+    <string name="KR_B13_ketA3">c. 51 hingga 100 karyawan: 5 kamar mandi, 3 jamban, 5 peturasan</string>
+    <string name="KR_B13_ketB">Untuk karyawan wanita:</string>
+    <string name="KR_B13_ketB1">a. 1 hingga 20 karyawan: 2 kamar mandi, 1 jamban</string>
+    <string name="KR_B13_ketB2">b. 21 hingga 40 karyawan: 2 kamar mandi, 2 jamban</string>
+    <string name="KR_B13_ketB3">c. 41 hingga 70 karyawan: 3 kamar mandi, 3 jamban</string>
+
+    <string name="KR_B14">14. Gudang </string>
+    <string name="KR_B14a">a. Bersih</string>
+    <string name="KR_B14b">b. Gudang bahan makanan, bahan berbahaya, alat kantor, alat rumah tangga dll, terpisah satu sama lain</string>
+    <string name="KR_B14c">c. Barang yang disimpan ditata rapi</string>
+    <string name="KR_B14d">d. Dilengkapi dengan rak</string>
+    <string name="KR_B14e">e. Tinggi rak dari lantai minimal 20 cm</string>
+
+    <string name="KR_III">III. PERSYARATAN KESEHATAN FASILITAS SANITASI</string>
+    <string name="KR_B15">15. Penyediaan air</string>
+    <string name="KR_B15a">a. Memenuhi syarat kualitas air bersih</string>
+    <string name="KR_B15b">b. Tersedia dengan jumlah yang cukup</string>
+    <string name="KR_B15c">c. Air tersedia pada setiap tempat kegiatan secara berkesinambungan</string>
+    <string name="KR_B15d">d. Distribusi air menggunakan system perpipaan</string>
+    <string name="KR_B15e">e. Terhindar dari cemaran silang</string>
+
+    <string name="KR_B16">16. Pembuangan air limbah</string>
+    <string name="KR_B16a">a. Memiliki sarana pengolahan air limbah</string>
+    <string name="KR_B16b">b. Air limbah mengalir dengan lancar</string>
+    <string name="KR_B16c">c. Saluran air limbah sistem tertutup</string>
+    <string name="KR_B16d">d. Saluran air limbah kedap air</string>
+
+    <string name="KR_B17">17. Pancuran bilas</string>
+    <string name="KR_B17a">a. Bersih dan tidak bau</string>
+    <string name="KR_B17b">b. Air mengalir dengan lancar dan kontinyu</string>
+    <string name="KR_B17c">c. Lantai kedap air dan tidak licin</string>
+    <string name="KR_B17d">d. Untuk setiap 40 orang minimal tersedia 1 ancuran bilas</string>
+
+    <string name="KR_B18">18. Toilet untuk umum</string>
+    <string name="KR_B18a">a. Bersih dan tidak bau</string>
+    <string name="KR_B18b">d. Letak tidak berhubungan langsung dengan dapur, kamar tidur, atau ruang tamu</string>
+    <string name="KR_B18c">c. Lantai kedap air, tidak licin, lantai miring ke arah saluran pembuangan</string>
+    <string name="KR_B18d">d. Toilet untuk pria terpisah dengan toilet wanita</string>
+
+    <string name="KR_A19">A. PENGELOLAAN SAMPAH</string>
+    <string name="KR_B19">19.Tempat sampah</string>
+    <string name="KR_B19a">a. Terbuat dari bahan yang kuat, ringan, tahan karat dan kedap air</string>
+    <string name="KR_B19b">b. Permukaan bagian dalam halus dan rata</string>
+    <string name="KR_B19c">c. Mempunyai tutup yg mudah dibuka/ditutup tanpa mengotori tangan</string>
+    <string name="KR_B19d">d. Jumlah dan volume tempat sampah sesuai dengan produksi sampah per hari</string>
+    <string name="KR_B19e">e. Mudah diisi dan dikosongkan</string>
+    <string name="KR_B19f">f. Sampah dari tiap ruang diangkut/ dikosongkan tiap hari</string>
+
+    <string name="KR_B20">20.Tempat penampungan sampah sementara</string>
+    <string name="KR_B20a">a. Tidak Permanen</string>
+    <string name="KR_B20b">b. Tidak menjadi tempat perindukan serangga dan binatang </string>
+    <string name="KR_B20c">c. Mudah dijangkau oleh kendaraan pengangkut sampah</string>
+    <string name="KR_B20d">d. Frekuensi pengangkutan sampah minimal 3x24 jam</string>
+
+    <string name="KR_B21">21.Peralatan pencegahan masukna serangga dan tikus</string>
+    <string name="KR_B21a">a. Dilengkapi dengan alat yang dapat mencegah masuknya serangga dan tikus</string>
+    <string name="KR_B21b">b. Sarana penyimpanan air tertutup dan bebas jentik nyamuk</string>
+
+    <string name="KR_B22">22.Area kolam renang</string>
+    <string name="KR_B22a">a. Ada pemisah yang jelas antara area kolam renang dengan area lain sehingga orang yang tidak berkepentingan tidak boleh masuk</string>
+    <string name="KR_B22b">b. Ada pemisah yang jelas antara area kolam renang dengan yang lain tetapi orang yang tidak berkepentingan masih bisa masuk</string>
+    <string name="KR_B22c">c. Tidak ada pemisah yang jelas antara area kolam renang dengan area lainnya</string>
+
+    <string name="KR_B23">23.Volume air kolam renang</string>
+    <string name="KR_B23a">a. Kolam renang selalu terisi penuh dengan air</string>
+    <string name="KR_B23b">b. Jumlah perenang maksimum sebanding dengan luas permukaan air kolam renang dibagi 3</string>
+
+    <string name="KR_B24">24.Konstruksi kolam</string>
+    <string name="KR_B24a">a. Lantai dan dinding kolam kuat, kedap air, permukaan rata</string>
+    <string name="KR_B24b">b. Lantai berwarna putih/terang</string>
+    <string name="KR_B24c">c. Sudut-sudut dinding dan dasar kolam melengkung (conus)</string>
+    <string name="KR_B24d">d. Tidak terjadi hubungan langsung antara air bersih dan air kotor</string>
+    <string name="KR_B24e">e. Lubang pengurasan dilengkapi dengan jeruji besi</string>
+    <string name="KR_B24f">f. Pada kedalaman kolam dibawah 1,5m kemiringan tidak lebih 30 persen</string>
+    <string name="KR_B24g">g. Tangga dan pegangan kolam berbentuk bulat, tahan karat dan tidak menonjol</string>
+    <string name="KR_B24h">h. Lantai ditepi kolam renang kedap air, lebar minimal 1 m dan tidak licin</string>
+    <string name="KR_B24i">i. Ada tanda-tanda yg jelas tentang kedalaman kolam</string>
+    <string name="KR_B24j">j. Papan loncat/ luncur sesuai dgn persyaratanyg berlaku dan tdk membahayakan perenang</string>
+
+    <string name="KR_B25">25.Bak cuci kaki</string>
+    <string name="KR_B25a">a. Tersedia bak cuci kaki dengan ukuran 1,5m x 20cm</string>
+    <string name="KR_B25b">b. Bak terisi penuh dengan air</string>
+    <string name="KR_B25c">c. Kadar sisa chlor 2 ppm</string>
+
+    <string name="KR_IV">IV.KARYAWAN</string>
+    <string name="KR_B26">26.Surat keterangan sehat dari dokter yang masih berlaku</string>
+    <string name="KR_B26a">a. 80 hingga 100 persen jumlah karyawan memiliki</string>
+    <string name="KR_B26b">b. 60 hingga 79 persen jumlah karyawan memiliki</string>
+    <string name="KR_B26c">c. 40 hingga 59 persen jumlah karyawan memiliki</string>
+    <string name="KR_B26d">d. 20 hingga 39 persen jumlah karyawan memiliki</string>
+    <string name="KR_B26e">e. 1 hingga 19 persen jumlah karyawan memiliki</string>
+    <string name="KR_B26f">f. 0 persen jumlah karyawan memiliki</string>
+
+    <string name="KR_V">V.KUALITAS AIR KOLAM RENANG</string>
+    <string name="KR_V_1">1.Fisika</string>
+    <string name="KR_B27">27.Bau</string>
+    <string name="KR_B27a">a. Tidak berbau</string>
+    <string name="KR_B27b">b. Berbau </string>
+
+    <string name="KR_B28">28.Benda terapung</string>
+    <string name="KR_B28a">a. Bebas dari benda terapung</string>
+    <string name="KR_B28b">b. Tidak bebas dari benda terapung</string>
+
+    <string name="KR_B29">29.Kejernihan</string>
+    <string name="KR_B29a">a. Jernih (diukur dengan piringan seci)</string>
+    <string name="KR_B29b">b. Tidak jernih</string>
+
+    <string name="KR_V_2">2.Kimiawi</string>
+    <string name="KR_B30">30.Aluminium </string>
+    <string name="KR_B30a">a.kurang dari0,2 mg/l</string>
+    <string name="KR_B30b">b. lebih dari 0,2 mg/l</string>
+
+    <string name="KR_B31">31.Kebasaan (CaCO3)</string>
+    <string name="KR_B31a">a. 50 hingga 500 mg/l</string>
+    <string name="KR_B31b">b. kurang dari 50 mg/l atau lebih dari 500 mg/l</string>
+
+    <string name="KR_B32">32.Oksigen terabsorbsi</string>
+    <string name="KR_B32a">a. kurang dari 1,0 mg/l</string>
+    <string name="KR_B32b">b. lebih dari 1,0 mg/l</string>
+
+    <string name="KR_B33">33.pH (derajat keasaman)</string>
+    <string name="KR_B33a">a. 6,8 sampai 8,5</string>
+    <string name="KR_B33b">b. kurang dari 6,8 atau lebih dari 8,5</string>
+
+    <string name="KR_B34">34.Sisa Chlor</string>
+    <string name="KR_B34a">a. 0,2 sampai 0,5 mg/l</string>
+    <string name="KR_B34b">b. 0,2</string>
+
+    <string name="KR_B35">35.Tembaga sebagai Cu</string>
+    <string name="KR_B35a">a. kurang dari /= 1,5 mg/l</string>
+    <string name="KR_B35b">b. lebih dari 1,5 mg/l</string>
+
+    <string name="KR_V_3">3.MIKROBIOLOGI</string>
+    <string name="KR_B36">36.Coliform total</string>
+    <string name="KR_B36a">a. 0 dalam 100 ml air</string>
+    <string name="KR_B36b">b. lebih dari 0 dalam 100 ml air</string>
+
+    <string name="KR_B37">37.Jumlah kuman</string>
+    <string name="KR_B37a">a. kurang dari atau = 200 koloni/ml air</string>
+    <string name="KR_B37b">b. lebih dari 200 koloni/ ml air</string>
+
+    <string name="KR_C_B">B.AIR PEMANDIAN UMUM</string>
+    <string name="KR_C_1">1.FISIKA</string>
+    <string name="KR_B38">38. Bau</string>
+    <string name="KR_B38a">a. Tidak berbau</string>
+    <string name="KR_B38b">b. Berbau</string>
+
+    <string name="KR_B39">39. Kejernihan</string>
+    <string name="KR_B39a">a. Jernih (diukur dengan piringan seci)</string>
+    <string name="KR_B39b">b. Tidak jernih</string>
+
+    <string name="KR_B40">40. Minyak</string>
+    <string name="KR_B40a">a. Tidak berbau minyak / tidak nampak lampisan minyak/ film</string>
+    <string name="KR_B40b">b. Berbau minyak / tampak lapisan minyak / film</string>
+
+    <string name="KR_B41">41. Warna</string>
+    <string name="KR_B41a">a. kurang dari / = 100 skala TCU</string>
+    <string name="KR_B41b">b. lebih dari 100 kala TCU</string>
+
+    <string name="KR_C_2">2.KIMIA</string>
+    <string name="KR_B42">42.Detergen</string>
+    <string name="KR_B42a">a. kurang dari / = 1,0 mg/l</string>
+    <string name="KR_B42b">b. lebih dari 1,0 mg/l</string>
+
+    <string name="KR_B43">43.B O D</string>
+    <string name="KR_B43a">a. kurang dari / = 5,0 mg/l</string>
+    <string name="KR_B43b">b. lebih dari 5,0 mg/l</string>
+
+    <string name="KR_B44">44.Oksigen terlarut</string>
+    <string name="KR_B44a">a. lebih dari / = 4,0 mg/l</string>
+    <string name="KR_B44b">b. kurang dari 4,0 mg/l</string>
+
+    <string name="KR_B45">45.pH (Derajat keasaman)</string>
+    <string name="KR_B45a">a. 6,5 sampai 8,5</string>
+    <string name="KR_B45b">b. kurang dari 6,5 / lebih dari 8,5</string>
+
+    <string name="KR_C_3">3.MIKROBIOLOGI</string>
+    <string name="KR_B46">46.Total coliform</string>
+    <string name="KR_B46a">a. kurang dari / = 200 per 100 ml air</string>
+    <string name="KR_B46b">b. lebih dari 00 per 100 ml</string>
+
+    <string name="KR_C_4">4.RADIO-AKTIVITAS</string>
+    <string name="KR_B47">47.Aktivitas Alpha (Gross alpha activity)</string>
+    <string name="KR_B47a">a. kurang dari / = 0,1 mg/l</string>
+    <string name="KR_B47b">b. lebih dari 0,1 mg/l</string>
+
+    <string name="KR_B48">48.Aktivitas Beta (Gross beta activity)</string>
+    <string name="KR_B48a">a. kurang dari / = 1,0 mg/l</string>
+    <string name="KR_B48b">b. lebih dari 0,1 mg/l</string>
+    <!--FINISH KOLAM-->
+
+    <string name="pkl_1">Nama</string>
+    <string name="pkl_2">Umur</string>
+    <string name="pkl_3">Jenis Kelamin</string>
+    <string name="lk">Laki_laki</string>
+    <string name="cw">Perempuan</string>
+    <string name="pkl_4">Alamat</string>
+    <string name="pkl_5">Kasus</string>
+    <string name="pkl_6">Pelayanan KesLing</string>
+    <string name="pkl_7">Dalam Gedung</string>
+    <string name="pkl_8">Luar Gedung</string>
+    <string name="pkl_9">Nama Tempat</string>
+
+    <string name="uname">Email</string>
+    <string name="pass">Password</string>
+    <string name="login">Login</string>
+    <string name="daftar"><b><u>SEGERA DAFTAR!</u></b></string>
+    <string name="cara_daftar">Hubungi petugas kesling di puskesmas Kecamatan Anda untuk mendapatkan akses pada aplikasi ini.\nAplikasi ini hanya dikhususkan untuk para kader setiap UPT Puskesmas yang ada di Kota Depok</string>
+</resources>

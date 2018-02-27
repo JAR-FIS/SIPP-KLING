@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_history_black_24dp"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/aktivitas"
+        android:layout_toEndOf="@id/icon"
+        android:layout_marginStart="15dp"
+        android:text="Menambahkan "
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textColor="@color/colorAccent"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/telah"
+        android:textSize="16sp"
+        android:text="data "
+        android:textColor="@color/colorAccent"
+        android:layout_toEndOf="@id/aktivitas"/>
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/obyek"
+        android:textSize="16sp"
+        android:text="Rumah Sehat "
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_toEndOf="@id/telah"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dgn"
+        android:layout_toEndOf="@id/icon"
+        android:layout_marginStart="15dp"
+        android:layout_below="@id/obyek"
+        android:textColor="@color/colorAccent"
+        android:text="ID Data : "/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/idSubmit"
+        android:layout_below="@id/aktivitas"
+        android:layout_toEndOf="@id/dgn"
+        android:text="702D"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/time"
+        android:layout_below="@id/aktivitas"
+        android:layout_alignParentEnd="true"
+        android:text="02/02/2018"/>
+
+</RelativeLayout>

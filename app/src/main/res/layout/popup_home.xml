@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pilih kategori yang ingin di data!"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"/>
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <Button
+                android:id="@+id/rumahSehat"
+                android:background="@null"
+                android:drawablePadding="10dp"
+                android:drawableTop="@drawable/rs"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:text="@string/rs"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <Button
+                android:id="@+id/tpm"
+                android:background="@null"
+                android:drawablePadding="10dp"
+                android:drawableTop="@drawable/tpm"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:text="@string/tpm"
+                android:textColor="@color/colorPrimaryDark" />
+
+        </LinearLayout>
+
+        <View
+            android:background="#b7b7b7"
+            android:layout_height="0.5dp"
+            android:layout_marginTop="15dp"
+            android:alpha="0.5"
+            android:layout_width="match_parent" />
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <Button
+                android:id="@+id/pkl"
+                android:background="@null"
+                android:drawablePadding="10dp"
+                android:drawableTop="@drawable/pesantren"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:text="@string/pkl"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <Button
+                android:id="@+id/ttu"
+                android:background="@null"
+                android:drawablePadding="10dp"
+                android:drawableTop="@drawable/ttu"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:text="@string/ttu"
+                android:textColor="@color/colorPrimaryDark" />
+
+        </LinearLayout>
+
+        <View
+            android:background="#b7b7b7"
+            android:layout_height="0.5dp"
+            android:alpha="0.5"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent" />
+
+        <Button
+            android:id="@+id/btClose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="right"
+            android:layout_marginEnd="20dp"
+            android:text="close"
+            android:alpha="0.6"
+            android:background="@android:color/transparent"
+            android:textColor="@color/colorAccent"/>
+
+    </LinearLayout>
+</ScrollView>

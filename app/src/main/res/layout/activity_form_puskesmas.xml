@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.puskesmas">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="@style/SetToolbar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/formPuskesmas"
+                android:textColor="@color/colorBlack"
+                android:textSize="16sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="20dp"
+                android:background="#b7b7b7" />
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/input_namaTempat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <EditText
+                    android:id="@+id/namaTempat"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/PM_1"
+                    android:inputType="text"
+                    android:textColor="@color/colorPrimary" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/input_alamat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <EditText
+                    android:id="@+id/alamat"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/PM_2"
+                    android:focusable="false"
+                    android:inputType="text"
+                    android:textColor="@color/colorPrimary" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/input_namaPimpinan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <EditText
+                    android:id="@+id/namaPimpinan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/PM_4"
+                    android:inputType="text"
+                    android:textColor="@color/colorPrimary" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="20dp"
+                android:background="#b7b7b7" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/PM_A"
+                android:textStyle="bold"
+                android:textColor="@color/colorBlack" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/PM_A1"
+                android:textStyle="bold"
+                android:textColor="@color/colorBlack" />
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/pm1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/PM_A1a"/>
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/pm2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/PM_A1b"/>
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/pm3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/PM_A1c"/>
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/pm4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/PM_A1d"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textStyle="bold"
+                android:text="@string/PM_A2"
+                android:textColor="@color/colorBlack" />
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/pm5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/PM_A2a"/>
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/pm6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/PM_A2b"/>
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/pm7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/PM_A2c"/>
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/pm8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/PM_A2d"/>
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/pm9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/PM_A2e"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/PM_A3"
+                android:textStyle="bold"
+                android:textColor="@color/colorBlack" />
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/pm10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/PM_A3a"/>
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/pm11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/PM_A3b"/>
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/pm12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/PM_A3c"/>
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/pm13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/PM_A3d"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/PM_A4"
+                android:textStyle="bold"
+                android:textColor="@color/colorBlack" />
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/pm14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/PM_A4a"/>
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/pm15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/PM_A4b"/>
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/pm16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/PM_A4c"/>
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/pm17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/PM_A4d"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/PM_A5"
+                android:textStyle="bold"
+                android:textColor="@color/colorBlack" />
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/pm18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/PM_A5a"/>
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/pm19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/PM_A4b"/>
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/pm20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/PM_A5c"/>
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/pm21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/PM_A5d"/>
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/pm22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/PM_A5e"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/PM_A6"
+                android:textStyle="bold"
+                android:textColor="@color/colorBlack" />
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/pm23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/PM_A6a"/>
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/pm24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/PM_A6b"/>
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/pm25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/PM_A6c"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="20dp"
+                android:background="#b7b7b7" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/PM_B"
+                android:textStyle="bold"
+                android:textColor="@color/colorBlack" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/PM_B7"
+                android:textStyle="bold"
+                android:textColor="@color/colorBlack" />
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/pm26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/PM_B7a"/>
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/pm27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/PM_B7b"/>
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/pm28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/PM_B7c"/>
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/pm29"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/PM_B7d"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/PM_B8"
+                android:textStyle="bold"
+                android:textColor="@color/colorBlack" />
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/pm30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/PM_B8a"/>
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/pm31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/PM_B8b"/>
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/pm32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/PM_B8c"/>
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/pm33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/PM_B8d"/>
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/pm34"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/PM_B8e"/>
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/pm35"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/PM_B8f"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/PM_B9"
+                android:textStyle="bold"
+                android:textColor="@color/colorBlack" />
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/pm36"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/PM_B9a"/>
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/pm37"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/PM_B9b"/>
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/pm38"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/PM_B9c"/>
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/pm39"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/PM_B9d"/>
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/pm40"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/PM_B9e"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/PM_B10"
+                android:textStyle="bold"
+                android:textColor="@color/colorBlack" />
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/pm41"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/PM_B10a"/>
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/pm42"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/PM_B10b"/>
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/pm43"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/PM_B10c"/>
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/pm44"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/PM_B10d"/>
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/pm45"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/PM_B10e"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/PM_B11"
+                android:textStyle="bold"
+                android:textColor="@color/colorBlack" />
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/pm46"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/PM_B11a"/>
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/pm47"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/PM_B11b"/>
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/pm48"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/PM_B11c"/>
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/pm49"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/PM_B11d"/>
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/pm50"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/PM_B11e"/>
+
+            <Button
+                android:id="@+id/send"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/putih"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/rectangle_green"
+                android:text="@string/next"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

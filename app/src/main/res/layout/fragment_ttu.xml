@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <RelativeLayout
+            android:id="@+id/tempatIbadah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/picJb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:contentDescription="@string/desc_app"
+                android:src="@drawable/tempat_ibadah" />
+
+            <TextView
+                android:id="@+id/jdlJb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_toEndOf="@id/picJb"
+                android:text="@string/jenisTTU1"
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/jdlJb"
+                android:layout_marginStart="15dp"
+                android:layout_toEndOf="@id/picJb"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:text="@string/descTempatIbadah" />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/Abu" />
+
+        <RelativeLayout
+            android:id="@+id/pasar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/picResto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:contentDescription="@string/desc_app"
+                android:src="@drawable/pasar" />
+
+            <TextView
+                android:id="@+id/jdlResto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_toEndOf="@id/picResto"
+                android:text="@string/jenisTTU4"
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/jdlResto"
+                android:layout_marginStart="15dp"
+                android:layout_toEndOf="@id/picResto"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:text="@string/descPsr" />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/Abu" />
+
+        <RelativeLayout
+            android:id="@+id/sekolah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/picDAM"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:contentDescription="@string/desc_app"
+                android:src="@drawable/sd" />
+
+            <TextView
+                android:id="@+id/jdlDAM"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_toEndOf="@id/picDAM"
+                android:text="@string/jenisTTU5"
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/jdlDAM"
+                android:layout_marginStart="15dp"
+                android:layout_toEndOf="@id/picDAM"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:text="@string/descSekolah" />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/Abu" />
+
+        <RelativeLayout
+            android:id="@+id/pesantren"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/picSantren"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:contentDescription="@string/desc_app"
+                android:src="@drawable/pesantren" />
+
+            <TextView
+                android:id="@+id/jdlSantren"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_toEndOf="@id/picSantren"
+                android:text="@string/jenisTTU6"
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/jdlSantren"
+                android:layout_marginStart="15dp"
+                android:layout_toEndOf="@id/picSantren"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:text="@string/descPesantren" />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/Abu" />
+
+        <RelativeLayout
+            android:id="@+id/kolamrenang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/picKolam"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:contentDescription="@string/desc_app"
+                android:src="@drawable/kolam_renang" />
+
+            <TextView
+                android:id="@+id/jdlKolam"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_toEndOf="@id/picKolam"
+                android:text="@string/jenisTTU8"
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/jdlKolam"
+                android:layout_marginStart="15dp"
+                android:layout_toEndOf="@id/picKolam"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:text="@string/descKolam" />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/Abu" />
+
+        <RelativeLayout
+            android:id="@+id/faskes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/picFaskes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:contentDescription="@string/desc_app"
+                android:src="@drawable/rumah_sakit" />
+
+            <TextView
+                android:id="@+id/jdlFaskes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_toEndOf="@id/picFaskes"
+                android:text="Fasilitas Kesehatan"
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/jdlFaskes"
+                android:layout_marginStart="15dp"
+                android:layout_toEndOf="@id/picFaskes"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:text="@string/descFaskes" />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/Abu" />
+
+        <RelativeLayout
+            android:id="@+id/hotel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/picHtl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:contentDescription="@string/desc_app"
+                android:src="@drawable/ttu" />
+
+            <TextView
+                android:id="@+id/jdlHtl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_toEndOf="@id/picHtl"
+                android:text="@string/hotel"
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/jdlHtl"
+                android:layout_marginStart="15dp"
+                android:layout_toEndOf="@id/picHtl"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:text="@string/descHotel" />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/Abu" />
+
+        <RelativeLayout
+            android:id="@+id/hotelMelati"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/picHotel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:contentDescription="@string/desc_app"
+                android:src="@drawable/rs" />
+
+            <TextView
+                android:id="@+id/jdlHotel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_toEndOf="@id/picHotel"
+                android:text="@string/hm"
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/jdlHotel"
+                android:layout_marginStart="15dp"
+                android:layout_toEndOf="@id/picHotel"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:text="@string/descHotelMelati" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</ScrollView>

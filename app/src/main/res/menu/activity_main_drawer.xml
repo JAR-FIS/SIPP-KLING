@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/SetupGroup"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_menu1"
+            android:icon="@drawable/ic_home_white_24dp"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_menu2"
+            android:icon="@drawable/ic_notifications_white_24dp"
+            android:title="Pemberitahuan" />
+        <item
+            android:id="@+id/nav_menu3"
+            android:icon="@drawable/ic_history_white_24dp"
+            android:title="Riwayat Pengisian" />
+
+        <item
+            android:id="@+id/nav_menu4"
+            android:icon="@drawable/ic_timeline_white_24dp"
+            android:title="Jadwal" />
+    </group>
+
+    <group
+        android:id="@+id/SetupGroup1"
+        android:checkableBehavior="none">
+        <item
+            android:title="______________________________"/>
+        <item
+            android:title="FORM PENDATAAN"/>
+        <item
+            android:id="@+id/nav_menu5"
+            android:icon="@drawable/rs"
+            android:title="Rumah Sehat" />
+        <item
+            android:id="@+id/nav_menu6"
+            android:icon="@drawable/tpm"
+            android:title="Tempat Pengelolaan Makanan" />
+        <item
+            android:id="@+id/nav_menu7"
+            android:icon="@drawable/ttu"
+            android:title="Tempat-tempat Umum" />
+        <item
+            android:id="@+id/nav_menu8"
+            android:icon="@drawable/pesantren"
+            android:title="Pelayanan Kesehatan Lingkungan" />
+    </group>
+
+    <group
+        android:id="@+id/SetupGroup2"
+        android:checkableBehavior="none">
+        <item
+            android:title="______________________________"/>
+        <item
+            android:id="@+id/nav_menu9"
+            android:icon="@drawable/ic_grade_white_24dp"
+            android:title="Penghargaan" />
+        <item
+            android:id="@+id/nav_menu10"
+            android:icon="@drawable/ic_exit_to_app_white_24dp"
+            android:title="Logout" />
+        <item
+            android:title=" "/>
+    </group>
+
+</menu>

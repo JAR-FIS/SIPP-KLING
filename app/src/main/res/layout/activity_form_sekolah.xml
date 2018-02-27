@@ -1,0 +1,702 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.form_sekolah">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="@style/SetToolbar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/formSekolah"
+                android:textColor="@color/colorBlack"
+                android:textSize="16sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="20dp"
+                android:background="#b7b7b7" />
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/input_namaSekolah"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <EditText
+                    android:id="@+id/namaSekolah"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/skl_1"
+                    android:inputType="text"
+                    android:textColor="@color/colorPrimary" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/input_namaKepala"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <EditText
+                    android:id="@+id/namaKepala"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/skl_2"
+                    android:inputType="text"
+                    android:textColor="@color/colorPrimary" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/input_alamat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <EditText
+                    android:id="@+id/alamat"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/skl_3"
+                    android:focusable="false"
+                    android:inputType="text"
+                    android:textColor="@color/colorPrimary" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/input_jumlahMurid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <EditText
+                    android:id="@+id/jumlahMurid"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/skl_4"
+                    android:inputType="text"
+                    android:textColor="@color/colorPrimary" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/input_tahun"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <EditText
+                    android:id="@+id/tahun"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/skl_5"
+                    android:inputType="text"
+                    android:textColor="@color/colorPrimary" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/input_luasBangunan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <EditText
+                    android:id="@+id/luasBangunan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/skl_6"
+                    android:inputType="text"
+                    android:textColor="@color/colorPrimary" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/input_luasTanah"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <EditText
+                    android:id="@+id/luasTanah"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/skl_7"
+                    android:inputType="text"
+                    android:textColor="@color/colorPrimary" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/skl_A"
+                android:textStyle="bold"
+                android:textColor="@color/colorBlack" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/skl_A1"
+                android:textStyle="bold"
+                android:textColor="@color/colorBlack" />
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/skl1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/skl_A1a"/>
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/skl2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/skl_A1b"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textStyle="bold"
+                android:text="@string/skl_A2"
+                android:textColor="@color/colorBlack" />
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/skl3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/skl_A2a"/>
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/skl4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/skl_A2b"/>
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/skl5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/skl_A2c"/>
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/skl6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/skl_A2d"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/skl_A3"
+                android:textStyle="bold"
+                android:textColor="@color/colorBlack" />
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/skl7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/skl_A3a"/>
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/skl8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/skl_A3b"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/skl_A4"
+                android:textStyle="bold"
+                android:textColor="@color/colorBlack" />
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/skl9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/skl_A4a"/>
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/skl10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/skl_A4b"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="20dp"
+                android:background="#b7b7b7" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/skl_B"
+                android:textStyle="bold"
+                android:textColor="@color/colorBlack" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/skl_B5"
+                android:textStyle="bold"
+                android:textColor="@color/colorBlack" />
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/skl11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/skl_B5a"/>
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/skl12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/skl_B5b"/>
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/skl13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/skl_B5c"/>
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/skl14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/skl_B5d"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/skl_B6"
+                android:textStyle="bold"
+                android:textColor="@color/colorBlack" />
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/skl15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/skl_B6a"/>
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/skl16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/skl_B6b"/>
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/skl17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/skl_B6c"/>
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/skl18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/skl_B6d"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/skl_B7"
+                android:textStyle="bold"
+                android:textColor="@color/colorBlack" />
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/skl19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/skl_B7a"/>
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/skl20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/skl_B7b"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/skl_B8"
+                android:textStyle="bold"
+                android:textColor="@color/colorBlack" />
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/skl21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/skl_B8a"/>
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/skl22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/skl_B8b"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/skl_B9"
+                android:textStyle="bold"
+                android:textColor="@color/colorBlack" />
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/skl23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/skl_B9a"/>
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/skl24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/skl_B9b"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/skl_B10"
+                android:textStyle="bold"
+                android:textColor="@color/colorBlack" />
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/skl25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/skl_B10a"/>
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/skl26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/skl_B10b"/>
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/skl27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/skl_B10c"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textStyle="bold"
+                android:text="@string/skl_B11"
+                android:textColor="@color/colorBlack" />
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/skl28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/skl_B11a"/>
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/skl29"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/skl_B11b"/>
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/skl30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/skl_B11c"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textStyle="bold"
+                android:text="@string/skl_B12"
+                android:textColor="@color/colorBlack" />
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/skl31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/skl_B12a"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="20dp"
+                android:background="#b7b7b7" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:text="@string/skl_C"
+                android:textColor="@color/colorBlack" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textStyle="bold"
+                android:text="@string/skl_C13"
+                android:textColor="@color/colorBlack" />
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/skl32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/skl_C13a"/>
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/skl33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/skl_C13b"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textStyle="bold"
+                android:text="@string/skl_C14"
+                android:textColor="@color/colorBlack" />
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/skl34"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/skl_C14a"/>
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/skl35"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/skl_C14b"/>
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/skl36"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/skl_C14c"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/skl_C15"
+                android:textStyle="bold"
+                android:textColor="@color/colorBlack" />
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/skl37"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/skl_C15a"/>
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/skl38"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/skl_C15b"/>
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/skl39"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/skl_C15c"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/skl_C16"
+                android:textStyle="bold"
+                android:textColor="@color/colorBlack" />
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/skl40"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/skl_C16a"/>
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/skl41"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/skl_C16b"/>
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/skl42"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/skl_C16c"/>
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/skl43"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/skl_C16d"/>
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/skl44"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/skl_C16e"/>
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/skl45"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/skl_C16f"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/skl_C17"
+                android:textStyle="bold"
+                android:textColor="@color/colorBlack" />
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/skl46"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/skl_C17a"/>
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/skl47"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/skl_C17b"/>
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/skl48"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/skl_C17c"/>
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/skl49"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/skl_C17d"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/skl_C18"
+                android:textStyle="bold"
+                android:textColor="@color/colorBlack" />
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/skl50"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/skl_C18a"/>
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/skl51"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/skl_C18b"/>
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/skl52"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/skl_C18c"/>
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/skl53"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/skl_C18d"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textStyle="bold"
+                android:text="@string/skl_C19"
+                android:textColor="@color/colorBlack" />
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/skl54"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/skl_C19a"/>
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/skl55"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/skl_C19b"/>
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/skl56"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/skl_C19c"/>
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/skl57"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/skl_C19d"/>
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/skl58"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/skl_C19e"/>
+
+            <Button
+                android:id="@+id/send"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/putih"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/rectangle_green"
+                android:text="@string/next"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
