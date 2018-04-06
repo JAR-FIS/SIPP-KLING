@@ -1,5 +1,6 @@
 package id.tiregdev.sippkling.Fragment;
 
+import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -11,16 +12,25 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Toast;
+
+import com.android.volley.Response;
+import com.android.volley.VolleyError;
+import com.android.volley.toolbox.JsonArrayRequest;
+
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import id.tiregdev.sippkling.Activity.form_rumahsehat;
-import id.tiregdev.sippkling.Activity.login;
 import id.tiregdev.sippkling.Adapter.adapter_rumahsehat;
 import id.tiregdev.sippkling.Model.object_dataObyek;
 import id.tiregdev.sippkling.R;
+import id.tiregdev.sippkling.utils.AppConfig;
+import id.tiregdev.sippkling.utils.AppController;
+import id.tiregdev.sippkling.utils.SQLiteHandler;
 
 /**
  * Created by Muhammad63 on 2/5/2018.
@@ -31,6 +41,10 @@ public class rumah_sehat extends Fragment {
     View v;
     RecyclerView rView;
     LinearLayoutManager lLayout;
+    object_dataObyek dataObjek;
+    adapter_rumahsehat rcAdapter;
+    JSONObject jsonObject;
+    private ProgressDialog pDialog;
 
     @Nullable
     @Override
@@ -63,34 +77,66 @@ public class rumah_sehat extends Fragment {
             }
         });
         setupAdapter();
+        displayData();
         return v;
     }
 
     public void setupAdapter(){
-        List<object_dataObyek> rowListItem = getAllItemList();
         lLayout = new LinearLayoutManager(getContext());
-
         rView = v.findViewById(R.id.rview);
         rView.setLayoutManager(lLayout);
-
-        adapter_rumahsehat rcAdapter = new adapter_rumahsehat(getContext(), rowListItem);
         rView.setAdapter(rcAdapter);
         rView.setNestedScrollingEnabled(false);
+        pDialog = new ProgressDialog(getContext());
+        pDialog.setCancelable(false);
     }
 
-    private List<object_dataObyek> getAllItemList(){
-        List<object_dataObyek> allItems = new ArrayList<>();
-        allItems.add(new object_dataObyek("Ahmad Abdul", "6774022503090024",getResources().getString(R.string.almt1),"06/11/2017","Sehat"));
-        allItems.add(new object_dataObyek("Abu Abdul", "7874022503090024",getResources().getString(R.string.almt2),"10/10/2017","Sehat"));
-        allItems.add(new object_dataObyek("Muhammad Abdul", "8874022503090024",getResources().getString(R.string.almt3),"12/10/2017","Sehat"));
-        allItems.add(new object_dataObyek("Al Abdul", "2374022503090024",getResources().getString(R.string.almt1),"12/10/2017","Sehat"));
-        allItems.add(new object_dataObyek("Si Abdul", "5674022503090024",getResources().getString(R.string.almt2),"12/10/2017","Sehat"));
-        allItems.add(new object_dataObyek("Dul Abdul", "9874022503090024",getResources().getString(R.string.almt3),"13/10/2017","Sehat"));
-        allItems.add(new object_dataObyek("Koh Abdul", "5474022503090024",getResources().getString(R.string.almt1),"15/10/2017","Sehat"));
-        allItems.add(new object_dataObyek("Bebdul", "3674022503090024",getResources().getString(R.string.almt2),"16/10/2017","Sehat"));
-        allItems.add(new object_dataObyek("Abdul Khoir", "7474022503090024",getResources().getString(R.string.almt3),"16/10/2017","Sehat"));
-        allItems.add(new object_dataObyek("Abdul Ahmad", "9174022503090024",getResources().getString(R.string.almt1),"20/10/2017","Sehat"));
+    private void displayData(){
+        SQLiteHandler db;
+        db = new SQLiteHandler(getContext());
+        showDialog();
+        JsonArrayRequest jsonArrayRequest = new JsonArrayRequest(AppConfig.DISPLAY_DATA + "?kategori=rumahsehat&id=" + db.getUserDetails().get("id_petugas") , new Response.Listener<JSONArray>() {
+            @Override
+            public void onResponse(JSONArray response) {
+                hideDialog();
+                List<object_dataObyek> allItems = new ArrayList<>();
+                for (int i = 0; i < response.length(); i++){
+                    dataObjek = new object_dataObyek();
+                    jsonObject = null;
+                    try {
+                        jsonObject = response.getJSONObject(i);
+                        allItems.add(new object_dataObyek(
+                                jsonObject.getString("nama_kk"),
+                                jsonObject.getString("no_rumah"),
+                                jsonObject.getString("alamat"),
+                                jsonObject.getString("waktu"),
+                                jsonObject.getString("status")));
 
-        return allItems;
+
+                    }  catch (JSONException e) {
+                        e.printStackTrace();
+                    }
+                }
+                rcAdapter = new adapter_rumahsehat(getContext(),allItems);
+                rView.setAdapter(rcAdapter);
+
+            }
+        }, new Response.ErrorListener() {
+            @Override
+            public void onErrorResponse(VolleyError error) {
+                hideDialog();
+            }
+        });
+
+        AppController.getInstance().addToRequestQueue(jsonArrayRequest);
+    }
+    private void showDialog() {
+        if (!pDialog.isShowing())
+            pDialog.show();
+    }
+
+    private void hideDialog() {
+        if (pDialog.isShowing())
+            pDialog.dismiss();
     }
 }

@@ -11,15 +11,24 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Toast;
+
+import com.android.volley.Response;
+import com.android.volley.VolleyError;
+import com.android.volley.toolbox.JsonArrayRequest;
+
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import id.tiregdev.sippkling.Activity.form_pkl;
+import id.tiregdev.sippkling.Activity.form_rumahsehat;
 import id.tiregdev.sippkling.Adapter.adapter_pkl;
 import id.tiregdev.sippkling.Model.object_dataObyek;
 import id.tiregdev.sippkling.R;
+import id.tiregdev.sippkling.utils.AppConfig;
+import id.tiregdev.sippkling.utils.AppController;
 
 /**
  * Created by Muhammad63 on 2/5/2018.
@@ -30,6 +39,9 @@ public class pkl extends Fragment {
     View v;
     RecyclerView rView;
     LinearLayoutManager lLayout;
+    object_dataObyek dataObjek;
+    adapter_pkl rcAdapter;
+    JSONObject jsonObject;
 
     @Nullable
     @Override
@@ -54,7 +66,7 @@ public class pkl extends Fragment {
                     @Override
                     public void onClick(View v) {
                         exitDialog.dismiss();
-                        Intent i = new Intent(getActivity(), form_pkl.class);
+                        Intent i = new Intent(getActivity(), form_rumahsehat.class);
                         startActivity(i);
                     }
                 });
@@ -62,33 +74,52 @@ public class pkl extends Fragment {
             }
         });
         setupAdapter();
+        displayData();
         return v;
     }
 
     public void setupAdapter(){
-        List<object_dataObyek> rowListItem = getAllItemList();
         lLayout = new LinearLayoutManager(getContext());
-
         rView = v.findViewById(R.id.rview);
         rView.setLayoutManager(lLayout);
-
-        adapter_pkl rcAdapter = new adapter_pkl(getContext(), rowListItem);
         rView.setAdapter(rcAdapter);
         rView.setNestedScrollingEnabled(false);
     }
 
-    private List<object_dataObyek> getAllItemList(){
-        List<object_dataObyek> allItems = new ArrayList<>();
-        allItems.add(new object_dataObyek("Ahmad Abdul", "Demam",getResources().getString(R.string.almt1),"06/11/2017","Sehat"));
-        allItems.add(new object_dataObyek("Abu Abdul", "Saluran jamban di luar gedung",getResources().getString(R.string.almt2),"10/10/2017","Sehat"));
-        allItems.add(new object_dataObyek("Muhammad Abdul", "ISPA",getResources().getString(R.string.almt3),"12/10/2017","Sehat"));
-        allItems.add(new object_dataObyek("Al Abdul", "Diare",getResources().getString(R.string.almt1),"12/10/2017","Sehat"));
-        allItems.add(new object_dataObyek("Si Abdul", "Kulit",getResources().getString(R.string.almt2),"12/10/2017","Sehat"));
-        allItems.add(new object_dataObyek("Dul Abdul", "TB",getResources().getString(R.string.almt3),"13/10/2017","Sehat"));
-        allItems.add(new object_dataObyek("Koh Abdul", "Diare",getResources().getString(R.string.almt1),"15/10/2017","Sehat"));
-        allItems.add(new object_dataObyek("Bebdul", "TB",getResources().getString(R.string.almt2),"16/10/2017","Sehat"));
-        allItems.add(new object_dataObyek("Abdul Khoir", "ISPA",getResources().getString(R.string.almt3),"16/10/2017","Sehat"));
+    private void displayData(){
+        JsonArrayRequest jsonArrayRequest = new JsonArrayRequest(AppConfig.DISPLAY_DATA + "?kategori=pkl", new Response.Listener<JSONArray>() {
+            @Override
+            public void onResponse(JSONArray response) {
+                List<object_dataObyek> allItems = new ArrayList<>();
+                for (int i = 0; i < response.length(); i++){
+                    dataObjek = new object_dataObyek();
+                    jsonObject = null;
+                    try {
+                        jsonObject = response.getJSONObject(i);
+                        dataObjek.setNama(jsonObject.getString("nama"));
+                        allItems.add(new object_dataObyek(
+                                jsonObject.getString("nama"),
+                                jsonObject.getString("kasus"),
+                                jsonObject.getString("alamat"),
+                                jsonObject.getString("waktu"),
+                                "Sehat"));
 
-        return allItems;
+
+                    }  catch (JSONException e) {
+                        e.printStackTrace();
+                    }
+                }
+                rcAdapter = new adapter_pkl(getContext(),allItems);
+                rView.setAdapter(rcAdapter);
+
+            }
+        }, new Response.ErrorListener() {
+            @Override
+            public void onErrorResponse(VolleyError error) {
+
+            }
+        });
+
+        AppController.getInstance().addToRequestQueue(jsonArrayRequest);
     }
 }

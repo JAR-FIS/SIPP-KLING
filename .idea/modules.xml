@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/SIPPKLING.iml" filepath="$PROJECT_DIR$/SIPPKLING.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/SIPP-KLING New.iml" filepath="$PROJECT_DIR$/.idea/SIPP-KLING New.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

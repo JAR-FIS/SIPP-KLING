@@ -7,6 +7,9 @@ package id.tiregdev.sippkling.Model;
 public class object_dataObyek {
     private String nama, identitas, alamat, lastUpdate, status;
 
+    public object_dataObyek() {
+    }
+
     public object_dataObyek(String nama, String identitas, String alamat, String lastUpdate, String status) {
         this.nama = nama;
         this.identitas = identitas;

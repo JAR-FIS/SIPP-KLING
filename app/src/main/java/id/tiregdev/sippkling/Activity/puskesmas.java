@@ -14,17 +14,32 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
 
+import com.android.volley.Response;
+import com.android.volley.VolleyError;
+import com.android.volley.toolbox.JsonArrayRequest;
+
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
 import java.util.ArrayList;
 import java.util.List;
 
+import id.tiregdev.sippkling.Adapter.adapter_ttu_1;
 import id.tiregdev.sippkling.Adapter.adapter_ttu_2;
 import id.tiregdev.sippkling.Model.object_dataObyek;
 import id.tiregdev.sippkling.R;
+import id.tiregdev.sippkling.utils.AppConfig;
+import id.tiregdev.sippkling.utils.AppController;
+import id.tiregdev.sippkling.utils.SQLiteHandler;
 
 public class puskesmas extends AppCompatActivity {
 
     RecyclerView rView;
     LinearLayoutManager lLayout;
+    object_dataObyek dataObjek;
+    adapter_ttu_2 rcAdapter;
+    JSONObject jsonObject;
     
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -60,6 +75,7 @@ public class puskesmas extends AppCompatActivity {
                 exitDialog.show();
             }
         });
+        displayData();
     }
 
     @Override
@@ -80,28 +96,50 @@ public class puskesmas extends AppCompatActivity {
     }
 
     public void setupAdapter() {
-        List<object_dataObyek> rowListItem = getAllItemList();
         lLayout = new LinearLayoutManager(getBaseContext());
 
         rView = findViewById(R.id.rview);
         rView.setLayoutManager(lLayout);
-
-        adapter_ttu_2 rcAdapter = new adapter_ttu_2(getBaseContext(), rowListItem);
-        rView.setAdapter(rcAdapter);
         rView.setNestedScrollingEnabled(false);
     }
 
-    private List<object_dataObyek> getAllItemList() {
-        List<object_dataObyek> allItems = new ArrayList<>();
-        allItems.add(new object_dataObyek("Puskesmas An Nur", "Ahmad Abdul", getResources().getString(R.string.almt1), "06/11/2017", "Layak"));
-        allItems.add(new object_dataObyek("Puskesmas At Taqwa", "Abu Abdul", getResources().getString(R.string.almt2), "10/10/2017", "Layak"));
-        allItems.add(new object_dataObyek("Puskesmas Nurul Huda", "Muhammad Abdul", getResources().getString(R.string.almt3), "12/10/2017", "Tidak Layak"));
-        allItems.add(new object_dataObyek("Puskesmas Al Barkah", "Al Abdul", getResources().getString(R.string.almt1), "12/10/2017", "Layak"));
-        allItems.add(new object_dataObyek("Puskesmas ST. Maria", "Si Abdul", getResources().getString(R.string.almt2), "12/10/2017", "Tidak Layak"));
-        allItems.add(new object_dataObyek("Puskesmas Al Fajr", "Dul Abdul", getResources().getString(R.string.almt3), "13/10/2017", "Layak"));
-        allItems.add(new object_dataObyek("Puskesmas Baiturrahman", "Koh Abdul", getResources().getString(R.string.almt1), "15/10/2017", "Tidak Layak"));
+    private void displayData(){
+        SQLiteHandler db;
+        db = new SQLiteHandler(getApplicationContext());
+        JsonArrayRequest jsonArrayRequest = new JsonArrayRequest(AppConfig.DISPLAY_DATA + "?kategori=puskesmas&id=" + db.getUserDetails().get("id_petugas"), new Response.Listener<JSONArray>() {
+            @Override
+            public void onResponse(JSONArray response) {
+                List<object_dataObyek> allItems = new ArrayList<>();
+                for (int i = 0; i < response.length(); i++){
+                    dataObjek = new object_dataObyek();
+                    jsonObject = null;
+                    try {
+                        jsonObject = response.getJSONObject(i);
+                        dataObjek.setNama(jsonObject.getString("nama"));
+                        allItems.add(new object_dataObyek(
+                                jsonObject.getString("nama_tempat"),
+                                jsonObject.getString("nama_pemilik"),
+                                jsonObject.getString("alamat"),
+                                jsonObject.getString("waktu"),
+                                jsonObject.getString("status")));
 
-        return allItems;
+
+                    }  catch (JSONException e) {
+                        e.printStackTrace();
+                    }
+                }
+                rcAdapter = new adapter_ttu_2(getApplicationContext(),allItems);
+                rView.setAdapter(rcAdapter);
+
+            }
+        }, new Response.ErrorListener() {
+            @Override
+            public void onErrorResponse(VolleyError error) {
+
+            }
+        });
+
+        AppController.getInstance().addToRequestQueue(jsonArrayRequest);
     }
 }
 

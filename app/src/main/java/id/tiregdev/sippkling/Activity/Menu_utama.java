@@ -1,6 +1,7 @@
 package id.tiregdev.sippkling.Activity;
 
 import android.content.Context;
+import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.os.Handler;
 import android.support.design.widget.NavigationView;
@@ -26,12 +27,16 @@ import id.tiregdev.sippkling.Fragment.rumah_sehat;
 import id.tiregdev.sippkling.Fragment.tpm;
 import id.tiregdev.sippkling.Fragment.ttu;
 import id.tiregdev.sippkling.R;
+import id.tiregdev.sippkling.utils.SQLiteHandler;
+import id.tiregdev.sippkling.utils.SessionManager;
 
 public class Menu_utama extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
 
     public static final String LOG_TAG = Menu_utama.class.getName();
     public static Context mainContext;
     private boolean backPressedToExitOnce = false;
+    private SQLiteHandler db;
+    private SessionManager session;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -52,7 +57,8 @@ public class Menu_utama extends AppCompatActivity implements NavigationView.OnNa
         NavigationView navigationView = findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
 
-
+        db = new SQLiteHandler(getApplicationContext());
+        session = new SessionManager(getApplicationContext());
         //add this line to display menu1 when the activity is loaded
         displaySelectedScreen(R.id.nav_menu1);
     }
@@ -124,6 +130,7 @@ public class Menu_utama extends AppCompatActivity implements NavigationView.OnNa
                 break;
             case R.id.nav_menu10:
                 Toast.makeText(mainContext, "Logout Sukses", Toast.LENGTH_SHORT).show();
+                logoutUser();
                 break;
         }
 
@@ -138,6 +145,16 @@ public class Menu_utama extends AppCompatActivity implements NavigationView.OnNa
 
     }
 
+    private void logoutUser() {
+        session.setLogin(false);
+
+        db.deleteUsers();
+
+        // Launching the login activity
+        Intent intent = new Intent(Menu_utama.this, login.class);
+        startActivity(intent);
+        finish();
+    }
 
     @SuppressWarnings("StatementWithEmptyBody")
     @Override

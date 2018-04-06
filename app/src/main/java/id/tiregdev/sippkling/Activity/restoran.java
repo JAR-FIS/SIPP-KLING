@@ -12,7 +12,14 @@ import android.support.v7.widget.Toolbar;
 import android.view.LayoutInflater;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.Toast;
+
+import com.android.volley.Response;
+import com.android.volley.VolleyError;
+import com.android.volley.toolbox.JsonArrayRequest;
+
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -20,11 +27,18 @@ import java.util.List;
 import id.tiregdev.sippkling.Adapter.adapter_tpm;
 import id.tiregdev.sippkling.Model.object_dataObyek;
 import id.tiregdev.sippkling.R;
+import id.tiregdev.sippkling.utils.AppConfig;
+import id.tiregdev.sippkling.utils.AppController;
+import id.tiregdev.sippkling.utils.SQLiteHandler;
 
 public class restoran extends AppCompatActivity {
 
+    View v;
     RecyclerView rView;
     LinearLayoutManager lLayout;
+    object_dataObyek dataObjek;
+    adapter_tpm rcAdapter;
+    JSONObject jsonObject;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,8 +46,8 @@ public class restoran extends AppCompatActivity {
         setContentView(R.layout.activity_restoran);
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         setSupportActionBar((Toolbar) findViewById(R.id.toolbar));
-        findViewById(R.id.mainLayout).requestFocus();
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        findViewById(R.id.mainLayout).requestFocus();
         setupAdapter();
         FloatingActionButton tambah = findViewById(R.id.tambah);
         tambah.setOnClickListener(new View.OnClickListener() {
@@ -53,18 +67,14 @@ public class restoran extends AppCompatActivity {
                     @Override
                     public void onClick(View v) {
                         exitDialog.dismiss();
-                        Intent i = new Intent(restoran.this, form_restoran.class);
+                        Intent i = new Intent(restoran.this, form_jasaboga.class);
                         startActivity(i);
                     }
                 });
                 exitDialog.show();
             }
         });
-    }
-
-    @Override
-    public void onBackPressed() {
-        restoran.this.finish();
+        displayData();
     }
 
     @Override
@@ -79,32 +89,57 @@ public class restoran extends AppCompatActivity {
         }
     }
 
+    @Override
+    public void onBackPressed() {
+        restoran.this.finish();
+    }
+
+
     public void setupAdapter() {
-        List<object_dataObyek> rowListItem = getAllItemList();
         lLayout = new LinearLayoutManager(getBaseContext());
 
         rView = findViewById(R.id.rview);
         rView.setLayoutManager(lLayout);
-
-        adapter_tpm rcAdapter = new adapter_tpm(getBaseContext(), rowListItem);
-        rView.setAdapter(rcAdapter);
         rView.setNestedScrollingEnabled(false);
     }
 
-    private List<object_dataObyek> getAllItemList() {
-        List<object_dataObyek> allItems = new ArrayList<>();
-        allItems.add(new object_dataObyek("RM Sunda Jaya", "Ahmad Abdul", getResources().getString(R.string.almt1), "06/11/2017", "Baik"));
-        allItems.add(new object_dataObyek("RM Minangkabau", "Abu Abdul", getResources().getString(R.string.almt2), "10/10/2017", "Kurang Baik"));
-        allItems.add(new object_dataObyek("WhatsApp Cafe", "Muhammad Abdul", getResources().getString(R.string.almt3), "12/10/2017", "Kurang Baik"));
-        allItems.add(new object_dataObyek("Alibubu", "Al Abdul", getResources().getString(R.string.almt1), "12/10/2017", "Kurang Baik"));
-        allItems.add(new object_dataObyek("Oma Cafe", "Si Abdul", getResources().getString(R.string.almt2), "12/10/2017", "Baik"));
-        allItems.add(new object_dataObyek("Teras Tetangga", "Dul Abdul", getResources().getString(R.string.almt3), "13/10/2017", "Baik"));
-        allItems.add(new object_dataObyek("Cumlaudi", "Koh Abdul", getResources().getString(R.string.almt1), "15/10/2017", "Baik"));
-        allItems.add(new object_dataObyek("Food Court", "Bebdul", getResources().getString(R.string.almt2), "16/10/2017", "Baik"));
-        allItems.add(new object_dataObyek("Angkringan Nangkring", "Abdul Khoir", getResources().getString(R.string.almt3), "16/10/2017", "Baik"));
-        allItems.add(new object_dataObyek("RM Tegal Pinggir", "Abdul Ahmad", getResources().getString(R.string.almt1), "20/10/2017", "Baik"));
+    private void displayData(){
+        SQLiteHandler db;
+        db = new SQLiteHandler(getApplicationContext());
+        JsonArrayRequest jsonArrayRequest = new JsonArrayRequest(AppConfig.DISPLAY_DATA + "?kategori=restoran&id=" + db.getUserDetails().get("id_petugas"), new Response.Listener<JSONArray>() {
+            @Override
+            public void onResponse(JSONArray response) {
+                List<object_dataObyek> allItems = new ArrayList<>();
+                for (int i = 0; i < response.length(); i++){
+                    dataObjek = new object_dataObyek();
+                    jsonObject = null;
+                    try {
+                        jsonObject = response.getJSONObject(i);
+                        dataObjek.setNama(jsonObject.getString("nama"));
+                        allItems.add(new object_dataObyek(
+                                jsonObject.getString("nama_tempat"),
+                                jsonObject.getString("nama_pemilik"),
+                                jsonObject.getString("alamat"),
+                                jsonObject.getString("waktu"),
+                                jsonObject.getString("status")));
 
-        return allItems;
+
+                    }  catch (JSONException e) {
+                        e.printStackTrace();
+                    }
+                }
+                rcAdapter = new adapter_tpm(getApplicationContext(),allItems);
+                rView.setAdapter(rcAdapter);
+
+            }
+        }, new Response.ErrorListener() {
+            @Override
+            public void onErrorResponse(VolleyError error) {
+
+            }
+        });
+
+        AppController.getInstance().addToRequestQueue(jsonArrayRequest);
     }
 
 }
