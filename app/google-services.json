@@ -1,0 +1,86 @@
+{
+  "project_info": {
+    "project_number": "652526989716",
+    "firebase_url": "https://sikeling-8e095.firebaseio.com",
+    "project_id": "sikeling-8e095",
+    "storage_bucket": "sikeling-8e095.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:652526989716:android:86414487ca11f4fa",
+        "android_client_info": {
+          "package_name": "id.tiregdev.sippkling"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "652526989716-mlljdrkn1uhitk50os1gr0rf7ah47o5u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNatEIAdQbT3hTCSDtLGf8AzCNg7_gqrU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:652526989716:android:de4b85716b1edabe",
+        "android_client_info": {
+          "package_name": "tiregdev.sipepikeling"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "652526989716-f7b2a0vf3k00sfddlv320agce59fbstj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "tiregdev.sipepikeling",
+            "certificate_hash": "b627832bce86f1fc68c8f9a82f44698db0bf9cc8"
+          }
+        },
+        {
+          "client_id": "652526989716-mlljdrkn1uhitk50os1gr0rf7ah47o5u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNatEIAdQbT3hTCSDtLGf8AzCNg7_gqrU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "652526989716-mlljdrkn1uhitk50os1gr0rf7ah47o5u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

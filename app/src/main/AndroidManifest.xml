@@ -13,8 +13,11 @@
         android:roundIcon="@drawable/logo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
         <activity
-            android:name=".Activity.splashscreen"
+            android:name=".Activity.SplashScreenActivity"
             android:noHistory="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,130 +25,81 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Activity.login" />
-        <activity android:name=".Activity.Menu_utama" />
+        <activity android:name=".Activity.LoginActivity" />
+        <activity android:name=".Activity.MenuActivity" />
         <activity
-            android:name=".Activity.jasaboga"
+            android:name=".Activity.ListDataActivity"
             android:label="Jasa Boga"
             android:windowSoftInputMode="stateHidden" />
-        <activity
-            android:name=".Activity.restoran"
-            android:label="Tempat Makan"
-            android:windowSoftInputMode="stateHidden" />
-        <activity
-            android:name=".Activity.dam"
-            android:label="Depot Air Minum"
-            android:windowSoftInputMode="stateHidden" />
-        <activity
-            android:name=".Activity.tempatibadah"
-            android:label="Tempat Ibadah"
-            android:windowSoftInputMode="stateHidden" />
-        <activity
-            android:name=".Activity.pasar"
-            android:label="Pasar"
-            android:windowSoftInputMode="stateHidden" />
-        <activity
-            android:name=".Activity.sekolah"
-            android:label="Sekolah"
-            android:windowSoftInputMode="stateHidden" />
-        <activity
-            android:name=".Activity.pesantren"
-            android:label="Pesantren"
-            android:windowSoftInputMode="stateHidden" />
-        <activity
-            android:name=".Activity.kolamrenang"
-            android:label="Kolam Renang"
-            android:windowSoftInputMode="stateHidden" />
-        <activity
-            android:name=".Activity.hotel"
-            android:label="Hotel"
-            android:windowSoftInputMode="stateHidden" />
-        <activity
-            android:name=".Activity.hotelmelati"
-            android:label="Hotel Melati"
-            android:windowSoftInputMode="stateHidden" />
-        <activity
-            android:name=".Activity.puskesmas"
-            android:label="Puskesmas" />
-        <activity
-            android:name=".Activity.rumahsakit"
-            android:label="Rumah Sakit" />
-        <activity
-            android:name=".Activity.klinik"
-            android:label="Klinik" />
-        <activity android:name=".Activity.form_rumahsehat"
+        <activity android:name=".Activity.FormRumahsehatActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="Form Rumah Sehat"
             android:windowSoftInputMode="stateAlwaysHidden|adjustResize|stateHidden"/>
-        <activity android:name=".Activity.form_sabpompa"
+        <activity android:name=".Activity.FormSABPompaActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="Form SAB Pompa"
             android:windowSoftInputMode="stateAlwaysHidden|adjustResize|stateHidden"/>
-        <activity android:name=".Activity.form_jasaboga"
+        <activity android:name=".Activity.FormJasabogaActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="Form Jasaboga"
             android:windowSoftInputMode="stateAlwaysHidden|adjustResize|stateHidden"/>
-        <activity android:name=".Activity.form_restoran"
+        <activity android:name=".Activity.FormRestoranActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="Form Restoran"
             android:windowSoftInputMode="stateAlwaysHidden|adjustResize|stateHidden"/>
-        <activity android:name=".Activity.form_dam"
+        <activity android:name=".Activity.FormDamActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="Form Depot Air Minum"
             android:windowSoftInputMode="stateAlwaysHidden|adjustResize|stateHidden"/>
-        <activity android:name=".Activity.form_tempatibadah"
+        <activity android:name=".Activity.FormTempatIbadahActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="Form Tempat Ibadah"
             android:windowSoftInputMode="stateAlwaysHidden|adjustResize|stateHidden"/>
-        <activity android:name=".Activity.form_pasar"
+        <activity android:name=".Activity.FormPasarActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="Form Pasar"
             android:windowSoftInputMode="stateAlwaysHidden|adjustResize|stateHidden"/>
-        <activity android:name=".Activity.form_sekolah"
+        <activity android:name=".Activity.FormSekolahActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="Form Sekolah"
             android:windowSoftInputMode="stateAlwaysHidden|adjustResize|stateHidden"/>
-        <activity android:name=".Activity.form_pesantren"
+        <activity android:name=".Activity.FormPesantrenActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="Form Pesantren"
             android:windowSoftInputMode="stateAlwaysHidden|adjustResize|stateHidden"/>
-        <activity android:name=".Activity.form_hotel"
+        <activity android:name=".Activity.FormHotelActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="Form Hotel"
             android:windowSoftInputMode="stateAlwaysHidden|adjustResize|stateHidden"/>
-        <activity android:name=".Activity.form_hotelmelati"
+        <activity android:name=".Activity.FormHotelMelatiActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="Form Hotel Melati"
             android:windowSoftInputMode="stateAlwaysHidden|adjustResize|stateHidden"/>
-        <activity android:name=".Activity.form_kolamrenang"
+        <activity android:name=".Activity.FormKolamActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="Form Kolam Renang"
             android:windowSoftInputMode="stateAlwaysHidden|adjustResize|stateHidden"/>
-        <activity android:name=".Activity.form_klinik"
+        <activity android:name=".Activity.FormKlinikActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="Form Klinik"
             android:windowSoftInputMode="stateAlwaysHidden|adjustResize|stateHidden"/>
-        <activity android:name=".Activity.form_puskesmas"
+        <activity android:name=".Activity.FormPuskesmasActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="Form Puskesmas"
             android:windowSoftInputMode="stateAlwaysHidden|adjustResize|stateHidden"/>
-        <activity android:name=".Activity.form_pkl"
+        <activity android:name=".Activity.FormPKLActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="Form PKL"
             android:windowSoftInputMode="stateAlwaysHidden|adjustResize|stateHidden"/>
-        <activity android:name=".Activity.form_rumahsakit"
+        <activity android:name=".Activity.FormRumahsakitActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="Form Rumah Sakit"
             android:windowSoftInputMode="stateAlwaysHidden|adjustResize|stateHidden"/>
-        <activity android:name=".Activity.sab"
-            android:configChanges="orientation|keyboardHidden|screenSize"
-            android:label="Jenis SAB"
-            android:windowSoftInputMode="stateAlwaysHidden|adjustResize|stateHidden"/>
-        <activity android:name=".Activity.form_sab_sumurgali"
+        <activity android:name=".Activity.FormSABSumurGaliActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="Form Sumur Gali"
             android:windowSoftInputMode="stateAlwaysHidden|adjustResize|stateHidden"/>
-        <activity android:name=".Activity.form_sab_sumurgaliplus"
+        <activity android:name=".Activity.FormSABSumurGaliPlusActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="Form Sumur Gali Plus"
             android:windowSoftInputMode="stateAlwaysHidden|adjustResize|stateHidden"/>

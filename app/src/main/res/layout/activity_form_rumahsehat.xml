@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".Activity.form_rumahsehat">
+    tools:context=".Activity.FormRumahsehatActivity">
 
     <android.support.v7.widget.Toolbar
         android:id="@+id/toolbar"
@@ -19,7 +19,7 @@
         android:id="@+id/wrapStatus"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:visibility="visible"
+        android:visibility="gone"
         android:background="#2980b9"
         android:paddingStart="20dp"
         android:paddingEnd="20dp"

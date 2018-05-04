@@ -4,6 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="id.tiregdev.sippkling.Activity.form_klinik">
+    tools:context="id.tiregdev.sippkling.Activity.FormKlinikActivity">
 
 </android.support.constraint.ConstraintLayout>
